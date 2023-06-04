@@ -45,5 +45,5 @@ The application was developed to reduce the time of searching drawing documentat
 1. Saves for every employees at least eight hour in every project in my company for searching files to let in on production.
 2. Files are not manually selected for production, reducing human errors and the cost of mistakes.
 ### Note
-The application was design to cooperate with Bills of materials exported from SolidWorks  designed specifically for a specific company.
+The application was design to cooperate with Bills of materials exported from SolidWorks  designed specifically for a specific company, may not works on SolidWorks basic settings.
 
