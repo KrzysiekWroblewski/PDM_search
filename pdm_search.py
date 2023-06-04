@@ -1,3 +1,5 @@
+# second conception
+
 from tkinter import Tk, Label, Button, Radiobutton, IntVar
 from tkinter import *
 import tkinter as tk
