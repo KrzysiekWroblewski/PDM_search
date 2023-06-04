@@ -108,7 +108,11 @@ if search_Path[-1] == "|":
     search_Path = search_Path[:-1]
 
 search_Path_encoded = search_Path.encode(encoding='latin-1', errors='strict')
-search_Path_decoded = search_Path_encoded.decode('utf-8', 'strict')
+try:
+    search_Path_decoded = search_Path_encoded.decode('cp1252', 'strict')
+except:
+    search_Path_decoded = search_Path_encoded.decode('UTF-8', 'strict')
+
 pyperclip.copy(search_Path_decoded)
 
 
