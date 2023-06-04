@@ -1,20 +1,17 @@
-# XML files exporter application
+# SolidWorks BOM.scv tool for fast search in PDM
 
-ETL process with GUI which extracts data from SQL Server to a local machine converts it to XML files and sends it to Google Cloud Virtual Machine. 
+ETL process with GUI which extracts data from .csv file and merge proper data from file to one string which can be used to search multiple files in File Explorer in one task.
 
+
+<!--
 <p align="center">
 <img src="README_gif_kanban.gif" width="400" height="200">
 </p>  
-<!-- algo tu dać gifa ;) -->
+ algo tu dać gifa ;) -->
 
 ## Technologies
 * Python 3.8
-* SQL Server
-* Google Cloud Linux Virtual Machine
-* GUI Programing (TKinter)
-* XML files
-* SSH Autentication
-* Kanban System
+* CSV files
 
 ## Ghraphical Explanation of working
 <!-- grafic_explain.png -->
@@ -23,39 +20,30 @@ ETL process with GUI which extracts data from SQL Server to a local machine conv
 </p>
 
 <p align="center">
-1. Export data from the database to a local machine
+1. Export BOM form SolidWorks to CSV file
 </p>
 <p align="center">
-2. Convert data to xml files
+2. Select file type to search
 </p>
 <p align="center">
-3. Send converted files to GCP VM
+3. Select proper delimiter used in csv file
+</p>
+<p align="center">
+4. Select the number of ID part column
+</p>
+<p align="center">
+4. Accept settings  and select .csv file
+</p>
+<p align="center">
+4. Merged data string copied to clipboard and ready for used
 </p>
 
-## Summary
+
 ### Purpose of application
-The application was developed to reduce the time of creating warehouse documents/invoices and to improve the quality of exchange of documents between two companies (eliminate paper).
-### Big picture. How it works step by step 
-1. Our employee takes from our client's warehouse empty boxes with barcodes. On barcodes are implemented information about the product like Id code, storage location, quantity in the box. 
-2. An employee scans barcodes and uploads them to our MS Server database (using another program that I created:). Based on these data An employee create a warehouse document.
-3. In the warehouse, an employee prepares an order and fills boxes with goods.   
-4. Then someone sends the warehouse document created earlier to our client using my program. The program does the following:  
-   1. Connects to SQL Server database
-   2. Exports chosen warehouse document
-   3. Converts it to a specific format given by the client 
-   4. Saves it as XML file
-   5. Connects to Google Cloud Virtual Maschine using SSH authentication and sends a file there
-   6. Our client downloads xml file from Google Cloud and easily imports it to its system in this example SAP Cloud platform
-### Extra Features:
-   1. Ability to connect to Google Cloud Virtual Machine and check files on them
-      1. Includes a delete file options
-   2. Ability to check histry of all operation and errors 
-### Achivments
-1. Saves two employees one hour a day, which is 10 days per year for both.
-2. Saves about 10 sheets of paper a day
+The application was developed to reduce the time of searching drawing documentation in SolidWorks/PDM and to improve the quality of exchange of documents between departments in the company.
+### Achievements
+1. Saves for every employees at least eight hour in every project in my company for searching files to let in on production.
+2. Files are not manually selected for production, reducing human errors and the cost of mistakes.
 ### Note
-Application's code was presented only to show skils of author.  
-The application was design to coperate with database of particular company and with specialy created Virtual machine on Google Cloude (Without them it does not work).   
-In code logins and passwords were replace by '???' in order to preserve security.
-### links:
-* [link to application quick movie presentation](https://www.youtube.com/watch?v=5tjD8tdDnCU)
+The application was design to cooperate with Bills of materials exported from SolidWorks  designed specifically for a specific company.
+
