@@ -6,6 +6,7 @@ from tkinter import filedialog
 
 
 def ask_multiple_choice_question(prompt, options, separators, part_column_positions):
+
     root = Tk()
     if prompt:
         Label(root, text=prompt).pack()
@@ -29,9 +30,12 @@ def ask_multiple_choice_question(prompt, options, separators, part_column_positi
         Radiobutton(root, text=separator, variable=v2,
                     value=i).pack(anchor="w")
 
-    T = tk.Text(root, height=2, width=60)
+    T = tk.Text(root, height=5, width=60)
     T.pack()
-    T.insert(tk.END, "Wybierz nr kolumny w której znajduje się nr części")
+    T.insert(tk.END, "Wybierz nr kolumny w której znajduje się nr części" + "\n" + "\n" +
+             "-1--|-2-|------3-----|4|----5----|" + "\n" +
+             "2011;901;PRT-A0069990;A;Mocowanie"
+             )
 
     for i, part_column_position in enumerate(part_column_positions):
         Radiobutton(root, text=part_column_position, variable=v3,
