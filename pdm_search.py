@@ -1,4 +1,3 @@
-from tkinter import *
 from decoding import open_file_encoding
 from gui import ask_multiple_choice_question
 from gui import Mbox

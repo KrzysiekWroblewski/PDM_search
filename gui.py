@@ -1,7 +1,7 @@
-from tkinter import Tk, Label, Button, Radiobutton, IntVar
-from tkinter import *
 import tkinter as tk
 import ctypes
+from tkinter import Tk, Label, Button, Radiobutton, IntVar
+from tkinter import *
 from tkinter import filedialog
 
 
