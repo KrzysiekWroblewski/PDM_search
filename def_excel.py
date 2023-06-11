@@ -19,6 +19,10 @@ def read_excel_BOM(open_file):
         cell_obj = sh.cell(row=j, column=xl_part_column)
         # cell_revision = sh.cell(row=j, column=part_column+1)
 
+        # skip line if par is mirror
+        if "lustro" in sh.cell(row=j, column=xl_part_column).value.lower():
+            continue
+
         # Checking if  are some missing drawings
         for i in range(3, 6):
             if sh.cell(row=j, column=i).value == None:
