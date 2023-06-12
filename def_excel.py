@@ -1,5 +1,6 @@
 import openpyxl
 import pyperclip
+from excel_raport_generator import Generate_Targets
 
 # open_file = "sample.xlsx"
 
@@ -14,6 +15,8 @@ def read_excel_BOM(open_file):
 
     search_Path = ""
     number_of_files_merged = 0
+
+    list_of_records = []
 
     for j in range(6, sh.max_row+1):
         cell_obj = sh.cell(row=j, column=xl_part_column)
@@ -35,6 +38,11 @@ def read_excel_BOM(open_file):
             search_Path = search_Path + \
                 str(cell_obj.value) + csv_sep
             number_of_files_merged = number_of_files_merged + 1
+
+            list_of_records.append(
+                [sh.cell(row=j, column=1).value, sh.cell(row=j, column=2).value, sh.cell(row=j, column=6).value, sh.cell(row=j, column=xl_part_column).value, sh.cell(row=j, column=xl_part_column+1).value])
+    print(list_of_records)
+    Generate_Targets(list_of_records)
 
     try:
         if search_Path[-1] == "|":
