@@ -60,3 +60,10 @@ def select_file():
     root.withdraw()
     open_file = filedialog.askopenfilename()
     return open_file
+
+
+def select_folder():
+    root = tk.Tk()
+    root.withdraw()
+    open_directory = filedialog.askdirectory()
+    return open_directory

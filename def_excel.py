@@ -1,6 +1,7 @@
 import openpyxl
 import pyperclip
 from excel_raport_generator import Generate_Targets
+from List_sorting import list_sort_by_colum
 
 # open_file = "sample.xlsx"
 
@@ -40,9 +41,9 @@ def read_excel_BOM(open_file):
             number_of_files_merged = number_of_files_merged + 1
 
             list_of_records.append(
-                [sh.cell(row=j, column=1).value, sh.cell(row=j, column=2).value, sh.cell(row=j, column=6).value, sh.cell(row=j, column=xl_part_column).value, sh.cell(row=j, column=xl_part_column+1).value])
-    print(list_of_records)
-    Generate_Targets(list_of_records)
+                [sh.cell(row=j, column=1).value, sh.cell(row=j, column=6).value, sh.cell(row=j, column=xl_part_column).value, sh.cell(row=j, column=xl_part_column+1).value])
+
+    Generate_Targets(list_sort_by_colum(list_of_records))
 
     try:
         if search_Path[-1] == "|":
