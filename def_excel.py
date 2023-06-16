@@ -1,6 +1,7 @@
 import openpyxl
 import pyperclip
-from excel_raport_generator import Generate_Targets
+from excel_raport_generator import generate_report
+from excel_raport_generator import generate_report_txt
 from List_sorting import list_sort_by_colum
 
 # open_file = "sample.xlsx"
@@ -41,9 +42,7 @@ def read_excel_BOM(open_file):
             number_of_files_merged = number_of_files_merged + 1
 
             list_of_records.append(
-                [sh.cell(row=j, column=1).value, sh.cell(row=j, column=6).value, sh.cell(row=j, column=xl_part_column).value, sh.cell(row=j, column=xl_part_column+1).value])
-
-    Generate_Targets(list_sort_by_colum(list_of_records))
+                [sh.cell(row=j, column=1).value, sh.cell(row=j, column=6).value, sh.cell(row=j, column=xl_part_column).value, sh.cell(row=j, column=xl_part_column+1).value, sh.cell(row=j, column=xl_part_column+2).value])
 
     try:
         if search_Path[-1] == "|":
@@ -54,10 +53,14 @@ def read_excel_BOM(open_file):
     search_Path = search_Path.encode(
         'utf-8').decode('ascii', 'ignore')
     print(search_Path)
-
     print(number_of_files_merged)
 
     pyperclip.copy(search_Path)
+
+    name_of_file = open_file.replace("/", "_")
+    name_of_file = name_of_file[2:-5]
+    generate_report_txt(list_sort_by_colum(
+        list_of_records), name_of_file, search_Path.encode("utf-8"))
 
     return (number_of_files_merged, search_Path)
 # read_excel_BOM(open_file)

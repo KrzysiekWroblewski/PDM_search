@@ -12,4 +12,5 @@ def list_sort_by_colum(list):
             if sorted_list[j][1] > sorted_list[j+1][1]:
                 sorted_list[j], sorted_list[j +
                                             1] = sorted_list[j+1], sorted_list[j]
+
     return sorted_list

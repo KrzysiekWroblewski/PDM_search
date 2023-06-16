@@ -1,0 +1,16 @@
+2023-June-16 21_57	F:/VisualStudioCode/PDM_search/2023-June-16 21_57__VisualStudioCode_PDM_search_sample_report.txt
+
+1. 3	K. Wróblewski	PRT-A0068775	A	Gniazdo sprężyny lewej	
+2. 6	K. Wróblewski	PRT-A0069182	A	Listwa sprężyny prawa 1	
+3. 15	K. Wróblewski	PRT-A0071261	A	Podpora TL	
+4. 24	K. Wróblewski	PRT-A0071261	A	Podpora TL	
+5. 33	K. Wróblewski	PRT-A0071261	A	Podpora TL	
+6. 4	M. Gołuch	PRT-A0068774	A	Dźwignia lewa	
+7. 5	M. Ziętal	PRT-A0069184	A	Listwa sprężyny prawa 2	
+8. 17	M. Ziętal	PRT-A0071265	A	Dokładka PP	
+9. 26	M. Ziętal	PRT-A0071265	A	Dokładka PP	
+10. 35	M. Ziętal	PRT-A0071265	A	Dokładka PP	
+11. 38	M. Ziętal	PRT-A0071265	A	Dokładka PP	
+
+Sciezka wyszukiwania:
+PRT-A0068775|PRT-A0068774|PRT-A0069184|PRT-A0069182|PRT-A0071261|PRT-A0071265|PRT-A0071261|PRT-A0071265|PRT-A0071261|PRT-A0071265|PRT-A0071265
