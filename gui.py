@@ -1,69 +1,71 @@
 import tkinter as tk
 import ctypes
-from tkinter import Tk, Label, Button, Radiobutton, IntVar
-from tkinter import *
-from tkinter import filedialog
+from tkinter import Tk, Label, Button, Radiobutton, IntVar, filedialog
 
 
-def ask_multiple_choice_question(prompt, options, separators, part_column_positions):
+class GUI:
 
-    root = Tk()
-    if prompt:
-        Label(root, text=prompt).pack()
+    @staticmethod
+    def ask_multiple_choice_question(prompt, options, separators, part_column_positions):
 
-    v = IntVar()
-    v2 = IntVar()
-    v3 = IntVar()
+        root = Tk()
+        if prompt:
+            Label(root, text=prompt).pack()
 
-    T = tk.Text(root, height=2, width=60)
-    T.pack()
-    T.insert(tk.END, "Wybierz jakie pliki chcesz wyszukać")
+        v = IntVar()
+        v2 = IntVar()
+        v3 = IntVar()
 
-    for i, option in enumerate(options):
-        Radiobutton(root, text=option, variable=v, value=i).pack(anchor="w")
+        T = tk.Text(root, height=2, width=60)
+        T.pack()
+        T.insert(tk.END, "Wybierz jakie pliki chcesz wyszukać")
 
-    T = tk.Text(root, height=2, width=60)
-    T.pack()
-    T.insert(tk.END, "Wybierz separator kolumn w .csv")
+        for i, option in enumerate(options):
+            Radiobutton(root, text=option, variable=v,
+                        value=i).pack(anchor="w")
 
-    for i, separator in enumerate(separators):
-        Radiobutton(root, text=separator, variable=v2,
-                    value=i).pack(anchor="w")
+        T = tk.Text(root, height=2, width=60)
+        T.pack()
+        T.insert(tk.END, "Wybierz separator kolumn w .csv")
 
-    T = tk.Text(root, height=5, width=60)
-    T.pack()
-    T.insert(tk.END, "Wybierz nr kolumny w której znajduje się nr części" + "\n" + "\n" +
-             "-1--|-2-|------3-----|4|----5----|" + "\n" +
-             "2011;901;PRT-A0069990;A;Mocowanie"
-             )
+        for i, separator in enumerate(separators):
+            Radiobutton(root, text=separator, variable=v2,
+                        value=i).pack(anchor="w")
 
-    for i, part_column_position in enumerate(part_column_positions):
-        Radiobutton(root, text=part_column_position, variable=v3,
-                    value=i).pack(anchor="w")
+        T = tk.Text(root, height=5, width=60)
+        T.pack()
+        T.insert(tk.END, "Wybierz nr kolumny w której znajduje się nr części" + "\n" + "\n" +
+                 "-1--|-2-|------3-----|4|----5----|" + "\n" +
+                 "2011;901;PRT-A0069990;A;Mocowanie"
+                 )
 
-    Button(text="Akceptuj", command=root.destroy).pack()
+        for i, part_column_position in enumerate(part_column_positions):
+            Radiobutton(root, text=part_column_position, variable=v3,
+                        value=i).pack(anchor="w")
 
-    root.mainloop()
+        Button(text="Akceptuj", command=root.destroy).pack()
 
-    # if v.get() == 0:
-    #    return None
+        root.mainloop()
 
-    return options[v.get()], separators[v2.get()], part_column_positions[v3.get()]
+        # if v.get() == 0:
+        #    return None
 
+        return options[v.get()], separators[v2.get()], part_column_positions[v3.get()]
 
-def Mbox(title, text, style):
-    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+    @staticmethod
+    def Mbox(title, text, style):
+        return ctypes.windll.user32.MessageBoxW(0, text, title, style)
 
+    @staticmethod
+    def select_file():
+        root = tk.Tk()
+        root.withdraw()
+        open_file = filedialog.askopenfilename()
+        return open_file
 
-def select_file():
-    root = tk.Tk()
-    root.withdraw()
-    open_file = filedialog.askopenfilename()
-    return open_file
-
-
-def select_folder():
-    root = tk.Tk()
-    root.withdraw()
-    open_directory = filedialog.askdirectory()
-    return open_directory
+    @staticmethod
+    def select_folder():
+        root = tk.Tk()
+        root.withdraw()
+        open_directory = filedialog.askdirectory()
+        return open_directory

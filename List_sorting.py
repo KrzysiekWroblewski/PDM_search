@@ -1,16 +1,16 @@
-list = [['Rash', 4, 28], ['Varsha', 2, 20],
-        ['Nikhil', 1, 20], ['Akshat', 3, 21]]
+class Sort:
 
+    # Bubble sort list of lists based on second index
+    @staticmethod
+    def list_sort_by_index(list, index):
 
-def list_sort_by_colum(list):
+        sorted_list = list.copy()
+        list_len = len(sorted_list)
 
-    # bubble sort list of lists based on second index
-    sorted_list = list.copy()
-    n = len(sorted_list)
-    for i in range(n):
-        for j in range(n-1):
-            if sorted_list[j][1] > sorted_list[j+1][1]:
-                sorted_list[j], sorted_list[j +
-                                            1] = sorted_list[j+1], sorted_list[j]
+        for i in range(list_len):
+            for j in range(list_len-1):
+                if sorted_list[j][index] > sorted_list[j+1][index]:
+                    sorted_list[j], sorted_list[j +
+                                                1] = sorted_list[j+1], sorted_list[j]
 
-    return sorted_list
+        return sorted_list
