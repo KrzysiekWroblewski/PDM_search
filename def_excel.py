@@ -24,7 +24,10 @@ def read_excel_BOM(open_file):
         cell_revision = sh.cell(row=j, column=xl_part_column+1)
 
         # skip line if par is mirror
-        if "lustro" in sh.cell(row=j, column=xl_part_column).value.lower():
+        try:
+            if "lustro" in sh.cell(row=j, column=xl_part_column).value.lower():
+                continue
+        except:
             continue
 
         # Checking if  are some missing drawings
@@ -37,7 +40,7 @@ def read_excel_BOM(open_file):
 
         if drawings == False:
             list_of_records.append(
-                [sh.cell(row=j, column=1).value, sh.cell(row=j, column=6).value, sh.cell(row=j, column=xl_part_column).value, sh.cell(row=j, column=xl_part_column+1).value, sh.cell(row=j, column=xl_part_column+2).value])
+                [str(sh.cell(row=j, column=1).value).encode("utf-8"), str(sh.cell(row=j, column=6).value).encode("utf-8"), str(sh.cell(row=j, column=xl_part_column).value).encode("utf-8"), str(sh.cell(row=j, column=xl_part_column+1).value).encode("utf-8"), str(sh.cell(row=j, column=xl_part_column+2).value).encode("utf-8")])
 
         if drawings == False:
             search_Path_sld_prt = search_Path_sld_prt + \
@@ -57,10 +60,12 @@ def read_excel_BOM(open_file):
         pass
 
     search_Path_sld_prt = search_Path_sld_prt.encode(
-        'utf-8').decode('ascii', 'ignore')
+        'utf-8')
+    # .decode('ascii', 'ignore')
 
     search_Path_sld_prt_revision = search_Path_sld_prt_revision.encode(
-        'utf-8').decode('ascii', 'ignore')
+        'utf-8')
+    # .decode('ascii', 'ignore')
 
     print(search_Path_sld_prt)
     print(search_Path_sld_prt_revision)
@@ -70,6 +75,6 @@ def read_excel_BOM(open_file):
     name_of_file = name_of_file[2:-5]
 
     Report.generate_report_txt(Sort.list_sort_by_index(
-        list_of_records, 1), name_of_file, search_Path_sld_prt.encode("utf-8"), search_Path_sld_prt_revision.encode("utf-8"))
+        list_of_records, 1), name_of_file, search_Path_sld_prt, search_Path_sld_prt_revision, [0, 1, 2, 3, 4])
 
     return (number_of_files_merged, search_Path_sld_prt, search_Path_sld_prt_revision)

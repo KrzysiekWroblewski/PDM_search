@@ -34,7 +34,7 @@ class GUI:
 
         T = tk.Text(root, height=5, width=60)
         T.pack()
-        T.insert(tk.END, "Wybierz nr kolumny w której znajduje się nr części" + "\n" + "\n" +
+        T.insert(tk.END, "Wybierz nr kolumny w której znajduje się nr części" + "\n" + "(bazowo 3 kolumna)" + "\n" + "\n" +
                  "-1--|-2-|------3-----|4|----5----|" + "\n" +
                  "2011;901;PRT-A0069990;A;Mocowanie"
                  )

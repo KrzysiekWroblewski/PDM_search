@@ -26,11 +26,15 @@ def open_file_encoding(open_file, csv_encode, result, csv_delimiter, csv_sep, pa
                 continue
             if line[10] == "Handlowe":
                 continue
-            if "lustro" in line[part_column].lower():
-                continue
+            try:
+                if "lustro" in line[part_column].lower():
+                    continue
+            except:
 
+                if "lustro" in line[part_column].lower():
+                    continue
             # merged search path for files with revisions
-            elif result[0] == "Files with revision: PDF, DXF, STP":
+            if result[0] == "Files with revision: PDF, DXF, STP":
                 search_Path = search_Path + \
                     str(line[part_column]) + "-" + \
                     str(line[part_column+1]) + str(csv_sep)
