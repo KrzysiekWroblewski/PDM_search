@@ -1,6 +1,7 @@
 import tkinter as tk
 import ctypes
 from tkinter import Tk, Label, Button, Radiobutton, IntVar, filedialog
+import sys
 
 
 class GUI:
@@ -9,6 +10,10 @@ class GUI:
     def ask_multiple_choice_question(prompt, options, separators, part_column_positions):
 
         root = Tk()
+
+        # Wykonaj pewne czynności przed zamknięciem okna
+        root.protocol("WM_DELETE_WINDOW", GUI.on_closing)
+
         if prompt:
             Label(root, text=prompt).pack()
 
@@ -47,10 +52,11 @@ class GUI:
 
         root.mainloop()
 
-        # if v.get() == 0:
-        #    return None
-
         return options[v.get()], separators[v2.get()], part_column_positions[v3.get()]
+
+    @staticmethod
+    def on_closing():
+        sys.exit()
 
     @staticmethod
     def Mbox(title, text, style):

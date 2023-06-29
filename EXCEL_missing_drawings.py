@@ -1,11 +1,14 @@
 import openpyxl
-from excel_raport_generator import Report
+from EXCEL_report_generator import Report
 from List_sorting import Sort
+from gui import GUI
 
 # open_file = "sample.xlsx"
 
 
-def read_excel_BOM(open_file):
+def missing_drawings_from_excel():
+
+    open_file = GUI.select_file()
 
     xl_part_column = 7
     csv_sep = "|"
@@ -74,7 +77,13 @@ def read_excel_BOM(open_file):
     name_of_file = open_file.replace("/", "_")
     name_of_file = name_of_file[2:-5]
 
+    # Print Report to txt of missing drawings
     Report.generate_report_txt(Sort.list_sort_by_index(
         list_of_records, 1), name_of_file, search_Path_sld_prt, search_Path_sld_prt_revision, [0, 1, 2, 3, 4])
 
-    return (number_of_files_merged, search_Path_sld_prt, search_Path_sld_prt_revision)
+    # Window with message
+    Message_01 = str("Source file path: " + str(open_file) +
+                     str("\n") + str("\n") + "Number of missing files: " + str(number_of_files_merged))
+    GUI.Mbox("Wyszukiwarka plikow PDM", Message_01, 1)
+
+    return True
