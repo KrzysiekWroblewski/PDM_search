@@ -1,0 +1,189 @@
+Projekt_numer;Projekt_zespół;ID. Części;Rewizja;Opis;Numer katalogowy;Materiał;Typ;Obróbka cieplna;Powłoka;Handlowe;Zużywające;Spawanie;Uwagi;Liczba odniesień
+;;110M5;A;Złączka kątowa M5;-;RQS;H. Mech.;-;-;H;-;-;-;1
+2011;904;PRT-A0070438;A;Oprawa łożysk;-;C45/1.0503;Skrawanie;-;Czernić;;-;-;-;1
+;;Łożysko liniowe KB 0825UU (08x16x25);A;Łożysko liniowe (08x16x25);;SKF;H. Mech.;-;-;H;-;-;-;2
+;-;Domyślna;0;Stopki dociskowa wahliwa;K0395.506;KIPP;H. Mech.;-;-;H;-;-;max. 15 stopni;1
+2011;904;PRT-A0070449;A;Wałek docisku;-;REXROTH;Skrawanie;-;-;-;-;-;-;2
+;;Z 15;A;Seger zewnętrzny;DIN 471;FABORY;H. Mech.;-;-;H;-;-;;4
+;-;K0395.506;0;Stopki dociskowa wahliwa;K0395.506;KIPP;H. Mech.;-;-;H;-;-;max. 15 stopni;1
+;-;Sprężyna D12210;0;Sprężyna naciskowa;D12210;TEVEMA;H. Mech.;;;H;;;;2
+;-;GRLARQS M56;0;Zawór dławiąco-zwrotny;GRLARQS M56;RQS;H. Mech.;-;-;H;-;-;-;12
+2011;904;PRT-A0070445;A;Mocowanie prowadnika;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;-;TCL20x60SG;0;Siłownik;TCL20x60SG;AirTAC;H. Mech.;-;-;H;-;-;-;1
+;;HGL-1_8-B;B;Zawór zwrotny sterowany;530030;FESTO;H. Mech.;-;-;H;-;-;-;1
+2011;904;PRT-A0071252;A;Mocowanie;-;C45/1.0503;-;-;-;-;-;-;-;1
+;;CD55B20-150M;A;Siłownik;CD55B20-150M;SMC;H. Mech.;;;H;-;-;;1
+;;GRLARQS 186;C;Zawór dławiąco - zwrotny;GRLARQS 186;RQS;H. Mech.;-;-;H;-;-;-;2
+2011;904;PRT-A0070440;A;Dystans blokady;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;;Wózek HGW20CCZOH;B;Wózek;HGW20CCZOH;HIWIN;H. Mech.;-;-;H;-;-;-;2
+;;BMF00A2;C;Czujnik Typ. C;BMF00A2;BALLUFF;H. Elek.;-;-;H;-;-;-;1
+2011;904;PRT-A0070446;A;Płytka dolna;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1585;;JA20-8-125;C;Sprzęgło M8x1,25;JA20-8-125;SMC;H. Mech.;-;-;H;-;-;-;1
+;-;0.305m B15i.025.038.0 + 1025.12PZ.A1;0;Prowadnik kablowy;0.305m B15i.025.038.0 + 1025.12PZ.A1;IGUS;H. Mech.;-;-;H;-;-;-;1
+;;HGR20R L=340mm 6 otw. sym.;G;Szyna;HGR20R;HIWIN;H. Mech.;-;-;H;-;-;-;1
+2011;904;PRT-A0071248;A;Płyta;-;PA6/3.1325;Skrawanie;-;-;-;-;-;-;1
+;;RQSL M56;A;Złącze katowe;-;RQS;H. Mech.;-;-;H;-;-;-Złącze katowe gwint zewnętrzny;1
+2011;904;PRT-A0070444;B;Mocowanie prowadnika;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+2011;904;PRT-A0070448;A;Żebro;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;-;CMSG-020;0;Czujnik Typ. T;CMSG-020;AirTac;H. Elek.;-;-;H;-;-;-;1
+;;HC-1 Cable Mount;A;Mocowanie przewodu;HC-2;HANDLOWE;H. Mech.;-;-;H;-;-;-;4
+2011;900;PRT-A0070031;0;Płyta narzędzia;;EN AW 7021/C330;Skrawanie;-;Anodować;-;-;-;-;1
+2011;903;PRT-A0072924;0;Blokada sprężynki;;38HMJ/1.8509;Skrawanie;52 HRC±2HRC;Azotować;-;-;-;;1
+2011;903;PRT-A0072939;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+;-;JB40-8-125;0;Końcówka kompensacyjna;JB40-8-125;SMC;H. Mech.;-;-;H;-;-;;2
+;;Z 6;A;Seger zewnętrzny;DIN 471;FABORY;H. Mech.;-;-;H;-;-;;2
+2011;903;PRT-A0072921;0;Oś obrotu;;handlowy wałek prowadzący 1.1213;Skrawanie;-;-;-;-;-;;1
+2011;903;PRT-A0072936;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+;;CD55B20-100M;B;Siłownik;CD55B20-100M;SMC;H. Mech.;-;-;H;-;-;;1
+2011;903;PRT-A0072918;0;Talerzyk;;45/1.0530;Skrawanie;-;Czernić;-;-;-;;1
+2011;903;PRT-A0072933;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+;;000.MAG.90.07;B;Tuleja centrująca;000.MAG.90.07;C45/1.0503;Promatik;32 HRC±2HRC;Czernić;O;-;-;-;14
+;;Tulejka ślizgowa-xxx;D;Tulejka ślizgowa;-;BIMET;H. Mech.;-;-;H;Z;-;-;1
+;-;D10940;0;Sprężyna naciskowa;-;TEVEMA;H. Mech.;-;-;H;-;-;-;1
+2011;903;PRT-A0072975;0;-;-;0H18N9/1.4301;-;-;-;-;-;-;-;1
+2011;903;PRT-A0072930;0;Tulejka centrująca;000.MAG.90.04;C45/1.0503;Promatik;32 HRC±2HRC;Czernić;M;-;-;-;4
+;;000.MAG.50 - M6 x30;H;Śruba separująca;000.MAG.50 - M6X30;PROMATIK;Promatik;40 HRC±2HRC;Czernić;O;Z;-;-;4
+;-;JA15-5-080;0;Sprzęgło;JA15-5-080;SMC;H. Mech.;-;-;H;-;-;-;1
+2011;903;PRT-A0072944;0;-;-;C45/1.0503;-;-;-;-;-;-;-;2
+2011;903;PRT-A0072916;A;Kostka podporowa;-;40H/1.7035;Skrawanie;40 HRC±2HRC;Czernić;-;Z;-;-;2
+2011;903;PRT-A0072927;0;Chwytak beczki;;50HS/1.5026;Skrawanie;52 HRC±2HRC;Czernić;-;-;-;;1
+2011;903;PRT-A0072941;0;-;-;2H13/1.4021;-;-;-;-;-;-;-;1
+;;Y-G02;A;Końcówka widełkowa;Y-G02;SMC;H. Mech.;-;-;H;-;-;;1
+;;MGN9C;C;Wózek;MGN9C;HIWIN;H. Mech.;-;-;H;-;-;-;1
+;-;MGN05H1R50Z0HM;0;Szyna;MGN05H1R50Z0HM;HIWIN;H. Mech.;-;-;H;-;-;-;1
+2011;903;PRT-A0072923;0;Dystans siłownika;;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;;1
+2011;903;PRT-A0072938;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+2011;903;PRT-A0072920;0;Kostka zderzaka;;45/1.0530;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;;1
+2011;903;PRT-A0072935;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+2011;903;PRT-A0072917;0;Kostka czujnika;;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;;2
+2011;903;PRT-A0072932;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+;;000.MAG.90.06;B;Tuleja centrująca;000.MAG.90.06;C45/1.0503;Promatik;32 HRC±2HRC;Czernić;O;-;-;-;2
+;-;Domyślna;0;Czujnik indukcyjny;6063881;SICK;H. Elek.;-;-;H;-;-;Zasięg Sn=1,5 mm, Zasięg gwarantowany Sa=1,215 mm ;4
+2011;903;PRT-A0072946;B;Osłona;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+-;991;PRT-A0072915;A;Sprężyna eCrafter przesuwny LH;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;1
+-;992;PRT-A0072914;A;Sprężyna eCrafter przesuwny RH;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;1
+;-;CDQ2WB20-10DMZ;0;Siłownik;CDQ2WB20-10DMZ;SMC;H. Mech.;-;;H;-;-;-;1
+2011;903;PRT-A0072929;0;Ogranicznik przód;;50HS/1.5026;Skrawanie;52 HRC±2HRC;Czernić;-;-;-;;1
+2011;903;PRT-A0072943;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+2011;903;PRT-A0072926;0;Ogranicznik przód;;50HS/1.5026;Skrawanie;52 HRC±2HRC;Czernić;-;-;-;;1
+2011;903;PRT-A0072940;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+;;MGNR9;B;Szyna;;Materiał <nieokreślony>;H. Mech.;;;H;-;-;;1
+2011;903;PRT-A0072922;0;Obsada blokady sprężynki;;45/1.0530;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;;1
+2011;903;PRT-A0072937;A;Mocowanie zderzaków;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+;;7C0_843_641_A__DMU_TM__002_____ZSB_INNENBETAETIGU_SBT_______JTI_080422_12-21.02.2023;A;-;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;1
+;;M-5HL-4;B;Szybkozłącze kątowe M5 - 4mm;M-5HL-4;SMC;H. Mech.;-;-;H;-;-;-;4
+2011;903;PRT-A0072919;0;Ogranicznik szyny;;45/1.0530;Skrawanie;-;Czernić;-;-;-;;1
+2011;903;PRT-A0072934;0;-;-;C45/1.0503;-;-;-;-;-;-;-;3
+;-;ACA0806-1;0;Amortyzator hydrauliczny;ACA0806-1;AirTAC;H. Mech.;-;-;H;-;-;-;5
+0;;HGW15CCZOH;F;Wózek;HGW15CCZ0H;HIWIN;H. Mech.;-;-;H;-;-;;3
+2011;903;PRT-A0072977;0;-;-;0H18N9/1.4301;-;-;-;-;-;-;-;1
+2011;903;PRT-A0072931;0;-;-;2H13/1.4021;-;-;-;-;-;-;-;1
+;-;0.2m E2.10.20.018.0 + E2.100.20.12PZ.A3;0;Prowadnik kablowy;0.2m E2.10.20.018.0 + E2.100.20.12PZ.A3;IGUS;H. Mech.;-;-;H;-;-;-;1
+;;CQ-LZ12;A;Łapy montażowe;;SMC;H. Mech.;-;-;H;-;-;-;2
+2011;903;PRT-A0072945;0;-;-;40H/1.7035;-;-;-;-;-;-;-;1
+2011;903;PRT-A0072913;0;Gniazdo kołeczka;-;2H13/1.4021;-;-;-;-;-;-;-;1
+;-;_CDQ2A12-15(1_0)_BODY___;0;-;-;Materiał <nieokreślony>;-;-;-;H;-;-;-;1
+;-;_CDQ2A12-15-(1_0)_CYROD___;0;-;-;Materiał <nieokreślony>;-;-;-;H;-;-;-;1
+2011;903;PRT-A0072928;0;Szczęka 2;;50HS/1.5026;Skrawanie;52 HRC±2HRC;Czernić;-;-;-;;1
+2011;903;PRT-A0072942;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+2011;900;PRT-A0069192;;;;50HS;;40 HRC ±2HRC;Czernić;;-;-;;1
+;-;MGN05H;0;Wózek;MGN05H;HIWIN;H. Mech.;-;-;H;-;-;-;1
+;;HGR15R L=200mm 4 otw. sym.;K;Szyna;HGR15R;HIWIN;H. Mech.;-;-;H;-;-;-;1
+2011;902;PRT-A0069221;A;Dystans;;40H/1.7035;Skrawanie;60 HRC±2HRC;Czernić;-;-;-;-;1
+2011;902;PRT-A0069224;A;Trzpień;;NC11LV/1.2379;Skrawanie;40 HRC±2HRC;Czernić;-;-;-;-;1
+;;HGH15CAZOH;E;Wózek;HGH15CAZOH;HIWIN;H. Mech.;-;-;H;-;-;;1
+2011;902;PRT-A0069227;A;Mocowanie siłownika;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+2011;902;PRT-A0072718;A;Mocowanie;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+2011;902;PRT-A0071207;A;Wałeczek;-;PA6/3.1325;Skrawanie;-;-;-;-;-;-;1
+;;000.MAG.50 - M8;C;Nóżka;000.MAG.50 - M8;45/1.0530;Promatik;52 HRC±2HRC;Czernić;O;Z;-;-;1
+;;A 8x7x100;D;Wpust pryzmatyczny;DIN 6885 A;FABORY;H. Mech.;-;-;H;-;-;;5
+2011;902;PRT-A0070000;A;Element sprzęgający;-;40H/1.7035;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;-;1
+2011;902;PRT-A0069222;A;Tulejka pozycjonująca;;REXROTH;Skrawanie;-;Czernić;-;-;-;-;1
+;;HGR15R L=140mm 3 otw. sym.;K;Szyna;HGR15R;HIWIN;H. Mech.;-;-;H;-;-;-;1
+;;sześciokątna M8;E;Nakrętka zwykła;DIN 934;FABORY;H. Mech.;-;-;H;-;-;;1
+2011;902;PRT-A0069225;A;Mocowanie wózka;;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;;Napęd obrotowy 1369117 DSM-16-270-P1-HD-A-B;E;Moduł wahadłowy;1369117;FESTO;H. Mech.;-;-;H;-;-;Przyłącza: M5,;1
+2011;902;PRT-A0069228;A;Mocowanie szyny;;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+2011;902;PRT-A0072038;A;Mocowanie prowadnika;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;0.18m E2.10.16.028.0 + E2.100.16.12PZ.A2;A;0.18m E2.10.16.028.0 + E2.100.16.12PZ.A2;0.18m E2.10.16.028.0 + E2.100.16.12PZ.A2;IGUS;H. Mech.;-;-;H;-;-;-;1
+2011;902;PRT-A0071206;A;Osłona;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;000.MAG.22.M8;A;Kostka zderzaka;000.MAG.22.M8;45/1.0530;Promatik;-;Czernić;M;-;-;-;11
+;-;Czujnik-173210 SME-10-KL-LED-24;0;Czujnik;551375;FESTO;H. Elek.;-;-;H;-;-;-;2
+2011;902;PRT-A0069979;A;Element sprzęgający;;40HMQT/1.7225 +QT;Skrawanie;28 HRC±2HRC;Czernić;-;-;-;-;1
+2011;902;PRT-A0069223;A;Obracak;;NC11LV/1.2379;Skrawanie;52 HRC±2HRC;Czernić;-;Z;-;-;1
+2011;902;PRT-A0069226;A;Mocowanie odboju;;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+;;CD55B20-50M;C;Siłownik;CD55B20-50M;SMC;H. Mech.;-;-;H;-;-;-;1
+2011;902;PRT-A0072036;A;Mocowanie prowadnika;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;000.MAG.50 - M8 x 35;F;Śruba separująca;000.MAG.50 - M8 x 35;PROMATIK;Promatik;40 HRC±2HRC;Czernić;O;Z;-;-;1
+2011;902;PRT-A0070603;A;Pierścień;;0H18N9/1.4301;Skrawanie;-;-;-;-;-;-;1
+;;SL-DSM-B;A;Uchwyt czujnika;550661;FESTO;H. Elek.;-;-;H;-;-;-;2
+;;Koncentrator BNI IOL-104-00-K006;B;Koncentrator;BNI0006;BALLUFF;H. Elek.;-;-;H;-;-;-;2
+2011;990;PRT-A0072878;0;-;-;0H18N9/1.4301;-;-;-;-;-;-;-;1
+2011;990;PRT-A0072861;B;Kostka podporowa;-;40H/1.7035;Skrawanie;52 HRC±2HRC;Czernić;-;Z;-;-;2
+;;HGR15R L=350mm 6 otw. sym.;K;Szyna;HGR15R;HIWIN;H. Mech.;-;-;H;-;-;-;2
+2011;990;PRT-A0072871;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+;;K0348.0706121;A;Trzpień ustalający z uchwytem jednoskrzydełkowym;K0348.0706121;KIPP;H. Mech.;;;H;;;;2
+;;093W302N08;B;Kątownik 30x60;093W302N08;FATH;H. Mech.;-;-;H;-;-;-;2
+2011;990;PRT-A0072868;0;-;-;0H18N9/1.4301;-;-;-;-;-;-;-;1
+;;Wózek HGW15CCZOH;A;Wózek;HGW15CCZBC;HIWIN;H. Mech.;-;-;H;-;-;-;4
+2011;990;PRT-A0072864;0;-;-;PA6/3.1325;-;-;-;-;-;-;-;2
+;-;Domyślna;0;Prowadnik kablowy;Seria E2;IGUS;H. Mech.;-;-;H;-;-;-;1
+;;Czujnik-LR-ZB100C3P;G;Czujnik optyczny;;KEYENCE;H. Elek.;-;-;H;-;-;Mocowanie 2xM3xP0.5;1
+2011;990;PRT-A0072873;0;Wspornik blokady;;S235JR/1.0037;Skrawanie;---;Czernić;-;-;-;;5
+;-;HC-2 Cable Mount;0;Mocowanie przewodu;-;HANDLOWE;H. Mech.;-;-;H;-;-;-;1
+2011;990;PRT-A0072877;0;-;-;Profile BOSCH;-;-;-;-;-;-;-;1
+2011;990;PRT-A0072863;0;Mocowanie szyny;;EN AW 7021/C330;Skrawanie;-;Anodować;-;-;-;-;1
+2011;990;PRT-A0072875;0;-;-;0H18N9/1.4301;-;-;-;-;-;-;-;1
+2011;990;PRT-A0072870;0;-;-;C45/1.0503;-;-;-;-;-;-;-;1
+;;HLH16X60S;A;Siłownik pneumatyczny;HLH16x60S;AirTAC;H. Mech.;-;-;H;-;-;Porty przyłączeniowe: M5x0.8;1
+2011;990;PRT-A0072867;0;-;-;0H18N9/1.4301;-;-;-;-;-;-;-;1
+2011;990;PRT-A0072860;0;-;-;PA9/3.4365;-;-;-;-;-;-;-;1
+;-;000.MAG.69.18;0;Kołek pozycjonujący fi8;000.MAG69.18;NC11LV/1.2379;Promatik;-;Czernić;O;-;-;Kołek stożkowy ścięty fi8 x fi6: M3;2
+;;A 8x7x80;D;Wpust pryzmatyczny;DIN 6885 A;FABORY;H. Mech.;-;-;H;-;-;;1
+2011;992;PRT-A0072859;0;Gniazdo eCrafter RH;-;PA9/3.4365;-;-;-;-;-;-;-;1
+2011;992;PRT-A0072858;0;Gniazdo Dźwigni eCrafter Przesuwny LH;-;POM;-;-;-;-;-;-;-;1
+2011;992;PRT-A0072856;0;Tulejka bazująca;;45;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;;4
+;;K0232.20701;B;Uchwyt profilowany B;K0232.20701;KIPP;H. Mech.;-;-;H;-;-;-;4
+2011;990;PRT-A0072872;0;Wspornik blokady;;S235JR/1.0037;Skrawanie;---;Czernić;-;-;-;;2
+2011;990;PRT-A0072879;0;-;-;PC /poliweglan;-;-;-;-;-;-;-;1
+2011;990;PRT-A0072862;0;Wspornik blokady;;S235JR/1.0037;Skrawanie;---;Czernić;-;-;-;;1
+;-;DAS 30 75F05CR;0;Zawór dozujący;-;DAVTECH;H. Mech.;-;-;H;-;-;-;1
+2011;990;PRT-A0072874;0;-;-;0H18N9/1.4301;-;-;-;-;-;-;-;1
+2011;990;PRT-A0072869;0;-;-;0H18N9/1.4301;-;-;-;-;-;-;-;1
+;;BMF0002;A;Czujnik Typ. C;BMF0002;BALLUFF;H. Elek.;-;-;H;-;-;-;3
+2011;990;PRT-A0072866;0;-;-;PA6/3.1325;-;-;-;-;-;-;-;1
+2011;990;PRT-A0072852;0;-;-;PA6/3.1325;-;-;-;-;-;-;-;1
+;-;CD55B20-120M;0;Siłownik;CD55B20-120M;SMC;H. Mech.;-;-;H;-;-;-;1
+2011;992;PRT-A0072854;0;Gniazdo Dźwigni eCrafter Przesuwny LH;-;POM;-;-;-;-;-;-;-;1
+2011;991;PRT-A0072855;0;Gniazdo eCrafter LH;-;PA9/3.4365;-;-;-;-;-;-;-;1
+2011;990;PRT-A0072865;A;Kostka podporowa;-;40H/1.7035;Skrawanie;52 HRC±2HRC;-;-;-;-;-;1
+2011;901;PRT-A0068940;A;Płytka mocowania siłownika;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+2011;901;PRT-A0068946;A;Płyta pośrednia;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+2011;901;PRT-A0068951;A;Zabierak;-;40H/1.7035;Skrawanie;-;Czernić;-;-;-;-;1
+2011;901;PRT-A0068945;A;Tuleja popychacza;-;B101 /CuSn10P;Skrawanie;-;-;-;Z;-;-;1
+2011;901;PRT-A0068929;A;Tulejka;-;C45/1.0503;Skrawanie;40 HRC±2HRC;Czernić;-;Z;-;-;1
+2011;901;PRT-A0068932;A;Łącznik;-;NC6/1.2063;Skrawanie;40 HRC±2HRC;Czernić;-;-;-;-;1
+;;CP96SDB40-70C;B;Siłownik;CP96SDB40-70C;SMC;Skrawanie;-;-;H;-;-;Tłoczysko: M12x1.25, Przyłącza: 2xG 1/4;1
+2011;901;PRT-A0068943;A;Element sprzęgający;;40HMQT/1.7225 +QT;Skrawanie;28 HRC±2HRC;Czernić;-;-;-;-;1
+;;Z łbem 6-kąt M8x40;A;Śruba;DIN 931;FABORY;H. Mech.;-;-;H;-;-;-;4
+2011;901;PRT-A0068941;A;Płytka mocowania siłownika;-;EN AW 7021/C330;Skrawanie;-;Anodować;-;-;-;-;1
+2011;901;PRT-A0071396;A;Płyta pionowa;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+2011;901;PRT-A0068931;A;Nakrętka specjalna;-;40H/1.7035;Skrawanie;40 HRC±2HRC;Czernić;-;-;-;-;1
+2011;901;PRT-A0068930;A;Pozycjoner;-;40H/1.7035;Skrawanie;40 HRC±2HRC;Czernić;-;-;-;-;1
+2011;901;PRT-A0068935;A;Gniazdo pina;-;40H/1.7035;Skrawanie;40 HRC±2HRC;Czernić;-;-;-;-;1
+0;;000.MAG.50 - M5x30;C;Śruba separujaca;000.MAG.50 - M5x30;PROMATIK;Promatik;40 HRC±2HRC;Czernić;O;-;-;-;2
+;;AB 10x8x32;0;Wpust pryzmatyczny;DIN 6885 AB;FABORY;H. Mech.;-;-;H;-;-;;1
+2011;901;PRT-A0068923;A;Popychacz;WH-060200;Stal węglowa;Skrawanie;-;-;M;-;-;Wykonać z FCPK Bytów - WH-060200;1
+2011;901;PRT-A0068942;A;Płyta dolna;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;-;GRLARQS 146;0;Zawór dławiąco-zwrotny;;RQS;-;-;-;H;-;-;-;2
+;;Z łbem 6-kąt M6x30;A;Śruba;DIN 931;FABORY;H. Mech.;-;-;H;-;-;-;2
+2011;901;PRT-A0068950;B;Mocowanie popychacza;-;40H/1.7035;Skrawanie;;Czernić;-;-;-;-;1
+;;HGR15R L=270mm 5 otw. sym.;K;Szyna;HGR15R;HIWIN;H. Mech.;-;-;H;-;-;-;1
+;;sześciokątna M5;E;Nakrętka zwykła;DIN 934;FABORY;H. Mech.;-;-;H;-;-;;2
+2011;901;PRT-A0069990;A;Mocowanie;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+2011;901;PRT-A0068958;A;Pozycjoner;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+2011;901;PRT-A0068944;A;Element sprzęgający;;40H/1.7035;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;-;1
+2011;901;PRT-A0068939;A;Płyta pionowa;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+
+
+

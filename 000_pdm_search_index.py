@@ -30,9 +30,10 @@ part_column = int(result[2]-1)
 if result[0] == "Braki rysunków w Excel":
     missing_drawings_from_excel()
 
-# EXCEL_missing_orders
+# EXCEL_missing_orderss
 elif result[0] == "Braki zamówień obróbki w Excel":
-    mega_def([0, 1, 2, 3, 4, 5, 6, 7, 8], 5)
+    mega_def([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
+             12, 13, 14, 15, 16], 5)
 
 elif result[0] == "Braki zamówień handlówki w Excel":
     mega_def([0, 8, 1, 2, 5, 6, 7], 8)

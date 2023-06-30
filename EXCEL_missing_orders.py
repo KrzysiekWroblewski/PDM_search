@@ -3,6 +3,7 @@ from EXCEL_report_generator import Report
 from List_sorting import Sort
 from gui import GUI
 import os
+from EXCEL_big_data import Report_missing_orders_to_excel
 
 
 def Return_file_name(open_file: str) -> str:
@@ -194,3 +195,7 @@ def mega_def(indexes_to_report, sort_by):
     # Write report to .txt
     Report.Report_list_to_txt("Lista brakujących zamowien!", file, list_of_excels_to_report,
                               list_of_excels_with_missing_orders, date_stamp, indexes_to_report, list_search_Path_sld_prt, list_search_Path_sld_prt_revision)
+
+    # Write report to .slsx
+    Report_missing_orders_to_excel("Lista brakujących zamowien!", file_name_without_extension, file, list_of_excels_to_report,
+                                   list_of_excels_with_missing_orders, indexes_to_report, list_search_Path_sld_prt, list_search_Path_sld_prt_revision)
