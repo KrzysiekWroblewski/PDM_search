@@ -3,53 +3,57 @@ from gui import GUI
 import datetime
 
 
-page_width = 210
-page_height = 297
-font_size = 12
-
-
 class Report:
 
     @staticmethod
-    def generate_report_txt(list_of_records: list, name_of_file: str, search_Path_sld_prt: bytes, search_Path_sld_prt_revision: bytes, indexes_to_report: list[int]):
-
-        print(list_of_records)
-
-        GUI.Mbox("Wyszukiwarka PDM via CSV",
-                 "Wybierz folder gdzie zapisać raport braków", 1)
-
+    def date_stamp() -> str:
         date_stamp = datetime.datetime.now()
         date_stamp = date_stamp.strftime("%Y-%B-%d %H_%M")
-        file = ((GUI.select_folder()) + "/" + date_stamp +
-                "_" + name_of_file + "_report.txt")
+        return date_stamp
+
+    @staticmethod
+    def Report_list_to_txt(title_message: str, file, list_of_excels_to_report, list_of_excels_with_missing_orders, date_stamp, indexes_to_report, list_search_Path_sld_prt, list_search_Path_sld_prt_revision):
 
         with open(file, 'w', encoding="utf-8") as f:
-            f.write(date_stamp + "\t" + file)
-            f.write("\n\n")
+            f.write(title_message)
+            f.write("\t")
+            f.write(date_stamp)
+            f.write("\n")
+            f.write("\n")
+            f.write("\n")
 
-            i = 1
+            i = 0
+            for list in list_of_excels_with_missing_orders:
 
-            for row in list_of_records:
-                string = "{}. ".format(i)
-                for index in indexes_to_report:
-                    string += row[index].decode("utf-8") + "\t"
+                f.write(list_of_excels_to_report[i])
+                f.write("\n\n")
+                j = 0
 
-                """if string[-1] == "_":
-                    string = string[:-3]
-                """
+                for row in list:
+                    string = "{}. ".format(j+1)
+                    for index in indexes_to_report:
+                        string += row[index].decode("utf-8") + "\t"
 
-                i += 1
+                    f.write(string)
+                    f.write("\n")
+                    j += 1
 
-                f.write(string)
                 f.write("\n")
-
-            f.write("\n")
-            f.write("Ścieżka wyszukiwania:")
-            f.write("\n")
-            f.write(search_Path_sld_prt.decode("utf-8"))
-            f.write("\n")
-            f.write("\n")
-            f.write("Ścieżka wyszukiwania z rewizją:")
-            f.write("\n")
-            f.write(search_Path_sld_prt_revision.decode("utf-8"))
-            f.write("\n")
+                f.write("Ścieżka wyszukiwania:")
+                f.write("\n")
+                f.write(list_search_Path_sld_prt[i].decode("utf-8"))
+                f.write("\n")
+                f.write("\n")
+                f.write("Ścieżka wyszukiwania z rewizją:")
+                f.write("\n")
+                f.write(
+                    list_search_Path_sld_prt_revision[i].decode("utf-8"))
+                f.write("\n")
+                f.write("\n")
+                f.write("\n")
+                f.write("\n")
+                f.write(
+                    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                f.write("\n")
+                f.write("\n")
+                i += 1

@@ -67,13 +67,13 @@ class CSV:
                     if "lustro" in line[part_column].lower():
                         continue
                 # merged search path for files with revisions
-                if result[0] == "Files with revision: PDF, DXF, STP":
+                if result[0] == "Files with revision: PDF, DXF, STP - from CSV":
                     search_Path = search_Path + \
                         str(line[part_column]) + "-" + \
                         str(line[part_column+1]) + str(csv_sep)
 
                 # merged search path for files without revisions (.sldprt, .sldasm)
-                elif result[0] == "Solid Works Files":
+                elif result[0] == "Solid Works Files - from CSV":
                     search_Path = search_Path + \
                         str(line[part_column]) + str(csv_sep)
 

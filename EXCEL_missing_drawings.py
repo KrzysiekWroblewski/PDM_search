@@ -1,7 +1,11 @@
 import openpyxl
 from EXCEL_report_generator import Report
-from List_sorting import Sort
 from gui import GUI
+import openpyxl
+from EXCEL_report_generator import Report
+from gui import GUI
+from EXCEL_missing_orders import Return_file_type
+from EXCEL_missing_orders import Return_file_name
 
 # open_file = "sample.xlsx"
 
@@ -9,6 +13,10 @@ from gui import GUI
 def missing_drawings_from_excel():
 
     open_file = GUI.select_file()
+    file_extension = Return_file_type(open_file)
+    file_name_without_extension = Return_file_name(open_file)
+    list_of_excels_to_report = [open_file]
+    indexes_to_report = [0, 1, 2, 3, 4]
 
     xl_part_column = 7
     csv_sep = "|"
@@ -62,24 +70,29 @@ def missing_drawings_from_excel():
     except:
         pass
 
-    search_Path_sld_prt = search_Path_sld_prt.encode(
-        'utf-8')
+    search_Path_sld_prt = [search_Path_sld_prt.encode(
+        'utf-8')]
     # .decode('ascii', 'ignore')
 
-    search_Path_sld_prt_revision = search_Path_sld_prt_revision.encode(
-        'utf-8')
+    search_Path_sld_prt_revision = [search_Path_sld_prt_revision.encode(
+        'utf-8')]
     # .decode('ascii', 'ignore')
 
     print(search_Path_sld_prt)
     print(search_Path_sld_prt_revision)
     print(number_of_files_merged)
 
-    name_of_file = open_file.replace("/", "_")
-    name_of_file = name_of_file[2:-5]
-
     # Print Report to txt of missing drawings
-    Report.generate_report_txt(Sort.list_sort_by_index(
-        list_of_records, 1), name_of_file, search_Path_sld_prt, search_Path_sld_prt_revision, [0, 1, 2, 3, 4])
+    date_stamp = Report.date_stamp()
+    file = ((GUI.select_folder()) + "/" + date_stamp +
+            "_" + file_name_without_extension + "_report.txt")
+
+    list_of_excels_with_missing_orders = [list_of_records]
+    print('list_of_excels_with_missing_orders: ',
+          list_of_excels_with_missing_orders)
+
+    Report.Report_list_to_txt("Lista brakujacych Rysunkow!", file, list_of_excels_to_report,
+                              list_of_excels_with_missing_orders, date_stamp, indexes_to_report, search_Path_sld_prt, search_Path_sld_prt_revision)
 
     # Window with message
     Message_01 = str("Source file path: " + str(open_file) +
