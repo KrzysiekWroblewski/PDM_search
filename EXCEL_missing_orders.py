@@ -189,13 +189,13 @@ def mega_def(indexes_to_report, sort_by):
              "Wybierz folder gdzie zapisać raport braków", 1)
 
     date_stamp = Report.date_stamp()
-    file = ((GUI.select_folder()) + "/" + date_stamp +
-            "_" + file_name_without_extension + "_report.txt")
+    file_directory = ((GUI.select_folder()) + "/" +
+                      date_stamp + "_" + file_name_without_extension)
 
     # Write report to .txt
-    Report.Report_list_to_txt("Lista brakujących zamowien!", file, list_of_excels_to_report,
+    Report.Report_list_to_txt("Lista brakujących zamowien!", file_directory + "_report.txt", list_of_excels_to_report,
                               list_of_excels_with_missing_orders, date_stamp, indexes_to_report, list_search_Path_sld_prt, list_search_Path_sld_prt_revision)
 
     # Write report to .slsx
-    Report_missing_orders_to_excel("Lista brakujących zamowien!", file_name_without_extension, file, list_of_excels_to_report,
+    Report_missing_orders_to_excel("Lista brakujących zamowien!", file_name_without_extension, file_directory, list_of_excels_to_report,
                                    list_of_excels_with_missing_orders, indexes_to_report, list_search_Path_sld_prt, list_search_Path_sld_prt_revision)

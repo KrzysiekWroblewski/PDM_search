@@ -36,7 +36,8 @@ elif result[0] == "Braki zamówień obróbki w Excel":
              12, 13, 14, 15, 16], 5)
 
 elif result[0] == "Braki zamówień handlówki w Excel":
-    mega_def([0, 8, 1, 2, 5, 6, 7], 8)
+    mega_def([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
+             12, 13, 14, 15, 16], 8)
 
 # CSV_reader
 elif result[0] == "Solid Works Files - from CSV" or result[0] == "Files with revision: PDF, DXF, STP - from CSV":
