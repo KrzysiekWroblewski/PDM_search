@@ -79,8 +79,8 @@ class CSV:
 
                 number_of_files_merged = number_of_files_merged + 1
 
-            if search_Path[-1] == "|":
-                search_Path = search_Path[:-1]
+            if search_Path[-3:] == " | ":
+                search_Path = search_Path[:-3]
 
         pyperclip.copy(search_Path)
 

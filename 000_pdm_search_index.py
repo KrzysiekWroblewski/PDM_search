@@ -5,7 +5,7 @@ from EXCEL_missing_orders import mega_def
 
 
 # Choose separator for search
-csv_sep = "|"
+csv_sep = " | "
 
 
 # run function - window with selection window
@@ -14,8 +14,7 @@ result = GUI.ask_multiple_choice_question(
     ["Files with revision: PDF, DXF, STP - from CSV",
         "Solid Works Files - from CSV",
         "Braki rysunków w Excel",
-        "Braki zamówień obróbki w Excel",
-        "Braki zamówień handlówki w Excel"],
+        "Braki zamówień obróbki w Excel"],
     [";",
      ","],
     [3, 2, 1, 4, 5]

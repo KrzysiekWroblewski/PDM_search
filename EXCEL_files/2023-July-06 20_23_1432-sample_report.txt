@@ -1,0 +1,27 @@
+Lista brakujacych Rysunkow!	2023-July-06 20_23
+
+
+F:/VisualStudioCode/PDM_search/EXCEL_files/1432-sample.xlsx
+
+1. 3	K. Wróblewski	sample1-PRT-A0068775	A	Gniazdo sprężyny lewej	
+2. 4	M. Gołuch	sample1-RT-A0068774	A	Dźwignia lewa	
+3. 5	M. Ziętal	sample1-PRT-A0069184	A	Listwa sprężyny prawa 2	
+4. 6	K. Wróblewski	PRT-A0069182	A	Listwa sprężyny prawa 1	
+5. 15	K. Wróblewski	PRT-A0071261	A	Podpora TL	
+6. 17	M. Ziętal	PRT-A0071265	A	Dokładka PP	
+7. 24	K. Wróblewski	PRT-A0071261	A	Podpora TL	
+8. 26	M. Ziętal	PRT-A0071265	A	Dokładka PP	
+9. 33	K. Wróblewski	PRT-A0071261	A	Podpora TL	
+10. 35	M. Ziętal	PRT-A0071265	A	Dokładka PP	
+11. 38	M. Ziętal	PRT-A0071265	A	Dokładka PP	
+
+Ścieżka wyszukiwania:
+sample1-PRT-A0068775 | sample1-RT-A0068774 | sample1-PRT-A0069184 | PRT-A0069182 | PRT-A0071261 | PRT-A0071265 | PRT-A0071261 | PRT-A0071265 | PRT-A0071261 | PRT-A0071265 | PRT-A0071265 | 
+
+Ścieżka wyszukiwania z rewizją:
+sample1-PRT-A0068775-A | sample1-RT-A0068774-A | sample1-PRT-A0069184-A | PRT-A0069182-A | PRT-A0071261-A | PRT-A0071265-A | PRT-A0071261-A | PRT-A0071265-A | PRT-A0071261-A | PRT-A0071265-A | PRT-A0071265-A | 
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

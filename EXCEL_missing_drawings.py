@@ -19,7 +19,7 @@ def missing_drawings_from_excel():
     indexes_to_report = [0, 1, 2, 3, 4]
 
     xl_part_column = 7
-    csv_sep = "|"
+    csv_sep = " | "
 
     wrkbk = openpyxl.load_workbook(open_file)
     sh = wrkbk.active
@@ -64,9 +64,9 @@ def missing_drawings_from_excel():
                 str(cell_obj.value) + "-" + str(cell_revision.value) + csv_sep
 
     try:
-        if search_Path_sld_prt[-1] == "|":
-            search_Path_sld_prt = search_Path_sld_prt[:-1]
-            search_Path_sld_prt_revision = search_Path_sld_prt_revision[:-1]
+        if search_Path_sld_prt[-3:] == " | ":
+            search_Path_sld_prt = search_Path_sld_prt[:-3]
+            search_Path_sld_prt_revision = search_Path_sld_prt_revision[:-3]
     except:
         pass
 

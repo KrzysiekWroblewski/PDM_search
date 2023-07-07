@@ -65,10 +65,17 @@ def Merge_search_path(list, index1, index2=None):
     search_Path_sld_prt_revision = "".encode("utf-8")
 
     for row in list:
-        search_Path_sld_prt += row[index1] + "|".encode('utf-8')
+        search_Path_sld_prt += row[index1] + " | ".encode('utf-8')
         if index2 != None:
             search_Path_sld_prt_revision += row[index1] + \
-                "-".encode('utf-8') + row[index2] + "|".encode('utf-8')
+                "-".encode('utf-8') + row[index2] + " | "
+
+    try:
+        if search_Path_sld_prt[-3:] == " | ":
+            search_Path_sld_prt = search_Path_sld_prt[:-3]
+            search_Path_sld_prt_revision = search_Path_sld_prt_revision[:-3]
+    except:
+        pass
 
     # search_Path_sld_prt = search_Path_sld_prt.encode('utf-8')
     # search_Path_sld_prt_revision = search_Path_sld_prt_revision.encode('utf-8')
