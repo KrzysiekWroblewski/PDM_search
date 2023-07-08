@@ -1,4 +1,4 @@
-Projekt_numer;Projekt_zespol;ID. Czesci;Rewizja;Opis;Numer katalogowy;Material;Typ;Obrobka cieplna;Powloka;Handlowe;Zuzywajace;Spawanie;Uwagi;Liczba odniesien
+Projekt_numer;Projekt_zespol;ID. Części;Rewizja;Opis;Numer katalogowy;Material;Typ;Obrobka cieplna;Powloka;Handlowe;Zuzywajace;Spawanie;Uwagi;Liczba odniesień
 2011;901;PRT-A0065981;A;Mocowanie;-;C45/1.0503;Skrawanie;-;Czernic;-;-;-;-;1
 2011;901;PRT-A0062094;A;Pozycjoner;-;C45/1.0503;Skrawanie;-;Czernic;-;-;-;-;1
 2011;901;PRT-A0065974;A;Element sprzegajacy;;40H/1.7035;Skrawanie;32 HRC±2HRC;Czernic;-;-;-;-;2

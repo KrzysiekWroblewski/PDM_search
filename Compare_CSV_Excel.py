@@ -4,6 +4,7 @@ from gui import GUI
 import csv
 from openpyxl import Workbook
 from EXCEL_report_generator import Report
+import pprint
 
 
 def write_list_to_dict(list, indexes):
@@ -55,41 +56,53 @@ def Find_missing_items(main_dictionary, search_in_dict):
     for item in main_list_keys:
 
         if item in search_in_list_keys:
-            nazwa_main = main_dictionary[0][item][0]
-            ilosc_main_dict = int(main_dictionary[0][item][-1])
-            ilosc_secondary_dict = int(search_in_dict[0][item][-1])
+            id_main = main_dictionary[0][item][0]
+            revision_main = main_dictionary[0][item][1]
+            description_main = main_dictionary[0][item][2]
+            value_main = int(main_dictionary[0][item][-1])
+
+            value_secondary = int(search_in_dict[0][item][-1])
 
             # pomijamy jelsi liczba sie zgadza na obu listach
-            if ilosc_main_dict == ilosc_secondary_dict:
-                print("Jest tyle samo elementów")
+            if value_main == value_secondary:
+                # print("Jest tyle samo elementów")
                 continue
 
             # tutaj oblcziamy o ile za duzo elementow zamowionych jest w excel
-            elif ilosc_main_dict > ilosc_secondary_dict:
-                a = [nazwa_main, ilosc_main_dict - ilosc_secondary_dict]
+            elif value_main > value_secondary:
+                a = [id_main, revision_main, description_main,
+                     value_main - value_secondary]
                 miss_list.append(a)
-                print("ilosc_main_dict > ilosc_secondary_dict")
+                # print("ilosc_main_dict > ilosc_secondary_dict")
 
             # tutaj oblcziamy o ile za za mało zostało wpisanych elementow do excela
-            elif ilosc_main_dict < ilosc_secondary_dict:
-                b = [nazwa_main, ilosc_main_dict - ilosc_secondary_dict]
+            elif value_main < value_secondary:
+                b = [id_main, revision_main, description_main,
+                     value_main - value_secondary]
                 miss_list.append(b)
-                print("ilosc_main_dict < ilosc_secondary_dict")
+                # print("ilosc_main_dict < ilosc_secondary_dict")
 
             else:
                 print("Stalo sie else")
 
         elif item not in search_in_list_keys:
-            nazwa_main = main_dictionary[0][item][0]
-            ilosc_main_dict = int(main_dictionary[0][item][-1])
-            b = [nazwa_main, ilosc_main_dict]
+            id_main = main_dictionary[0][item][0]
+            revision_main = main_dictionary[0][item][1]
+            description_main = main_dictionary[0][item][2]
+            value_main = int(main_dictionary[0][item][-1])
+
+            b = [id_main, revision_main, description_main, value_main]
             miss_list.append(b)
 
     for item in search_in_list_keys:
         if item not in main_list_keys:
-            nazwa_secondary = search_in_dict[0][item][0]
-            ilosc_secondary_dict = int(search_in_dict[0][item][-1])
-            b = [nazwa_secondary, -ilosc_secondary_dict]
+            name_secondary = search_in_dict[0][item][0]
+            revision_secondary = search_in_dict[0][item][1]
+            description_secondary = search_in_dict[0][item][2]
+            value_secondary = int(search_in_dict[0][item][-1])
+
+            b = [name_secondary, revision_secondary,
+                 description_secondary, - value_secondary]
             miss_list.append(b)
 
     print("\n")
@@ -120,9 +133,7 @@ def make_dictionary_from_excel():
     excel_list.pop(0)
 
     dictionary_from_excel = write_list_to_dict(excel_list, columns)
-    # print("\n")
-    # print('id_index: ', id_index)
-    # print("dictionary_from_excel: ", dictionary_from_excel)
+
     return dictionary_from_excel
 
 
@@ -150,13 +161,9 @@ def make_dictionary_from_CSV(csv_delimiter):
     # print("\n")
     # print('columns_indexes: ', columns)
 
-    dictionary_from_excel = write_list_to_dict(list, columns)
+    dictionary_from_CSV = write_list_to_dict(list, columns)
 
-    # print("\n")
-    # print('columns_indexes: ', columns)
-    # print(dictionary_from_excel)
-
-    return dictionary_from_excel
+    return dictionary_from_CSV
 
 
 def Report_to_excel(dictionary_from_excel):
@@ -176,7 +183,7 @@ def Report_to_excel(dictionary_from_excel):
     for item in dictionary_from_excel:
 
         j = 1
-        for index in range(0, 2):
+        for index in [0, 1, 2, 3]:
             sheet.cell(row=i, column=j).value = item[index]
             j += 1
 
@@ -191,6 +198,17 @@ def Report_to_excel(dictionary_from_excel):
 
 
 excel_dict = make_dictionary_from_excel()
-csv_list = make_dictionary_from_CSV(csv_delimiter=";")
-a = Find_missing_items(excel_dict, csv_list)
-Report_to_excel(a)
+pprint.pprint(excel_dict)
+
+print("\n")
+
+csv_dict = make_dictionary_from_CSV(csv_delimiter=";")
+pprint.pprint(csv_dict)
+
+print("\n")
+
+compared_dict = Find_missing_items(excel_dict, csv_dict)
+pprint.pprint(compared_dict)
+
+
+Report_to_excel(compared_dict)
