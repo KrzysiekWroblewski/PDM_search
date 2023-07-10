@@ -14,8 +14,9 @@ class excel():
             list[str]: strings in list are encoded to bytes
         """
 
-        wrkbk = openpyxl.load_workbook(open_file)
-        sh = wrkbk.active
+        wrkbk = openpyxl.load_workbook(open_file, data_only=True)
+        sheet_index = 2
+        sh = wrkbk.worksheets[sheet_index - 1]
 
         list_of_records = []
 

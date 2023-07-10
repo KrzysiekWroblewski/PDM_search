@@ -11,8 +11,9 @@ def Report_missing_orders_to_excel(title_message="", file_name_without_extension
     # Create a new workbook
     workbook = Workbook()
 
-    # Get the active sheet
-    sheet = workbook.active
+    # Access a sheet by its index (1-based)
+    sheet_index = 1  # Change this to the desired sheet number
+    sheet = workbook.worksheets[sheet_index - 1]
 
     # Specify row and column indices
     row_index = 1
@@ -55,6 +56,6 @@ def Report_missing_orders_to_excel(title_message="", file_name_without_extension
 
     # Enable filtering starting from row 3, from column A to T?Xd
     sheet.auto_filter.ref = f'A3:T{sheet.max_row}'
+
     # Save the workbook
-    print("file dir: ", file_directory)
     workbook.save(str(file_directory + "_report.xlsx"))

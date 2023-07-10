@@ -61,14 +61,14 @@ def List_of_excel_files_from_txt(open_file) -> list[str]:
 
 def Merge_search_path(list, index1, index2=None):
 
-    search_Path_sld_prt = "".encode("utf-8")
-    search_Path_sld_prt_revision = "".encode("utf-8")
+    search_Path_sld_prt = ""
+    search_Path_sld_prt_revision = ""
 
     for row in list:
-        search_Path_sld_prt += row[index1] + " | ".encode('utf-8')
+        search_Path_sld_prt += row[index1] + " | "
         if index2 != None:
             search_Path_sld_prt_revision += row[index1] + \
-                "-".encode('utf-8') + row[index2] + " | "
+                "-" + row[index2] + " | "
 
     try:
         if search_Path_sld_prt[-3:] == " | ":
@@ -77,8 +77,6 @@ def Merge_search_path(list, index1, index2=None):
     except:
         pass
 
-    # search_Path_sld_prt = search_Path_sld_prt.encode('utf-8')
-    # search_Path_sld_prt_revision = search_Path_sld_prt_revision.encode('utf-8')
     return search_Path_sld_prt, search_Path_sld_prt_revision
 
 
@@ -110,7 +108,8 @@ def Write_excel_BOM_to_list(open_file: str, start_row: int) -> list[str]:
     """
 
     wrkbk = openpyxl.load_workbook(open_file)
-    sh = wrkbk.active
+    sheet_index = 2
+    sh = wrkbk.worksheets[sheet_index - 1]
 
     list_of_records = []
 
@@ -118,7 +117,7 @@ def Write_excel_BOM_to_list(open_file: str, start_row: int) -> list[str]:
         details_of_record = []
         for j in range(1, sh.max_column+1):
             details_of_record.append(
-                str(sh.cell(row=i, column=j).value).replace("\n", "").encode("utf-8"))
+                str(sh.cell(row=i, column=j).value).replace("\n", ""))
         list_of_records.append(details_of_record)
     # print('list_of_records: ', list_of_records)
 
@@ -129,7 +128,7 @@ def Find_items_without_value_in_cell(list_of_items: list[str], searched_column: 
     list_of_found_items = []
     for item in list_of_items:
 
-        if "none" in item[searched_column].decode("utf-8").lower():
+        if "none" in item[searched_column].lower():
             list_of_found_items.append(item)
             # print("i Found unordered item!")
             continue
@@ -140,7 +139,7 @@ def Find_items_without_value_in_cell(list_of_items: list[str], searched_column: 
 
 def Find_column_index_by_string(lista, szukany_element):
     for indeks, element in enumerate(lista[0]):
-        if element.decode("utf-8") in szukany_element:
+        if element in szukany_element:
             return indeks
     return -1  # zwracamy -1, jeśli element nie został znaleziony
 

@@ -32,7 +32,7 @@ class Report:
                 for row in list:
                     string = "{}. ".format(j+1)
                     for index in indexes_to_report:
-                        string += row[index].decode("utf-8") + "\t"
+                        string += row[index] + "\t"
 
                     f.write(string)
                     f.write("\n")
@@ -41,13 +41,13 @@ class Report:
                 f.write("\n")
                 f.write("Ścieżka wyszukiwania:")
                 f.write("\n")
-                f.write(list_search_Path_sld_prt[i].decode("utf-8"))
+                f.write(list_search_Path_sld_prt[i])
                 f.write("\n")
                 f.write("\n")
                 f.write("Ścieżka wyszukiwania z rewizją:")
                 f.write("\n")
                 f.write(
-                    list_search_Path_sld_prt_revision[i].decode("utf-8"))
+                    list_search_Path_sld_prt_revision[i])
                 f.write("\n")
                 f.write("\n")
                 f.write("\n")

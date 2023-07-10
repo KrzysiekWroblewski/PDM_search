@@ -1,0 +1,918 @@
+Projekt_numer;Projekt_zespół;ID. Części;Rewizja;Opis;Numer katalogowy;Materiał;Typ;Obróbka cieplna;Powłoka;Handlowe;Zużywające;Spawanie;Uwagi;Liczba odniesień
+;;3 842 517 058;A;Zaślepka 45x45L;3 842 517 058;REXROTH;H. Mech.;-;-;H;-;-;-;6
+1936;006;PRT-A0065423;A;Regał na kuwety;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+;;3 842 548 797;A;Zaślepka 45x45 z otworem;3 842 548 797;REXROTH;H. Mech.;-;ESD;H;-;-;Opakowanie 20 szt.;39
+1936;006;PRT-A0065424;A;Półka;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;6
+;;098DM12100M;C;Nóżka M12x100;098DM12100M;FATH;H. Mech.;-;-;H;-;-;-;36
+;;098D080KG;D;Stopka 80kg;098D080KG;FATH;H. Mech.;-;-;H;-;-;-;36
+;;093GV4590;A;Przegub 45x90;093GV4590;FATH;H. Mech.;-;-;H;-;-;-;1
+1936;001;PRT-A0065090;A;Usztywnienie;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;;091006;A;Zaślepka 45x90;091006;FATH;H. Mech.;-;-;H;-;-;-;9
+;;Profil 45x45 L=272;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+;;093GV4590;A;Przegub 45x90;093GV4590;FATH;H. Mech.;-;-;H;-;-;-;1
+;;AQGZ1_1_11a;C;Gniazdo hermetyczne;AQGZ1/11A;SIMON;H. Elek.;-;-;H;-;-;-;7
+1936;001;PRT-A0065087;0;Kątownik usztywnienia;-;PA6/3.1325;CNC;-;PIASKOWAĆ;-;-;-;-;1
+;-;VS60+;0;Dyspenser etykiet;VS60+;CAB;H. Elek.;-;-;H;-;-;VS60+;1
+1936;001;PRT-A0065089;0;Dystans;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;2
+;;091011;A;Zaślepka 45x45;091011;FATH;H. Mech.;-;-;H;-;-;-;76
+;;Profil 45x90 L=560;C;Profil 45x90L;3 842 992 432;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+;;Profil 45x45 L=130;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;001;PRT-A0065088;0;Blacha dyspensera etykiet;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;3 842 523 558;B;Kątownik 45-45;3 842 523 558;REXROTH;H. Mech.;-;-;H;-;-;-;8
+1936;001;PRT-A0065097;A;Mocowanie Monitora;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;3
+1936;001;PRT-A0065098;A;Mocowanie klawiatury;-;0H18N9/1.4301;-;-;-;-;-;-;-;3
+1936;005;PRT-A0065099;A;Mocowanie Monitora;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;3
+1936;001;PRT-A0065100;A;Adapter uchwytu NOVUS;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;3
+1936;001;ASM-A0009726;0;Uchwyt monitora;LiftTec   Arm I 7-15 kg;Novus;H. Mech.;-;-;H;-;-;-;3
+;;Profil 45x90 L=130;C;Profil 45x90L;3 842 992 432;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+-;-;GL 230 Inspire Komplett;0;Odciąg Lasera;GL 230;ACI;H. Elek.;-;-;H;-;-;-;1
+1936;010;PRT-A0065210;0;Rurka podpórcza spadni;-;S235JR/1.0037;-;-;-;-;-;-;-;4
+;;TS 2 - 98060015;A;Podkładka siodłowa;-;DECORTECH;H. Mech.;-;-;H;-;-;-;20
+1936;010;PRT-A0065213;0;-;-;S235JR/1.0037;-;-;-;-;-;-;-;2
+1936;001;PRT-A0065220;0;Pudełko 600x400x110;;Materiał <nieokreślony>;;;;-;-;-;;1
+1936;010;PRT-A0065249;0;Rurka 123,5;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+;;z łb. walc. gn. 6kąt. M3x12;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;4
+;;SR-750HA;D;Czytnik kodów 2D;SR-750HA;KEYENCE;H. Elek.;-;-;H;-;-;-;6
+1936;010;PRT-A0066450;A;Płyta pośrednia SR;-;PA13/3.3547;CNC;-;Anodować;-;-;-;-;1
+-;-;P32-M12;0;Stopka;P32-M12;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;4
+;;sześciokątna M4;E;Nakrętka zwykła;DIN 934;FABORY;H. Mech.;-;-;H;-;-;;2
+1936;010;PRT-A0065216;A;Oslona spadni wąska;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;2
+;;H-2B;B;Złącze 90° wewnętrzne;H-2B;FLEXLOGIC;H. Mech.;-;-;H;-;-;-;35
+;;H-3B;B;Złącze 90° zewnętrzne;H-3B;FLEXLOGIC;H. Mech.;-;-;H;-;-;-;23
+1936;010;R40-PIA dł=2360;0;Rolotok PWC-4050EF Długośc 2040;R40-PIA;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;2
+1936;010;PRT-A0065219;A;Podajnik pudełek;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;TAP-INT;B;Zaślepka;TAP-INT;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;12
+1936;010;PRT-A0065214;0;Rurka 480;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+1936;010;PRT-A0065217;0;-;-;S235JR/1.0037;-;-;-;-;-;-;-;6
+;;stożkowa 6-kąt M4x16;0;Śruba;DIN 7991;FABORY;H. Mech.;-;-;H;-;-;kl. 8.8;2
+1936;010;PRT-A0066456;A;Trzpień mocujący;-;PA6/3.1325;-;-;Anodować;-;-;-;-;1
+1936;010;PRT-A0066447;A;Mocowanie SR;-;PA13/3.3547;CNC;-;Anodować;-;-;-;-;1
+;;H-6B;B;Złącze męskie;H-6B;Flexlogik;H. Mech.;-;-;H;-;-;-;28
+1936;010;PRT-A0065218;A;Oslona spadni szeroka;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;2
+;;H-4B;B;Złącze 180°;H-4B;FLEXLOGIC;H. Mech.;-;-;H;-;-;-;6
+1936;010;R40-PIA dł=2360;0;Rolotok PWC-4050EF Długość 2290;R40-PIA;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;2
+;-;HT3C-4P-M8;0;Czujnik odbiciowy;HT3C/4P-M8;Leuze;H. Elek.;-;-;H;-;-;-;1
+;;R40-SUP;B;Uchwyt rolotoku;R40-SUP;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;10
+1936;010;PRT-A0065246;0;Rurka 395;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+1936;010;PRT-A0065248;0;Rama spadni obudów;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+;;z łb. walc. gn. 6kąt. M5x10;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;2
+-;-;SR-750_751_750HA_752_650_651_650HA_652+Bracket;0;Mocowanie Czytnika kodów;-;KEYENCE;H. Mech.;-;-;H;-;-;-;6
+1936;010;PRT-A0066453;A;Oslona SR750;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+;;zwykła - M5;A;Podkładka;DIN 125;FABORY;H. Mech.;-;-;H;-;-;;2
+1936;010;PRT-A0065212;A;Mocowanie czujnika;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;1
+;;H-5B;A;Przegub żeński II;H-5B;Flexlogik;H. Mech.;-;-;H;-;-;-;28
+1936;010;PRT-A0065233;A;Mocowanie;-;PA13/3.3547;CNC;-;Szkiełkować;-;-;-;-;21
+;;H-1B;C;Złącze standardowe;H-1B;FLEXLOGIC;H. Mech.;-;-;H;-;-;-;172
+1936;005;PRT-A0065111;A;Banda pudełek;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;2
+;;R40-PIA dł=735;G;Rolotok;R40-PIA;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;2
+1936;008;PRT-A0065106;A;Osłona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+1936;008;PRT-A0065109;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+;;0002_Spadnie_Tuleja kółkostopki;E;Tulejka kółkostopki;-;1.0503 (C45);Skrawanie;-;Czernić;-;-;-;-;10
+;;AC-300S;C;Koło ze stopką;AC-300S;CARRYMASTER;H. Mech.;-;-;H;-;-;-;10
+;;R40-PIA dł=1650;G;Rolotok;R40-PIA;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;2
+1936;008;PRT-A0065107;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+;;RTG-3 L=1545;A;Banda;-;Flexlogik;H. Mech.;-;-;H;-;-;-;2
+1936;008;PRT-A0065110;A;Spadnia kartony;-;1.0038 (St3S);H. Mech.;-;-;P;-;-;-;1
+;;R40-SDI;B;Uchwyt rolotoku;R40-SDI;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;6
+1936;008;PRT-A0065108;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+1936;007;PRT-A0065102;A;Mocowanie Spadni;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+;;RTG-3 L=1114;A;Banda;-;Flexlogik;H. Mech.;-;-;H;-;-;-;2
+;;R40-PIA dł=1100;G;Rolotok;R40-PIA;FLEXLOGIK;H. Mech.;-;-;H;-;-;-;2
+1936;007;PRT-A0065104;A;Rama spadni opróżniającej;;S235JR/1.0037;;;;P;-;-;;1
+1936;;0_72m_07_20_018_0___060_20_12PZ_A2-2;0;-;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;1
+1936;005;PRT-A0065127;A;Osłona;-;PCV Spienione;-;-;-;-;-;-;-;1
+1936;005;PRT-A0065198;A;Blacha Stołu;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;Profil 45x90 L=135;C;Profil 45x90L;3 842 992 432;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;005;PRT-A0065181;0;Rama stanowiska skręcania;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;005;PRT-A0065147;A;Kątownik górny szuflady;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065148;A;Kątownik dolny szuflady;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;;K1575.0550;E;Prowadnica teleskopowa;K1575.0550;KIPP;H. Mech.;-;-;H;-;-;Obciążenie < 40 kg;5
+1936;005;PRT-A0065146;0;Kątownik górny szuflady;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;;092001;B;Uchwyt;092001;FATH;H. Mech.;-;-;H;-;-;-;9
+1936;005;PRT-A0065145;A;Blacha Pudełka II;-;S235JR/1.0037;Laser;-;Malować RAL 3020 (czerwony);-;-;-;-;1
+1936;005;PRT-A0065149;A;Kątownik dolny szuflady;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065208;C;Mocowanie Supportu;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;4
+;;0000_Stanowiska_Płyta końcowa kółka;D;Płyta kółka;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+;;Profil 45x45 L=385;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;3
+1936;005;PRT-A0066027;A;Mocowanie gniazda;-;S235JR/1.0037;-;-;-;-;-;-;-;2
+1936;005;PRT-A0065188;A;Osłona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+1936;005;PRT-A0068995;A;Płyta kółka;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+-;-;124.00023;0;Pilot na kablu D / Pamięć;124.00023;ERGOSWISS;H. Elek.;-;-;H;-;-;-;2
+;-;LMBWLB92CLIP;0;Mocowanie lampy;93568;BANNER;H. Mech.;-;-;H;-;-;-;2
+;;093W421N10;D;Kątownik 45x45;093W421N10;FATH;H. Mech.;-;-;H;-;-;-;57
+;;Profil 45x45 L=41;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;3
+1936;005;PRT-A0066022;A;Mocowanie IGUS;-;S235JR/1.0037;-;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065182;A;Osłona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+;;z łb. walc. gn. 6kąt. M5x35;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;1
+;;AC-600S;A;Koło ze stopką;AC-600S;CARRYMASTER;H. Mech.;-;-;H;-;-;-;4
+1936;005;PRT-A0065116;A;Osłona;-;PCV Spienione;Laser;-;-;-;-;-;-;1
+1936;005;PRT-A0065190;0;Regulator Wentylatora;-;-;H. Elek.;-;-;H;-;-;-;1
+;;0,915m 118.080.063.0.1180.080.14PZB.A2;C;Prowadnik kablowy z mocowaniem;0,915m 118.080.063.0.1180.080.14PZB.A2;IGUS;H. Mech.;-;-;H;-;-;-;2
+1936;005;PRT-A0065121;A;Osłona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+1881;005;PRT-A0065196;A;Mocowanie prowadnika;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+;;Czujnik ruchu;O;Czujnik Ruchu;wg. schem. elekt.;wg. schem. elekt.;H. Mech.;-;-;H;-;-;-;1
+1936;005;PRT-A0065113;0;Profile drukarek;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;005;PRT-A0065193;A;Osłona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+1936;005;PRT-A0065202;A;Wzmocnienie trójkątne;-;PA6/3.1325;CNC;-;Nie Anodować;-;-;-;-;1
+1936;005;PRT-A0065201;A;Mocowanie;-;PA6/3.1325;CNC;-;Nie Anodować;-;-;-;-;2
+1936;001;PRT-A0065120;A;Mocowanie Ergoswiss AG;-;PA6/3.1325;CNC;-;Nie Anodować!!!;-;-;-;-;1
+;;Profil 45x90 L=90;C;Profil 45x90L;3 842 992 432;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+;;Stanowisko OP10;G;Czujnik wizyjny;wg schematu el.;KEYENCE;-;-;-;H;-;-;-;1
+1936;005;PRT-A0065129;0;;-;Profile BOSCH;-;-;-;P;-;-;-;1
+1936;005;PRT-A0065152;A;Mocowanie czujnika wizyjnego;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;1
+1936;005;PRT-A0065209;A;Kątownik;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;3
+;-;IUT-F190-B40-2V1D-FR1-01;0;Czytnik RFID;IUT-F190-B40-2V1D-FR1-01;PEPPERL-FUCHS;H. Elek.;-;-;H;-;-;-;1
+;;0000_Stanowiska_Wspornik I;D;Wspornik I;-;St3S/1.0038;Laser;-;wg wykazu;O;-;-;-;6
+;;Profil 45x45 L=358;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;2
+;;Decathlon-Koszyk-Bidonu;A;;;ALUSTAR;;-;-;H;-;-;;2
+;;Decathlon-Bidon;B;Bidon;-;Decathlon;H. Mech.;-;-;H;-;-;-;2
+1936;005;PRT-A0066025;A;Mocowanie prowadnika;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;005;PRT-A0065114;A;Blacha Drukarki III;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065155;A;Kątownik stalowy 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+1936;005;PRT-A0065161;A;Blokada trzpienia szuflady;-;C45/1.0503;CNC;-;Czernić;-;-;-;-;4
+1936;005;PRT-A0065166;0;Kątownik stalowy 2;-;S235JR/1.0037;Skrawanie;-;Czernić;-;-;-;-;1
+;-;GN 608.1-8-18;0;Trzepień ustalający;GN 608.1-8-18;ELESA+GANTER;-;-;-;H;-;-;GN 608.1-8-18;4
+1936;005;PRT-A0065169;0;Pudełko na etykiety;-;ABS;Druk 3D;-;-;-;-;-;-;1
+1881;;ZEBRA ZT411 RFID TAG PRINTER;0;Drukarka RFID;ZT411;ZEBRA;H. Elek.;-;-;H;-;-;-;1
+1936;005;PRT-A0065126;A;Blacha Drukarki II;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065156;A;Mocowanie Prowadnika Drukarki;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+1936;;0_72m_07_20_018_0___060_20_12PZ_A2;A;Prowadnik kablowy;-;IGUS;H. Mech.;-;-;M;-;-;-;4
+1936;005;PRT-A0065118;0;Kątownik stalowy 2;-;S235JR/1.0037;Skrawanie;-;Czernić;-;-;-;-;2
+1936;005;PRT-A0065159;A;Mocowanie gniazdka;-;PA6/3.1325;CNC;-;Anodować;-;-;-;-;1
+1936;005;PRT-A0065163;A;Pudełko na etykiety;-;ABS;Druk 3D;-;-;-;-;-;-;1
+1936;005;PRT-A0065167;A;Kątownik stalowy 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065170;0;Kątownik stalowy 2;-;S235JR/1.0037;Skrawanie;-;Czernić;-;-;-;-;1
+1881;-;ZEBRA SQUIX 2 300 + CUTTER CU;0;Drukarka - Squix 2;Squix 2;cab;H. Elek.;-;-;H;-;-;-;1
+1936;005;PRT-A0065154;A;Kątownik stalowy 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;005;PRT-A0065119;A;Kątownik stalowy 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+1936;005;PRT-A0065160;A;Mocowanie prowadnika;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+1936;005;PRT-A0065165;B;Blacha Drukarki IV;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;;ZT510;0;-;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;1
+;-;SQUIX 6-300;0;-;-;Materiał <nieokreślony>;-;-;-;H;-;-;-;1
+1936;005;PRT-A0065168;A;Kątownik stalowy 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065171;A;Blacha Drukarki I;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065122;C;Blacha Podłoga;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;-;126.00138;0;Mocowanie;126.00.138;ERGOSWISS;H. Mech.;-;-;H;-;-;-;4
+;-;119.00314;0;Kolumna;119.00314;ERGOSWISS;H. Elek.;-;-;H;-;-;-;4
+;-;124.00142;0;Kabel zasilający EU 3m;124.00142;ERGOSWISS;H. Elek.;-;-;H;-;-;-;4
+;-;119.00315;0;Kolumna;119.00315;ERGOSWISS;H. Mech.;-;-;H;-;-;-;4
+;-;WLB92ZC1100PBQMB;0;Lampa;WLB92ZC1100PBQMB;BANNER;H. Elek.;-;-;H;-;-;-;1
+;;093W404N10;E;Kątownik 40x40;093W404N10;FATH;H. Mech.;-;-;H;-;-;-;19
+;;Profil 40x40 L=150;K;Profil 40x40;3 842 993 120;Profile BOSCH;H. Mech.;-;-;H;-;-;-;1
+1936;005;PRT-A0065125;A;Mocowanie Rolki;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;2
+1936;005;PRT-A0065199;0;Etykieta No. 2;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;2
+1936;005;PRT-A0065115;A;Osłona Etykiet;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+1936;005;PRT-A0065183;A;Mocowanie;-;2H13/1.4021;Skrawanie;-;-;-;-;-;-;2
+;;z łbem kulistym M5x20;0;Śruba;ISO 7380;FABORY;H. Mech.;-;-;H;-;-;-;2
+;;093W451N10;C;Kątownik 45x90;093W451N10;FATH;H. Mech.;-;-;H;-;-;-;7
+1936;005;PRT-A0066016;A;Mocowanie osłony;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;K0140.08X16;B;Śruba radełkowa;K0140.08X16;KIPP;H. Mech.;-;-;H;-;-;-;2
+1936;005;PRT-A0065185;A;Wałeczek;-;PA6/3.1325;Skrawanie;-;Szkiełkować;-;-;-;-;2
+;;Profil 45x45 L=380;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+;;poszerzana - M5;0;Podkładka;DIN 9021;FABORY;H. Mech.;-;-;H;-;-;;2
+1936;005;PRT-A0065206;A;Mocowanie Pilota;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;2
+1936;005;PRT-A0065174;A;Mocowanie Prowadnika;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;005;PRT-A0065191;A;Wpustka czujnika;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+;;091046;B;Zaślepka 40x40;091046;FATH;H. Mech.;-;-;H;-;-;-;11
+;;3 842 532 205;A;Łącznik profilu 40 - 45st.;3 842 532 205;REXROTH;H. Mech.;-;-;H;-;-;-;2
+1936;005;PRT-A0065192;A;Mocowanie prowadnika;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065197;A;Osłona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+;;3 842 515 547;A;Kątownik R28x38;3 842 515 547;REXROTH;H. Mech.;-;-;H;-;-;-;10
+1936;005;PRT-A0065153;0;Profile blatu stanowiska skręcania;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;005;PRT-A0065132;A;Prowadzenie Pudełek 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;-;BAM00A2;0;Uchwyt uniwersalny;BAM00A2;BALLUFF;H. Mech.;-;-;H;-;-;-;4
+1936;005;PRT-A0065136;B;Mocowanie Pick2Light;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;5
+;;LH1D-H2HQ4C30RG;B;Lampka LED RG;LH1D-H2HQ4C30RG;IDEC;H. Elek.;-;-;H;-;-;-;6
+;;z łb. walc. gn. 6kąt. M5x12;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;3
+;;L=129;0;Korytko kabl. 30x40;Magazyn;Magazyn;H. Mech.;-;-;H;-;-;;1
+;;Profil 40x40 L=236;K;Profil 40x40;3 842 993 120;Profile BOSCH;H. Mech.;-;-;H;-;-;-;2
+1936;005;PRT-A0065131;A;Ramka pudełek pick2light;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+;;Profil 40x40 L=120;K;Profil 40x40;3 842 993 120;Profile BOSCH;H. Mech.;-;-;H;-;-;-;5
+1936;005;PRT-A0066511;A;Płytka Pick2Light;-;DC01/1.0330;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+;;walcowa 6-kąt niska M4x6;0;Śruba;DIN 7984;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;1
+1936;005;PRT-A0065140;A;Blacha;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065144;A;Prowadzenie Pudełek;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;3
+;-;BOS01NN;0;Czujnik odbiciowy;BOS 08E-PS-KD20-S49;BALLUFF;H. Elek.;-;-;H;-;-;-;4
+1936;005;PRT-A0065138;A;Mocowanie SR-750;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;4
+1936;;Tabliczka 37x74;0;-;-;PC /poliweglan;-;-;-;-;-;-;-;4
+;;Profil 40x40 L=200;K;Profil 40x40;3 842 993 120;Profile BOSCH;H. Mech.;-;-;H;-;-;-;1
+1936;005;PRT-A0070044;A;Mocowanie Lampki;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+;;Przegub 40x40 elast.;C;Przegub 40x40;3 842 532 235;Bosch Rexroth;H. Mech.;-;-;H;-;-;-;10
+1936;005;PRT-A0065142;A;Prowadzenie Pudełek 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;-;BEF-NUT-SLG2;0;Mocowanie kurtyny;2111624;SICK;H. Mech.;-;-;H;-;-;-;8
+;-;SLG25S-020FER21A00 - P;0;Kurtyna świetlna;1120083;Materiał <nieokreślony>;H. Elek.;-;-;H;-;-;-;4
+0;-;SLG25S-020FER21A00 - L;0;Kurtyna świetlna;1120083;Materiał <nieokreślony>;H. Elek.;-;-;H;-;-;-;4
+1936;005;PRT-A0065134;B;Mocowanie czujnika;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;4
+1936;005;PRT-A0065143;B;Odbłyśnik Pick2Light;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;;L=213;0;Korytko kabl. 30x40;Magazyn;Magazyn;H. Mech.;-;-;H;-;-;;3
+1936;005;Profil 40x40 L=1026;0;Profil 40x40;3 842 993 120;Profile BOSCH;H. Mech.;-;-;P;-;-;--;1
+;;Profil 40x40 L=135;K;Profil 40x40;3 842 993 120;Profile BOSCH;H. Mech.;-;-;H;-;-;-;5
+1936;005;PRT-A0065143-Lustro;0;-;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+1936;005;PRT-A0065137;B;Osłona Pick2Light;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;3
+1936;005;PRT-A0065203;A;Osłona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+;;0000_Stanowiska_Blaszka czujnika ruchu;C;Blaszka czujnika ruchu;-;S235JR/1.0037;Laser;-;wg wykazu;O;-;-;-;1
+;;Profil 45x45 L=1000;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;005;PRT-A0066029;A;Kątownik;-;S235JR/1.0037;-;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065175;A;Gniazdo Obudowy Górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;Z;-;-;1
+1936;005;PRT-A0072050-Lustro;0;-;-;PA13/3.3547;-;-;-;-;-;-;-;1
+1936;005;PRT-A0065178;A;Osłona;-;PE 500;Skrawanie;-;Kolor: Biały;-;-;-;-;1
+0;-;BOS 5K-PS-IX10-S75;0;Bariera optoelektroniczna jednokierunkowa;BOS0126;BALLUFF;-;-;-;H;-;-;-;2
+;;Wtyczka M8x1 prosta;A;Wtyczka;wg. schematu;BALLUFF;H. Mech.;-;-;H;-;-;-;2
+1936;005;PRT-A0072050;A;Mocowanie BOS-a;-;PA13/3.3547;CNC;-;Anodować;-;-;-;-;1
+1936;005;PRT-A0065179;A;Mocowanie gniazda;-;PA6/3.1325;Skrawanie;-;Szkiełkować;-;-;-;-;1
+1936;005;PRT-A0068995-Lustro;0;-;-;PA6/3.1325;-;-;-;-;-;-;-;1
+;;Profil 45x45 L=219;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;005;PRT-A0066023;A;Mocowanie IGUS 2;-;S235JR/1.0037;-;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065205;A;Mocowanie Przycisku;-;PA6/3.1325;Skrawanie;-;Szkiełkować;-;-;-;-;1
+1936;005;PRT-A0065123;A;Blacha Stanowisko Skręcania;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;;Profil 40x40 L=101;K;Profil 40x40;3 842 993 120;Profile BOSCH;H. Mech.;-;-;H;-;-;-;1
+1936;005;PRT-A0065112;A;Mocowanie;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;1
+1936;005;PRT-A0065184;A;Korpus skanera;-;PA13/3.3547;CNC;;Anodować;-;-;-;;1
+;;AQGZ1-2_11a;B;Hermetyczne gniazdko podwójne;AQGZ1-2_11a;SIMON;H. Elek.;-;-;H;-;-;;2
+1936;005;PRT-A0065194;C;Mocowanie Podnośnika;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065195;C;Mocowanie Podnośnika;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1881;;0_699m_1400_080_035_0___14080_34PZ_A1_1;0;-;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;1
+;;Wyłącznik światła;L;Wyłącznik światła;wg. schem. elekt.;wg. schem. elekt.;H. Elek.;-;-;H;-;-;-;1
+-;-;091030;0;Zaślepka 90x90;091030;FATH;H. Mech.;-;-;H;-;-;-;4
+;;3 842 513 517;C;Ślizg;3 842 513 517;REXROTH;H. Mech.;-;-;H;Z;-;-;10
+;-;NSYCRN44200P;0;Obudowa sterownicza 400x200x400;NSYCRN44200P;SCHNEIDER;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0066067;0;Płyta złączy;-;PA13/3.3547;CNC;-;Anodować;-;-;-;-;1
+1936;001;PRT-A0072057;A;Mocowanie BOS-a;-;PA13/3.3547;CNC;-;Anodować;-;-;-;-;1
+1936;001;PRT-A0065361;A;Mocownaie korytka;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;24
+;-;KL-TCG-1;0;Kontroler wkrętarki;;Materiał <nieokreślony>;H. Elek.;-;-;H;-;-;;4
+-;-;CJ20015-1;0;Blacha sterownika wkrętarki;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;4
+1936;001;PRT-A0065395;A;Osłona;-;PCV Spienione;Osłona;-;-;-;-;-;-;1
+;;L=321;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;3
+;;Profil 45x45 L=369;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;2
+1936;001;PRT-A0068568;A;Mocowanie pudełka 4;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;;PRT-A0068626;0;-;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;1
+1936;001;PRT-A0065354;A;Blokada Stopera;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;10
+1936;001;PRT-A0065399;A;Mocowanie;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;8
+-;-;GB-1710, ESD;0;Kuwetka 173x245x100;3 842 346 283;REXROTH;H. Mech.;-;ESD;H;-;-;-;1
+;;0000_Stanowiska_Wspornik III;G;Wspornik III;-;S235JR/1.0037;Laser;-;wg wykazu;O;-;-;-;6
+;;L=105;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;1
+;-;3 842 548 783;0;Zaślepka 40x40 z otworem;3 842 548 783;REXROTH;H. Mech.;-;-;H;-;-;-;4
+1936;001;PRT-A0068561;A;Mocowanie pudełka;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065293;A;Blokada Stopera kolizyjnego;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;2
+1936;001;PRT-A0065362;A;Blacha Pojemnika;-;S235JR/1.0037;Skrawanie;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065407;A;Osłona czujnika;-;ABS;Druk 3D;-;Wg. Rys.;-;-;-;-;1
+1936;005;PRT-A0065253;A;Kątownik dolny szuflady;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065256;A;Kątownik górny szuflady;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+0;;K1575.04001000;B;Prowadnica teleskopowa;K1575.04001000;KIPP;H. Mech.;-;-;H;-;-;-;1
+1881;005;PRT-A0065254;A;Kątownik dolny szuflady;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;005;PRT-A0065258;A;Blacha Pudełka;-;S235JR/1.0037;Laser;-;Malować RAL 3020 (czerwony);-;-;-;-;1
+1936;005;PRT-A0065257;A;Kątownik górny szuflady;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065353;A;Wspornik III;-;S235JR/1.0037;Laser;-;Malować RAL 9002 (jasny szary);-;-;-;-;1
+;-;ESK-1_2-1_2;0;Złącze podwójne, Nypel;151523;FESTO;H. Mech.;-;-;H;-;-;Gwint zew 1/2'' x Gwint zew. 1/2'';1
+;-;QS-G1_2-12;0;Złącze wtykowe;-;FESTO;H. Mech.;-;-;H;-;-;-;2
+;;QSL-1_2-10-190661;B;Złączka kątowa;-;FESTO;H. Mech.;-;-;H;-;-;-;8
+;-;6704_FR-4-1_2-B;0;Blok rozgałęziający;-;FESTO;H. Mech.;-;-;H;-;-;-;3
+1936;001;PRT-A0065320;A;Mocowanie tablicy warsztatowej;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+;;SKD-10X12-M5;0;Wkrętka;03762512;WURTH;H. Mech.;-;-;H;-;-;-;2
+1936;001;PRT-A0065373;A;Mocowanie Łożyska;-;PA6/3.1325;Skrawanie;-;Szkiełkować;-;-;-;-;1
+;;kulkowe 6200-2Z;A;Łożysko toczne;PN-85M-86100;SKF;H. Mech.;-;-;H;-;-;-;1
+;;zwykła - M10;A;Podkładka;DIN 125;FABORY;H. Mech.;-;-;H;-;-;;1
+;;Φ10x16;I;Śruba pasowana;Φ10-M8-16;KIPP;H. Mech.;-;-;H;-;-;-;1
+1936;001;PRT-A0065420;A;Blacha;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;;Dławik do przewodów M12x1,5;B;Dławik M12x1,5;-;-;H. Mech.;-;-;H;-;-;-;1
+1936;012;PRT-A0065289;A;Gniazdo Narzędzia Naprawczego;-;PE 500;Skrawanie;-;-;-;-;-;-;1
+1936;012;PRT-A0065290;A;Mocowanie OPTO;-;PA6/3.1325;Skrawanie;-;Szkiełkować;-;-;-;-;1
+;;Głowica OPTO;A;Głowica OPTO;-;-;H. Mech.;-;-;H;-;-;-;8
+1936;004;PRT-A0065365;0;-;-;PC /poliweglan;-;-;-;-;-;-;-;1
+1936;001;PRT-A0065355;A;Rama Transportera;-;Profile BOSCH;-;-;-;P;-;-;-;1
+1936;001;PRT-A0065323;A;Pojemnik;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;2
+1936;001;PRT-A0065389;A;Mocowanie odbojnika;-;PA6/3.1325;CNC;-;Piaskować;-;-;-;-;1
+;;L=747;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;1
+;;Profil 45x45 L=557;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;2
+1936;004;PRT-A0065402;0;Oslona UPS;-;S235JR/1.0037;Osłona;-;RAL 7035;-;-;-;-;3
+;-;ECO 190x80LCD;0;UPS;-;EVER;H. Elek.;-;-;H;-;-;-;3
+1936;004;PRT-A0065406;0;Osłona;-;S235JR/1.0037;Osłona;-;RAL 7035;-;-;-;-;1
+1936;001;PRT-A0065404;A;Rama osłony Transporterów;-;Profile BOSCH;-;-;-;P;-;-;-;1
+1936;001;PRT-A0065262;A;Mocowanie Szafy;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+1936;001;PRT-A0065327;0;-;-;Profile BOSCH;-;-;-;-;-;-;-;2
+;;IOLG2PN-03208R01;A;IO-Link Master;6053253;SICK;H. Elek.;-;-;H;-;-;-;4
+;;3 842 502 684;A;45x45 multi-angle connector;3 842 502 684;REXROTH;H. Mech.;-;-;H;-;-;-;4
+1936;001;PRT-A0065328;0;-;-;Profile BOSCH;-;-;-;-;-;-;-;1
+;;L=585;0;Korytko kabl. 30x40;Magazyn;Magazyn;H. Mech.;-;-;H;-;-;;1
+1936;001;PRT-A0065329;A;Płyta SICK;-;PA6/3.1325;CNC;-;Szkiełkować;-;-;-;-;1
+1936;001;PRT-A0065393;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+;-;BOS0214;0;Bariera optoelektroniczna jednokierunkowa;BOS0214;Balluff;H. Elek.;-;-;H;-;-;-;1
+;;L=363;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;1
+;;Domyślna;C;Czujnik indukcyjny M12;BES0068;BALLUFF;H. Elek.;-;-;H;-;-;-;10
+;;Profil 45x45 L=505;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;2
+1936;003;PRT-A0066057;A;Uchwyt kontrolera lasera;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0066056;0;Profil 325;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;2
+1936;003;PRT-A0066055;A;Uchwyt kontrolera lasera;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0066059;A;Osłona boczna;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;003;PRT-A0066066;A;Podstawa lasera;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0066058;A;Osłona boczna;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;003;PRT-A0066052;0;Supply Unit - Industrial Design;-;;H. Mech.;-;-;H;-;-;-;1
+1936;001;PRT-A0069199;A;Mocowanie przycisku startu;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;-;NPFC-DS-G12-G12-M;0;Nypel podwójny;8142590;FESTO;H. Mech.;-;-;H;-;-;-;1
+;;09304702;D;Zatrzask Drzwi;09304702;FATH;H. Mech.;-;-;H;-;-;Detal przeniesiony do archiwum, błąd w nazwie. Prawidłowy komponent w bibliotece: 09304702;1
+;;MSB6-1_2_C4_J5_F1-WP;A;Zespół przygotowania powietrza;531030;Złożenie;H. Mech.;-;-;H;-;-;-;1
+1936;001;PRT-A0068868;A;Kątownik przepływomierza;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;-;SPAN-P10R-G18M-PN-PN-L1+5S;0;Czujnik ciśnienia SPAN;8003300;FESTO;H. Elek.;-;-;H;-;-;-;1
+;-;NPFC-L-R18-G18-MF;0;Złącze-L;8030216;FESTO;H. Mech.;-;-;H;-;-;-;1
+;-;SFAB-200U-HQ8-2SA-M12;0;Czujnik przepływu;565393;FESTO;H. Mech.;-;-;H;-;-;-;1
+1936;001;PRT-A0065268;A;Szafa Pneumatyki;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;;HSB-D-MIDI;D;Trzpień gwintowany;531058;FESTO;H. Mech.;-;-;H;-;-;-;1
+;;BMF0078;B;Czujnik Typ. T;BMF0078;BALLUFF;H. Elek.;-; -;H;-;-;-;2
+;;PBL-3_8-D-MIDI-R;D;Zestaw połączeniowy;546502;FESTO;H. Mech.;-;-;H;-;-;-;1
+;;HFOE_D_MIDI_MAXI;D;Kątownik mocujący;159593;FESTO;H. Mech.;-;-;H;-;-;-;1
+;;KMC-1-24DC-25-LED;D;Kabel łączący;30931;FESTO;H. Elek.;-;-;H;-;-;-;2
+;;U-1_4;E;Tłumik hałasu G1/4;2316;FESTO;H. Mech.;-;-;H;-;-;-;2
+;;FRB-D-MIDI;D;Trzpień gwintowany;159595;FESTO;H. Mech.;-;-;H;-;-;-;1
+;;HEE_3_8_D_MIDI_24_SA;D;Zawór załączający, elektryczny HEE;533537;FESTO;H. Mech.;-;-;H;-;-;-;2
+;;PBL-3_8-D-MIDI-L;E;Zestaw połączeniowy;546501;FESTO;H. Mech.;-;-;H;-;-;-;1
+;;QSL_3_8_10;D;Złącze wtykowe-L;153052;FESTO;H. Mech.;-;-;H;-;-;-;2
+0;;095k4545f10;C;Zawias 45x45;095k4545f10;FATH;H. Mech.;-;-;H;-;-;-;6
+;-;NPFC-R-G12-G18-F;0;Mufa redukcyjna;8069222;FESTO;H. Mech.;-;-;H;-;-;-;1
+1936;001;PRT-A0065269;A;Rama drzwi pneumatyki;-;Profile BOSCH;-;-;-;P;-;-;-;1
+;-;QSL-G1_2-12;0;Przyłącze kątowe;186125;FESTO;H. Mech.;-;-;H;-;-;-;2
+1936;001;PRT-A0065266;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+1936;001;PRT-A0065332;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065336;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065347;0;Płytka uziemienia;-;PA6/3.1325;CNC;-;Nie Anodować!!!;-;-;-;-;5
+0;-;5015081;0;Szyna ekwipotencjalna;5015081;Materiał <nieokreślony>;-;-;-;H;-;-;5015081;5
+1936;001;PRT-A0065343;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;-;Spectra PowerBox 31A0 - 151061;0;Komputer;-;Spectra;-;-;-;H;-;-;-;2
+1936;001;PRT-A0065346;A;Mocowanie na zewnątrz;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+;;093W403N10;C;Kątownik 40x80;093W403N10;FATH;H. Mech.;-;-;H;-;-;-;17
+;;Profil 45x45 L=207;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;001;PRT-A0065335;0;Rama szafy;-;Profile BOSCH;-;-;-;P;-;-;-;1
+2020;000;PRT-A0068985;A;Osłona Transformatora;-;PC /poliweglan;Osłona;-;-;-;-;-;-;1
+1936;001;PRT-A0065339;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+;-;SK 3361.510;0;Klimatyzator;SK 3361.510;RITTAL;H. Elek.;-;-;H;-;-;-;1
+1936;001;PRT-A0065333;A;Dystans szafa-ramka;-;PA6/3.1325;CNC;-;Szkiełkować;-;-;-;-;4
+1936;001;PRT-A0065338;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+-;-;8184.245;0;Ściana boczna do VX;8184.245;RITTAL;H. Elek.;-;-;H;-;-;-;2
+1936;001;PRT-A0065344;A;Mocowanie szafy;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065349;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0068987;A;Podstawa transformatora;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;001;PRT-A0065331;A;Mocowanie;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+;-;VX 8080.000;0;Szafa elektryczna;VX 8080.000;RITTAL;H. Elek.;-;-;H;-;-;-;1
+1936;001;PRT-A0065334;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065342;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065345;A;Mocowanie do wewnątrz;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;2
+;;CWC 40H40_2 2mm L=1670;B;Ceownik wzmocniony 40x40;611220;BAKS;H. Mech.;-;-;H;-;-;-;1
+1936;001;PRT-A0065350;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;;USA Transformator UL;0;-;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;1
+1936;001;PRT-A0068980;A;Mocowanie Spectra;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;001;PRT-A0065396;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+;;L=279;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;2
+1936;001;PRT-A0068567;A;Mocowanie pudełka 3;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065292;A;Osłona;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+1936;001;PRT-A0065356;A;Mocowanie Kontrolera;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+1936;001;PRT-A0065400;A;Pole odkładcze;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+;;Domyślna;E;Bramka;-;OMRON;H. Elek.;-;-;H;-;-;-;2
+;-;AX 1338.000;0;Szafka elektryczna 380x600x350;AX 1338.000;RITTAL;H. Elek.;-;-;H;-;-;-;1
+1936;005;PRT-A0066035;A;Mocowanie gniazd;-;S235JR/1.0037;-;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0066499;A;Kątownik półki;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;1
+1936;001;PRT-A0065383;A;Osłona;-;PC /poliweglan;Laser;-;-;-;-;-;-;3
+1936;001;PRT-A0065363;A;Mocowanie Transportera;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;2
+1936;001;PRT-A0065418;A;Mocowanie tablicy warsztatowej;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;2
+;;MGN15CZ0HM;B;Wózek;MGN15CZ0HM;HIWIN;H. Mech.;-;-;H;-;-;-;3
+;;bez łba, koniec płaski M5x20;D;Śruba;DIN 913;FABORY;H. Mech.;-;-;H;-;-;kl. 8.8;6
+;;sześciokątna M5;E;Nakrętka zwykła;DIN 934;FABORY;H. Mech.;-;-;H;-;-;;21
+1936;004;PRT-A0065300;A;Kostka wózka;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;3
+1936;004;PRT-A0065308;B;Kostka rozdzielajaca wejściowa;-;40HM/1.7225;Skrawanie;52 HRC±2HRC;Czernić;-;-;-;-;1
+;;FK-M6;G;Sprzęgło elastyczne M6;2061;FESTO;H. Mech.;-;-;H;-;-;-;3
+1804;;MGNR15R80HM;A;-;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;3
+;;RJ0604;B;Amortyzator;RJ0604;SMC;H. Mech.;-;-;H;Z;-;Skok 4mm;6
+1936;004;PRT-A0065304;A;Kostka siłownika;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;3
+;;z łb. walc. gn. 6kąt. M6x22;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;3
+;;walcowy 3x8;H;Kołek;DIN 6325;FABORY;H. Mech.;-;-;H;-;-;;2
+;-;536247_ADN_20_30_I_P_A____asm_0__3;0;;;;;-;-;H;-;-;;3
+;-;536247_ADN_20_30_I_P_A____asm_0__5;0;;;;;-;-;H;-;-;;3
+;;GRLA-M5-QS-4-RS-D-197577;C;Zawór dławiąco-zwrotny;197577;FESTO;H. Mech.;-;-;H;-;-;;6
+;;bez łba, koniec stożk. M5x12;B;Śruba;DIN 914;FABORY;H. Mech.;-;-;H;-;-;kl. 8.8;3
+1936;004;PRT-A0065842;A;Tulejka dystansująca;-;4H13/1.4034;CNC;32 HRC±2HRC;-;-;-;-;-;3
+1936;004;PRT-A0065307;A;Kostka przewodów wejściowa;-;NC10/1.2201;Skrawanie;58 HRC±2HRC;Czernić;-;-;-;-;1
+;;bez łba, koniec stożk. M5x10;B;Śruba;DIN 914;FABORY;H. Mech.;-;-;H;-;-;kl. 8.8;12
+1936;004;PRT-A0065306;A;Osłona elektryki;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+1936;004;PRT-A0065315;A;Płyta Pudełka;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;1
+;;PILZ.514120;A;Magnes;PILZ.514120;PILZ;H. Elek.;-;-;H;-;-;-;5
+;-;U-1_8;0;Tłumik hałasu G1/8;2307;FESTO;H. Mech.;-;-;H;-;-;;6
+1936;004;PRT-A0065309;B;Ustnik;-;50HS/1.5026;Skrawanie;52 HRC±2HRC;-;-;-;-;-;1
+;;VABM-L1-10S-G18-4;A;Listwa przyłączeniowa;566560;FESTO;H. Mech.;-;-;H;-;-;-;2
+1936;004;PRT-A0065317;A;Mocowanie rozdzielacza;-;PA6/3.1325;Skrawanie;-;Szkiełkować;-;-;-;-;1
+;-;VUVG-S10-B52-S-M5-1H3L-C2;0;Elektrozawór 5/2 bistabilny;564212;FESTO;H. Mech.;-;-;H;-;-;-;3
+1936;004;PRT-A0065314;A;Dystans magnesu;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;1
+;;Uni-1/T 43.11;B;Obudowa z tworzywa;Uni-1/T 43.11 IP65;ELEKTRO-PLAST;H. Mech.;-;-;H;-;-;-;1
+1936;004;PRT-A0065316;A;Mocowanie rozdzielacza;-;PA6/3.1325;Skrawanie;-;Szkiełkować;-;-;-;-;1
+;;z łb. walc. gn. 6kąt. M4x14;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;8
+;-;MS2-G18S;0;Śruba zaślepka G1/8;8095766;FESTO;H. Mech.;-;-;H;-;-;-;6
+1936;004;PRT-A0065311;A;Kołnierz Przewodu rozdzielacza;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;;VABB-L1-10-S;A;Płyta zaślepka;566462;Złożenie;H. Mech.;-;-;H;-;-;-;1
+1936;004;PRT-A0065298;A;Trzpień zaślepczy;-;4H13/1.4034;Skrawanie;-;-;-;-;-;-;2
+1936;004;PRT-A0065299;B;Kostka rozdzielajaca;-;40HM/1.7225;Skrawanie;52 HRC±2HRC;Czernić;-;-;-;-;2
+1936;004;PRT-A0065296;B;Kostka przewodów;-;NC10/1.2201;Skrawanie;58 HRC±2HRC;Czernić;-;-;-;-;2
+1936;004;PRT-A0065313;B;Kołnierz Przewodu rozdzielacza;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;;_153315 QSM-M5-4-I;A;Złącze wtykowe;153315;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;;6
+1936;004;PRT-A0065318;0;Dystans;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+;;PILZ.524120;A;Wyłącznik bezpieczeństwa;PILZ.524120;PILZ;H. Elek.;-;-;H;-;-;-;5
+;;Φ5x10;I;Śruba pasowana;Φ5-M4-10;KIPP;H. Mech.;-;-;H;-;-;-;4
+;;QS-G1_8-6-I;A;Złącze wtykowe;186107;FESTO;H. Mech.;-;-;H;-;-;-;3
+1936;004;PRT-A0068073;A;Dystans;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+1936;001;Profil 45x45 L=1300;0;Profil 45x45L;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;001;PRT-A0065364;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+1936;001;PRT-A0065321;A;Kostka mocowanie blokady;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;2
+1936;001;PRT-A0065384;A;Osłona;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+;;L=2367;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;1
+1936;012;PRT-A0065288;A;Gniazdo na narzędzie naprawcze;-;ABS;DRUK 3D!;-;-;-;-;-;-;1
+1936;004;PRT-A0065366;A;Osłona bramki;-;POM;Osłona;-;ESD;-;-;-;-;1
+1936;001;PRT-A0065360;A;Rama Transporterów;-;Profile BOSCH;-;-;-;P;-;-;-;1
+;;VUVG-S10-M52-MS-M5-1H3L-C2;A;Zawór rozdzielający 5/2 monostabilny;564212;FESTO;H. Mech.;-;-;H;-;-;-;18
+;;QSM-M5-6-I;A;Złącze wtykowe;153317;FESTO;H. Mech.;-;-;H;-;-;-;38
+;-;UC-M5;0;Tłumik hałasu;165003;FESTO;H. Mech.;-;-;H;-;-;-;20
+1936;001;PRT-A0065295;A;Mocowanie zaworu;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;10
+1936;001;PRT-A0065421;A;Mocowanie Transportera;-;C45/1.0503;Laser;-;Oxidate;-;-;-;-;16
+1936;001;PRT-A0065391;A;Mocowanie Tarifolda;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;1
+1936;;3 842 515 547 BOSCH;0;Kątownik R28x38;3 842 515 547;REXROTH;H. Mech.;-;-;H;-;-;-;4
+;;L=627;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;1
+;;Profil 45x45 L=512;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;2
+1936;001;PRT-A0072057-Lustro;0;-;-;PA13/3.3547;-;-;-;-;-;-;-;1
+1936;001;PRT-A0065294;0;Kątownik hartinga;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;1
+1936;001;PRT-A0065330;A;Osłona;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+1936;001;PRT-A0065394;A;Osłona;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+;;L=327;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;1
+;;3 842 528 746;B;Łącznik profilu 180, N10;3 842 528 746;REXROTH;H. Mech.;-;-;H;-;-;-;4
+;;Profil 45x45 L=469;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;002;PRT-A0065280;A;Trzpień Bazujący;-;4H13/1.4057;Skrawanie;32 HRC±2HRC;-;-;Z;-;-;40
+;;walcowy 6x20;H;Kołek;DIN 6325;FABORY;H. Mech.;-;-;H;-;-;;40
+;;z łb. walc. gn. 6kąt. M5x60;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;60
+1936;002;PRT-A0065279;A;Gniazdo Obudowy Górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;Z;-;-;10
+1936;002;PRT-A0065281;A;Mocowanie Gniazda;-;2H13/1.4021;Skrawanie;-;-;-;-;-;-;20
+;;SKD-8X10-M4;0;Wkrętka;03762410;WURTH;H. Mech.;-; -;H;-;-;-;40
+;;z łb. walc. gn. 6kąt. M4x16;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;40
+1936;002;PRT-A0065278;0;Gniazdo Obudowy Górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;Z;-;-;10
+;;walcowy 3x10;H;Kołek;DIN 6325;FABORY;H. Mech.;-;-;H;-;-;;40
+;;z łb. walc. gn. 6kąt. M3x14;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;44
+1936;002;PRT-A0065283;A;Płyta paletki;-;PA6/3.1325;Skrawanie;-;Nie anodować!;-;-;-;-;10
+1936;002;PRT-A0065282;A;Mocowanie Przewodu;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;10
+1936;002;PRT-A0065285;A;Ociekacz;-;0H18N9/1.4301;Laser;-;-;-;-;S;-;10
+-;-;10000057762_SWA_000;0;DN50;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;10
+;;3 842 174 304;B;Corner Module;3 842 174 304;REXROTH;H. Mech.;-;-;H;-;-;-;40
+;;3 842 524 614;A;Positioning busching;3 842 524 614;REXROTH;H. Mech.;-;-;H;-;-;;40
+1936;002;PRT-A0065274;A;Pojemnik na przewód;-;ABS;Druk 3D;-;Kolor: Czarny;-;-;-;-;10
+1936;002;PRT-A0065284;A;Osłona RFID;-;PA 6 /Poliamid;Skrawanie;-;Kolor: Czarny;-;-;-;-;10
+-;-;BIS00Y9;0;Pamięć RFID;BIS00Y9;BALLUFF;H. Elek.;-;-;H;-;-;-;10
+1936;001;PRT-A0068569;A;Mocowanie pudełka 2;-;S235JR/1.0037;-;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065405;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+1936;001;PRT-A0065351;A;Osłona;-;PCV Spienione;-;-;-;-;-;-;-;1
+1936;001;PRT-A0065397;A;Mocowanie Transportera;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;22
+;;CHT3-4;A;Przycisk START;CHT3-4;CAPTRON;Odlew;-;-;H;-;-;-;1
+;;Tarifold I;I;Tarifold;Tarifold;PROMATIK;H. Mech.;-;-;H;-;-;-;1
+;;0000_Stanowiska_Uchwyt tariforld;B;;;;;;;;;;;1
+;;L=1569;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;2
+1936;001;PRT-A0068566;A;Mocowanie pudełka 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065398;A;Blacha;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065414;A;Ślizg;-;PE 500;Skrawanie;-;Kolor: Biały;-;-;-;-;2
+1936;001;PRT-A0065416;A;Ślizg;-;PE 500;Skrawanie;-;Kolor: Biały;-;-;-;-;1
+1936;004;PRT-A0065417;A;Pole odkładcze;-;PE 500;Skrawanie;-;Kolor: Biały;-;Z;-;-;1
+1936;001;PRT-A0065415;0;Profile pola odkładczego;-;Profile BOSCH;-;-;-;P;-;-;-;1
+1936;001;PRT-A0065412;0;Mocownanie Slizgu;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;1
+1936;001;PRT-A0065413;A;Mocownanie Slizgu;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065403;A;Osłona;-;PC /poliweglan;Laser;-;-;-;-;-;-;1
+-;-;BIS015R;0;Głowica RFID;BIS015R;BALLUFF;H. Elek.;-;-;H;-;-;-;6
+;;0000_Mocowanie_RFID_Kątownik;B;Mocowanie;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;6
+;;0000_Mocowanie_RFID_Osłona I;B;Osłona RFID;-;ABS;Druk 3D;-;Kolor: Czarny;-;-;-;-;6
+;;Wtyczka M12x1  prosta;C;Wtyczka M12;-;-;H. Elek.;-;-;H;-;-;-;16
+1936;001;PRT-A0066494;0;Osłona ostrzegawcza;-;Materiał <nieokreślony>;Promatik;-;-;-;-;-;-;2
+1936;001;PRT-A0065319;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+;;sześciokątna M3;E;Nakrętka zwykła;DIN 934;FABORY;H. Mech.;-;-;H;-;-;;24
+1936;001;PRT-A0065370;A;Mocowanie OPTO;-;ABS;Druk 3D;-;Kolor: Czarny;-;-;-;-;6
+1936;001;PRT-A0065369;0;Profil 45x45;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;6
+1936;001;PRT-A0065371;A;Mocowanie OPTO;-;ABS;Druk 3D;-;Kolor: czarny;-;-;-;-;6
+;;z łb. walc. gn. 6kąt. M3x30;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;24
+1936;001;PRT-A0065368;A;Mocowanie OPTO;-;S235JR/1.0037;Laser;-;RAL 7035;-;-;-;-;6
+1936;001;PRT-A0065419;A;Blacha;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;012;PRT-A0065265;A;Płytka narzędzia naprawczego;-;PA6/3.1325;CNC;-;Szkiełkować;-;-;-;-;1
+1936;001;PRT-A0065263;A;Rama Transportera;-;Profile BOSCH;-;-;-;P;-;-;-;1
+1936;001;PRT-A0065264;A;Blacha;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;001;PRT-A0065322;A;Wzmocnienie pod szafę;-;S235JR/1.0037;Laser;-;RAL 7035 (jasny szary);-;-;-;-;1
+;;1032.KW.12.02 - Magnes Neodymowy MW 3 X 2 / N38 ;B;Magnes neodymowy;MW 6X6 / N38;ENES;H. Mech.;-;-;H;-;-;-;4
+1936;001;PRT-A0068096;A;Tuleja magnesu;-;PE 1000;Skrawanie;-;-;-;-;-;-;2
+1936;001;PRT-A0065387;A;Adapter magnesu;-;PA13/3.3547;CNC;-;Anodować;-;-;-;-;2
+1936;001;PRT-A0065388;A;Odbój magnesu;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;2
+1936;004;PRT-A0065386;A;Oslona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+1936;001;PRT-A0065367;A;Mocowanie czujnika;-;ABS;-;-;-;-;-;-;-;1
+;;OD1-B150F0AQ14;B;Dalmierz;6052326;SICK;H. Elek.;-;-;H;-;-;-;1
+;;L=843;B;Korytko kabl. 40x60;-;Magazyn;H. Mech.;-;-;H;-;-;-;1
+;;Profil 45x45 L=840;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;001;PRT-A0065381;A;Kostka zabezpieczająca;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1881;11;PRT-A0030517;A;Zacisk przewodu;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;011;PRT-A0065848;A;Kostka zabezpieczająca;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+1936;011;PRT-A0065375;A;Blacha;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1881;;PRT-A0030511;;Podajnik śrub;901554_ZEB240-SDH-TE;WEBER;H. Mech.;-;-;H;-;-;-;1
+1936;011;PRT-A0065377;A;Mocowanie;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;011;PRT-A0065378;A;Blacha;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;001;PRT-A0065381-Lustro;0;-;-;PA6/3.1325;-;-;-;-;-;-;-;1
+1881;;PRT-A0030512;;Kontroler;SOR3;WEBER;H. Mech.;-;-;H;-;-;-;1
+1936;011;PRT-A0065379;A;Profil Ramy Podajnika Wibracyjnego;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+1936;011;PRT-A0065376;A;Mocowanie zaworów;-;PA13/3.3547;CNC;-;-;-;-;-;-;1
+1936;004;PRT-A0065401;0;Oslona;-;S235JR/1.0037;Osłona;-;RAL 7035;-;-;-;-;1
+1936;001;PRT-A0065390;A;Rama transportera;-;Profile BOSCH;-;-;-;P;-;-;-;1
+1936;001;PRT-A0065252;A;Mocowanie przycisku bezpieczeństwa;-;PA13/3.3547;Skrawanie;-;Szkiełkować;-;-;-;-;4
+;;M22-PV-KC02-IY;B;Puszka Przycisku bezpieczeństwa;MM216536;EATON;H. Elek.;-;-;H;-;-;-;5
+1936;001;PRT-A0065324;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+1936;001;PRT-A0065392;A;Osłona;-;PC /poliweglan;Laser;-;ESD;-;-;-;-;1
+1881;01;PRT-A0030402;0;Promatik_V05.2 - Stoper;?;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;10
+;;L=369;C;Korytko kabl. 80x40;Magazyn;Magazyn;H. Mech.;-; -;H;-;-;;1
+;;Profil 45x45 L=507;C;Profil 45x45;3 842 992 425;Profile BOSCH;H. Mech.;-;-;P;-;-;-;6
+1936;009;PRT-A0065732;A;Blacha Pudełka;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;4
+;;LCW_EBG_080_Ro.b.;A;Zestaw kołowy obrotowy;-;MARBA;H. Mech.;-;-;H;-;-;-;2
+1936;009;PRT-A0065731;A;Rama wózka;-;Profile BOSCH;H. Mech.;-;-;P;-;-;-;1
+;;LCW_EBG_080_Ro.b.DS_N;A;Zestaw kołowy obrotowy z hamulcem;-;MARBA;H. Mech.;-;-;H;-;-;-;2
+1936;003;PRT-A0065426;A;Mocowanie skanera 2;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;;1
+;;DMR-262QX-0540-P;D;Czytnik kodów DataMan 262 (prosty);DMR-262QX-0540-P;COGNEX;H. Elek.;-;-;H;-;-;-;1
+1936;003;PRT-A0065427;A;Mocowanie skanera 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065614;A;Płyta;-;45/1.0530;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;-;1
+1936;003;PRT-A0065620;A;Oprawa łożyska;-;45/1.0530;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;-;1
+;;KM 3;0;Nakrętka Łożyskowa;PN-82-M-86478;SKF;H. Mech.;-;-;H;-;-;;1
+1936;003;pryzmatyczny A 6x6x22;0;Wpust;DIN 6885 A;FABORY;H. Mech.;-;-;H;-;-;;1
+1936;003;PRT-A0065623;A;Żebro;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+;-;K0414.04141;0;Płytka montażowa;-;KIPP;H. Mech.;-;-;H;-;-;-;1
+1936;003;Z 17;0;Seger zewnętrzny;DIN 471;FABORY;H. Mech.;-;-;H;-;-;;1
+1936;003;PRT-A0065627;B;Śruba trapezowa TR28x5 lewa;-;PIVEXIN;Skrawanie;;-;H;-;-;-;1
+1936;003;PRT-A0065611;A;Tuleja dystansowa;-;St5/1.0050;Skrawanie;-;Czernić;-;-;-;-;1
+1936;003;PRT-A0065631;A;Płyta;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065612;A;Tulejka dystansowa;-;St5/1.0050;Skrawanie;-;Czernić;-;-;-;-;1
+;;7303 BEP;A;;;;;-;-;H;-;-;;2
+1936;003;PRT-A0065615;A;Pokrywka;-;St5/1.0050;Skrawanie;-;Czernić;-;-;-;-;1
+1936;003;PRT-A0065621;A;Pokrywka łożyska;-;C45/1.0503;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;-;1
+;-;K0725.7130X12;0;Kółko ręczne z rękojeścią składaną;-;KIPP;H. Mech.;-;-;H;-;-;-;1
+1936;003;pryzmatyczny A 5x5x25;0;Wpust;DIN 6885 A;FABORY;H. Mech.;-;-;H;-;-;;1
+1936;003;PRT-A0065625;A;Podkładka;-;St5/1.0050;Skrawanie;-;Czernić;-;-;-;-;1
+;-;F-theta 163;0;Głowica lasera;-;ACI;H. Elek.;-;-;H;-;-;-;1
+;;HGR20R L=627mm 11 otw. sym.;G;Szyna;HGR20R;HIWIN;H. Mech.;-;-;H;-;-;-;2
+1936;003;PRT-A0065619;A;Korpus przekładni;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065628;A;Pokrywa;-;St5/1.0050;Skrawanie;-;Czernić;-;-;-;-;1
+1936;003;PRT-A0065617;A;Zderzak;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;4
+1936;003;PRT-A0065632;A;Oprawa nakrętki;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;;kulkowe 6302 2RS;A;Łożysko toczne;PN-85M-86100 2RS;SKF;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065613;A;Oprawa nakrętki;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;-;6403-2RS;0;Łożysko liniowa;-;SKF;H. Mech.;-;-;H;-;-;-;1
+;;MB3;0;Podkładka;PN-82-M-86482;SKF;H. Mech.;-;-;H;-;-;;1
+1936;003;PRT-A0065616;A;Blaszka;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;4
+;-;N0110;0;Nakrętka trapezowa 28x5;-;PIVEXIN;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065622;A;Wałek;-;45/1.0530;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;-;1
+;-;K0409.05001111;0;Wskaźnik położenia;-;KIPP;H. Mech.;-;-;H;-;-;-;1
+1936;003;pryzmatyczny A 4x4x14;0;Wpust;DIN 6885 A;FABORY;H. Mech.;-;-;H;-;-;;1
+1936;003;PRT-A0065626;A;Suport 2;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;;Wózek HGH20CAZOH;C;Wózek;HGH20CAZOH;HIWIN;H. Mech.;-;-;H;-;-;-;4
+1936;003;PRT-A0065618;A;Suport;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065629;A;Dystans;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+1936;003;PRT-A0065610;A;Uchwyt przewodu;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065634;A;Koło stożkowe 1;-;ATLANTA;Skrawanie;-;-;M;-;-;-;1
+1936;003;PRT-A0065633;A;Koło stożkowe 2;-;PIVEXIN;Skrawanie;-;-;-;-;-;-;1
+;;kulkowe 6204 2RS;A;Łożysko toczne;PN-85M-86100 2RS;SKF;H. Mech.;-;-;H;-;-;-;1
+;-;SLG25S-030S#R11###-S301292_1;0;-;-;Materiał <nieokreślony>;-;-;-;H;-;-;-;1
+;-;SLG25S-030S#R11###-S301292;0;-;-;Materiał <nieokreślony>;-;-;-;H;-;-;-;1
+1936;003;PRT-A0069008;A;Profil lampy;-;Profile BOSCH;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065481;A;Dystans;-;45/1.0530;Skrawanie;-;Czernić;-;-;-;-;4
+1936;003;PRT-A0065561;A;Blacha uchwytu;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;003;PRT-A0065535;A;Blacha prowadnika;;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;HP-25;D;Łapy mocujące typ 25;150731;FESTO;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065549;0;Listwa montażowa;3045.1212;GELBAU;H. Elek.;-;-;H;-;-;-;1
+;;000.MAG.50 - M8 x 40;F;Śruba separująca;000.MAG.50 - M8 x 40;PROMATIK;Promatik;40 HRC±2HRC;Czernić;O;Z;-;-;5
+1936;003;PRT-A0069009;A;Uchwyt czujnika;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;003;PRT-A0068623;A;Kątownik;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+1936;003;PRT-A0065538;0;Listwa przyciskowa;3100.1610;GELBAU;H. Elek.;-;-;H;-;-;-;1
+;;HGL-1_8-B;B;Zawór zwrotny sterowany;530030;FESTO;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065540;A;Płaskownik;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;-;DGC-K-25-750-PPV-A-GK;0;;-;Złożenie;-;-;-;H;-;-;-;1
+1936;003;PRT-A0068979;A;Zderzak;-;C45/1.0503;Skrawanie;40 HRC±2HRC;Czernić;-;-;-;-;1
+;;GRLA-1_8-QS-6-D;A;Zawó dławiąco zwrotny;193144;FESTO;H. Mech.;-;-;H;-;-;-;2
+1936;003;PRT-A0068614;A;Płaskownik siłownika;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+;;HGL15CAZ0H;C;Wózek;HGL15CAZ0H;HIWIN;H. Mech.;-;-;H;-;-;-;4
+1936;003;PRT-A0065534;A;Mocowanie prowadnika;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+;-;QSM-M5-6;0;Złączka wtykowa;153306;FESTO;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065546;A;Osłona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+;-;;0;-;-;Materiał <nieokreślony>;-;;;H;-;-;;1
+;-;;0;-;-;Materiał <nieokreślony>;-;;;H;-;-;;1
+;-;;0;-;-;Materiał <nieokreślony>;-;;;H;-;-;;2
+;-;;0;-;-;Materiał <nieokreślony>;-;;;H;-;-;;2
+;;HGR15R L=1360mm 23 otw. sym.;K;Szyna;HGR15R;HIWIN;H. Mech.;-;-;H;-;-;-;2
+1936;003;PRT-A0065550;A;Ramka osłony;;Profile BOSCH;H. Mech.;;;H;;;;1
+1936;003;PRT-A0068977;A;Kostka amortyzatora;-;C45/1.0503;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;-;1
+;;YSR-8-8-C;B;Amortyzator hydrauliczny M12x1;34571;FESTO;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065537;B;Mocowanie ramki i wózków;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1881;;PRT-A0030739;0;Prowadnik kablowy;0_549m_14_1_028_0___114_1_12PZ_A1_3;IGUS;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065566;A;Płytka stopki;-;S235JR/1.0037;Laser;-;-;-;-;S;-;9
+1936;003;PRT-A0065584;A;Rama dolna;-;S235JR/1.0037;-;-;-;-;-;S;-;1
+1936;003;PRT-A0068622;A;Kostka gwintowana;-;S235JR/1.0037;Laser;-;-;-;-;S;-;4
+;-;Domyślna;0;Bariera optoelektroniczna jednokierunkowa;BOS0125;BALLUFF;H. Elek.;-;-;H;-;-;-;6
+;-;CHT1-5;0;Przycisk START;CHT1-5;CAPTRON;H. Elek.;-;-;H;-;-;-;1
+;;M22-DL-G;A;Przycisk podświetlany;M22-DL-G;EATON;H. Elek.;-;-;H;-;-;-;1
+1936;003;PRT-A0069044;A;Osłona przednia górna;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065484;A;Blacha Promatik;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065510;A;Osłona przednia;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065556;A;Blacha szczotki 1;;S235JR/1.0037;Laser;;Malować RAL 7035;-;-;-;;2
+1936;003;PRT-A0065589;A;Osłona przednia;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+;-;Legrand PLEXO;0;Gniazdo hermetyczne;PLEXO;LEGRAND;H. Elek.;-;-;H;-;-;-;2
+1936;003;PRT-A0065487-Lustro;0;-;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+1936;003;PRT-A0065489;A;Kątownik skanera;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065514;A;Osłona przednia górna;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065562;A;Osłona przód;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065594;A;Osłona dolna;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+;-;METALSZCZOT-Szczotka do profilu SP 4_4 35mm szerokości ocynk L=340;0;Szczotka do profilu;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065558-Lustro;A;-;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+1936;003;PRT-A0065567;A;Osłona lewa 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065518;A;Blacha tylnia 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065564;A;Rama dolna;-;S235JR/1.0037;Konstrukcja spawana;-;-;-;-;S;-;1
+1936;003;PRT-A0065565;A;Zaślepka;-;S235JR/1.0037;Laser;-;-;-;-;S;-;3
+1936;003;PRT-A0065432;A;Osłona laser;;Szkło;H. Mech.;;;H;-;-;;2
+1936;;Tablica A4;0;-;-;PA13/3.3547;-;-;-;-;-;-;-;2
+-;-;PK 4_4;0;Profil mocowania szczotek;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;1
+;;Z łbem 6-kąt M6x35;A;Śruba;DIN 931;FABORY;H. Mech.;-;-;H;-;-;-;4
+1936;003;PRT-A0065578;A;Blacha kolor;-;S235JR/1.0037;Laser;-;Malować RAL 5022;-;-;-;-;1
+1936;003;PRT-A0065496;A;Osłona szafy 4;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065581;A;Blacha górna;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065573;A;Blacha tylnia 3;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+;;098D080KG;D;Stopka 80kg;098D080KG;FATH;H. Mech.;-;-;H;-;-;-;9
+1936;003;PRT-A0065479;A;Blacha osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;003;PRT-A0065500;A;Osłona ramki skręcania 3;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065555;A;Osłona szafy 5;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065580;A;Osłona przednia;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0068624;A;Profil boczny;-;Profile BOSCH;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065507;A;Blacha szczotki 2;;S235JR/1.0037;Laser;;Malować RAL 7035;-;-;-;;1
+1936;003;PRT-A0065508;A;Blaszka bramki;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;003;PRT-A0065553;A;Kątownik;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;003;PRT-A0065585;A;Osłona;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+;-;UM 16 x 4,8 M3;0;Magnes neodymowy;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;2
+;;AX 1360.000;C;Obudowa sterownicza 600x600x350;AX 1360.000;RITTAL;H. Elek.;-;-;H;-;-;;1
+1936;003;PRT-A0069043;A;Uchwyt do wieży świetlnej;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065485;A;Kostka pod osłonę;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065511;A;Osłona szafy 4;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065558;A;Uchwyt kurtyny;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065592;B;Uchwyt prowadnicy;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;001;PRT-A0065499;A;Mocowanie włączników;-;PA6/3.1325;CNC;-;NIe Anodować!!!;-;-;-;-;1
+;-;BNI0087;0;Wieża świetlna;BNI IOL-800-000-Z037;BALLUFF;H. Elek.;-;-;H;;;-;1
+1936;003;PRT-A0065515-Lustro;0;-;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+1936;003;PRT-A0065490;A;Zaślepka rury;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065515;A;Uchwyt bramki 2;;S235JR/1.0037;Laser;;Malować RAL 7035;-;-;-;;1
+1936;003;PRT-A0065563;A;Osłona ramki skręcania 4;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065599;A;Płyta Zebry;-;PA6/3.1325;CNC;-;Nie Anodować;-;-;-;-;1
+;;SP 4_4 L=340;E;Profil mocowania szczotek;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065483;A;Płytka;-;PA6/3.1325;Skrawanie;-;Piaskować;-;-;-;-;1
+1936;003;PRT-A0065492;A;Uchwyt bramki;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;2
+1936;003;PRT-A0065519;A;Drzwi;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065568;A;Osłona prawa górna;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065571;A;Kotwa;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;2
+;-;SP 4_4 35mm szerokości ocynk_;0;Szczotka do profilu;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;2
+;-;LMBWLB32;0;Uchwyt lampy;90623;BANNER;H. Mech.;-;-;H;-;-;-;4
+;;092001_arch;A;Uchwyt;092001;FATH;H. Mech.;-;-;H;-;-;-;4
+1936;003;PRT-A0065497;A;Osłona szafy 5;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065551;A;Kostka 1;-;PA6/3.1325;Skrawanie;-;Anodować;H;-;-;-;1
+1936;003;PRT-A0065591;A;Kątownik 2;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+1936;003;PRT-A0065577;A;Kostka regulacji 2;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;2
+;;098DM16100M;B;Nóżka M16x100;098DM16100M;FATH;H. Mech.;-;-;H;-;-;-;9
+1936;003;PRT-A0065575;A;Osłona przednia;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065480;A;Blacha tylnia 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065501;A;Płyta główna;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+1936;003;PRT-A0065590;A;Osłona rury 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;003;PRT-A0065583;A;Osłona ramki skręcania 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065502;0;Rama górna;-;Profile BOSCH;-;-;-;P;-;-;-;1
+1936;003;PRT-A0065482;A;Mocowanie bramki 3;;S235JR/1.0037;Laser;;Malować RAL 7035;-;-;-;;2
+1936;003;PRT-A0065509;A;Osłona ramki skręcania 6;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065554;A;Osłona ramki skręcania 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065586;A;Blacha boczna  prawa górna;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+;;sześciokątna M6;E;Nakrętka zwykła;DIN 934;FABORY;H. Mech.;-;-;H;-;-;;1
+;;M22-I1;A;Obudowa;M22-I1;EATON;H. Elek.;-;-;H;-;-;-;2
+1936;003;PRT-A0069040;A;Blaszka bramki;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;003;PRT-A0065487;A;Osłona płyty stołu;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;003;PRT-A0065513;A;Osłona przednia górna;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065559;A;Kostka regulacji;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;4
+1936;003;PRT-A0065593;A;Blacha dolna;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065553-Lustro;0;-;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+1936;003;PRT-A0065491;A;Osłona tył 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065517;A;Kątownik 1;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+1936;003;PRT-A0065582;A;Osłona ramki skręcania 5;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065571-Lustro;A;Kotwa;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;2
+-;-;PK 4_4;0;Profil mocowania szczotek;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;2
+1936;003;PRT-A0065595;A;Płytka zawiasu;-;PA6/3.1325;Skrawanie;-;Piaskować;-;-;-;-;2
+1936;003;PRT-A0065493;A;Osłona przednia 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065560;A;Ramka okienka;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065572;A;Osłona przewodu;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+;-;SP 4_4 35mm szerokości ocynk_;0;Szczotka do profilu;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;1
+;-;WLB32C285PBQ;0;Lampa LED;87481;BANNER;H. Elek.;-;-;H;-;-;-;2
+;;z uchem M16;0;Śruba;DIN 580;FABORY;H. Mech.;-;-;H;-;-;-;8
+1936;003;PRT-A0065576;A;Osłona lewa dolna;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065498;A;Osłona szafy 3;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065522;A;Zaślepka 1;;S235JR/1.0037;Laser;;-;-;-;-;;2
+1936;003;PRT-A0065524;A;Żebro 2;;S235JR/1.0037;Laser;;-;-;-;-;;1
+1936;003;PRT-A0065530;A;Żebro 1;-;S235JR/1.0037;Laser;-;-;-;-;S;-;1
+1936;003;PRT-A0065525;A;Ramka pod skręcanie;-;S235JR/1.0037;-;-;-;-;-;S;-;1
+1936;003;PRT-A0065521;A;Wałek;;S235JR/1.0037;Skrawanie;;-;-;-;S;;1
+1936;003;PRT-A0065527;A;Płaskownik;;S235JR/1.0037;Laser;;-;-;-;S;;1
+1936;003;PRT-A0065532;A;Płyta główna;-;S235JR/1.0037;Skrawanie;-;-;-;-;S;-;1
+;;Φ16x40;I;Śruba pasowana;Φ16-M12-40;KIPP;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0068986;A;Zaślepka 1;;S235JR/1.0037;Laser;;-;-;-;S;;4
+1936;003;PRT-A0065523;A;Płaskownik 2;;S235JR/1.0037;Laser;;-;-;-;S;;1
+1936;003;PRT-A0065529;A;Żebro 3;;S235JR/1.0037;Laser;;-;-;-;S;;1
+;-;Balancer 9357;0;Balanser;;HANDLOWE;H. Mech.;-;-;H;-;-;14-18kg;1
+1936;003;PRT-A0065579;A;Osłona przód;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+;-;BEF-SLG2-SET1;0;Uchwyt kurtyny;2111623;SICK;H. Mech.;-;-;H;-;-;-;4
+1936;003;PRT-A0065605-Lustro;0;-;-;S235JR/1.0037;-;-;-;-;-;-;-;1
+1936;003;PRT-A0065606;A;Blaszka 3;;S235JR/1.0037;Laser;;Malować RAL 7035;-;-;-;;2
+1936;003;PRT-A0065607;A;Blacha zamka 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065603;A;Blaszka 2;;S235JR/1.0037;Laser;;Malować RAL 7035;-;-;-;;2
+1936;003;PRT-A0065601;A;Blaszka 1;;S235JR/1.0037;Laser;;Malować RAL 7035;-;-;-;;1
+1936;003;PRT-A0065608;A;Blacha zamka 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065609;A;Blacha regulacji;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065605;A;Mocowanie prowadnika;;S235JR/1.0037;Laser;;Malować RAL 7035;-;-;-;;1
+;-;_k1569_schiene250;0;;;;H. Mech.;-;-;H;-;-;;2
+;-;_k1569_auszug250;0;;;;H. Mech.;-;-;H;-;-;;2
+;-;_k1569_schiene1250;0;;;;H. Mech.;-;-;H;-;-;;2
+1936;003;PRT-A0065466;A;Płyta stołu;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065435;A;Osłona 3;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;2
+;;BES0068;C;Czujnik indukcyjny M12;BES0068;BALLUFF;H. Elek.;-;-;H;-;-;-;2
+1936;003;PRT-A0065462;A;Kostka pneumatyczna;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;;HGL-M5-B-530029;C;Zawór zwrotny sterowany;530029;FESTO;H. Mech.;-;-;H;-;-;-;6
+1936;003;PRT-A0065465;A;Płytka teowa;-;PA6/3.1325;CNC;-;Anodować;-;-;-;-;2
+;-;TC120G;0;Stół obrotowy TC;-;WEISS;H. Mech.;-;-;H;-;-;-;1
+1936;003;PRT-A0065433;A;Mocowanie osłony środkowej;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;4
+1936;003;PRT-A0065464;A;Osłona 1;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;2
+;;bez łba, koniec płaski M5x6;D;Śruba;DIN 913;FABORY;H. Mech.;-;-;H;-;-;kl. 8.8;1
+1936;003;PRT-A0065428;A;Osłona 2;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;2
+;;QSM-M5-4;B;Złączka prosta;153304;FESTO;H. Mech.;-;-;H;-;-;-;5
+1936;003;PRT-A0065429;A;Płyta środkowa;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065431;A;Blacha osłony środkowej;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+1936;003;PRT-A0065430;A;Dystans 1;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;003;PRT-A0065434;A;Blaszka kodowania;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;2
+1936;003;PRT-A0065478;A;Mocowanie czujników kodowania;-;S235JR/1.0037;Laser;-;Malować RAL 7035;-;-;-;-;1
+-;-;DRRD-12-180-FH-Y9A;0;Napęd wahadłowy;2399248;FESTO;H. Mech.;-;-;H;-;-;-;2
+1936;003;PRT-A0065468;A;Płytka obrotu;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+1936;003;PRT-A0065471;A;Szczęka;-;4H13/1.4057;CNC;-;-;-;-;-;-;4
+;;QSML-M5-4-153333;C;Złączka kątowa;153333;FESTO;H. Mech.;-;-;H;-;-;;4
+;;ZBH-5;F;Tulejka centrująca;189652;FESTO;H. Mech.;-;-;H;-;-;-;16
+;-;HI_1254040 DHPS-10-A---(Geh);0;;;;;-;-;H;-;-;;2
+;-;HI_1254040 DHPS-10-A---(Handle);0;;;;;-;-;H;-;-;;4
+1936;003;PRT-A0065474;A;Kątownik gniazda;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+1936;003;PRT-A0065472;A;Podpora gniazda;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+;;ZBH-9;D;Tulejka centrująca;150927;FESTO;H. Mech.;-;-;H;-;-;-;4
+1936;003;PRT-A0065467;A;Gniazdo;-;4H13/1.4057;CNC;-;-;-;-;-;-;2
+;;QSML-M3-4;A;Złączka kątowa M3 na fi4;153332;FESTO;H. Mech.;-;-;H;-;-;-;4
+1936;003;PRT-A0065463;A;Kostka;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;2
+1936;004;PRT-A0069208;A;Płytka testowa;-;PA6/3.1325;-;-;Nie anodować!;-;-;-;-;1
+1936;004;PRT-A0065691;A;Mocowanie uchwytu;;PA13/3.3547;CNC;;Anodować;-;-;-;;1
+1936;004;PRT-A0065716;A;Dystans;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+;-;K0571.02502055;0;Amortyzator gumowy;K0571.02502055;KIPP;H. Mech.;-;-;H;-;-;-;2
+1936;004;PRT-A0068729;A;Dystans supportu;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;6
+1936;004;PRT-A0065696;A;Płyta wkrętarek;;PA13/3.3547;CNC;;Anodować;-;-;-;;1
+1936;004;PRT-A0065722;A;Oslona;-;PC /poliweglan;-;-;ESD;-;-;-;-;1
+1936;003;PRT-A0065688;A;Mocowanie Amortyzatora;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;3
+;-;K0731.10120;0;Przegub;;KIPP;H. Mech.;-;-;H;-;-;;1
+;-;VAVE-L1-1VK7-LP;0;Elektryczna płyta przyłączeniowa;573942;FESTO;H. Elek.;-;-;H;-;-;-;2
+1936;004;PRT-A0068196;A;Ustalenie ustników;-;PA13/3.3547;CNC;-;Anodować;-;-;-;-;2
+1936;004;PRT-A0065701;A;Podpora osłony;-;PA13/3.3547;CNC;-;Nie Anodować!!!;-;-;-;-;1
+1936;004;PRT-A0065726;A;Blacha skręcania;;0H18N9/1.4301;Laser;;-;-;-;-;;1
+1936;004;PRT-A0065710;A;Mocowanie wałów głównych;;PA13/3.3547;Skrawanie;;Anodować;-;-;-;;2
+1936;004;PRT-A0065705;A;Osłona włączników;-;Tecaform AH ELS;CNC;;Kolor: Czarny;-;-;-;;1
+1936;004;PRT-A0065730;A;Osłona włączników;-;Tecaform AH ELS;CNC;-;Kolor: Czarny;-;-;-;-;1
+;;Łożysko liniowe LM40UU;B;Łożysko liniowe;;;H. Mech.;;;H;;;;4
+1936;004;PRT-A0065636;A;Blokada;-;C45/1.0503;CNC;52 HRC±2HRC;Czernić;-;Z;-;-;4
+;-;W27;0;O-ring 10x3;;INCO;H. Mech.;-;-;H;-;-;10x3;4
+1936;004;PRT-A0065644;A;Dociskacz;;0H18N9/1.4301;Skrawanie;32 HRC±2HRC;;-;-;-;;4
+1936;004;PRT-A0065647;A;Kołnierz;;C45/1.0503;Skrawanie;52 HRC±2HRC;;-;Z;-;;4
+1936;004;PRT-A0065638;A;Ustnik;;50HS/1.5026;Skrawanie;52 HRC±2HRC;;-;Z;-;;8
+1936;004;PRT-A0065642;A;Korpus bita;;4H13/1.4057;Skrawanie;40 HRC±2HRC;-;-;-;-;;4
+1936;004;PRT-A0065643;0;Przewód D10;;SMC;;;-;-;-;-;;4
+1936;004;PRT-A0065637;A;Złącze;;4H13/1.4057;Skrawanie;40 HRC±2HRC;-;-;Z;-;;4
+1936;004;PRT-A0065639;B;Adapter przewodu wkrętarki;-;0H18N9/1.4301;Skrawanie;-;-;-;-;-;-;4
+1936;004;PRT-A0065645;A;Korpus wkrętów;;4H13/1.4057;Skrawanie;52 HRC±2HRC;-;-;Z;-;;4
+;-;IR 15 PSOK-IBS;0;Indukcyjny czujnik pierścieniowy IR;202433;di-soric;H. Elek.;-;-;H;-;-;od 2mm do 15,1mm;4
+;;D11970;A;Sprężyna naciskowa;D11970;TEVEMA;H. Mech.;-;-;H;-;-;;4
+1936;004;PRT-A0065641;A;Blokada bita;-;C45/1.0503;-;-;Czernić;-;-;-;-;4
+1881;;TX15x152;0;TORX 15x152mm;05060197001; WERA;H. Mech.;-;-;H;-;-;;4
+;-;03_175 GD10 RGP;0;Kulka łożyskowa 3,18;;SKF;H. Mech.;;-;H;Z;-;;16
+1936;004;PRT-A0065711;A;Mocowanie uchwytu;;PA13/3.3547;CNC;;Anodować;-;-;-;;1
+;-;QSM-G1_8-6-I;0;Złącze wtykowe;-;FESTO;H. Mech.;-;-;H;-;-;-;2
+;;BES001J;A;Czujnik indukc. M8;BES001J;BALLUFF;H. Elek.;-;-;H;-;-;-;1
+1936;004;PRT-A0069968;A;Kątownik wzmacniający;;S235JR/1.0037;CNC;;Czernić;-;-;-;;2
+1936;004;PRT-A0065649;B;Płytka ustników;;PA6/3.1325;CNC;;Anodować;-;-;-;;1
+1936;004;PRT-A0065713;A;Podstawa gniazda skręcania;;S235JR/1.0037;CNC;;Czernić;-;-;-;;1
+;;DIN 439;C;Nakrętka niska;DIN 439 M8;FABORY;H. Mech.;-;-;H;-;-;-;2
+1936;;0_793m_B15_038_038_0___1038_12PZ_A2;A;Prowadnik kablowy;0_793m_B15_038_038_0___1038_12PZ_A2;IGUS;H. Mech.;-;-;-;-;-;-;1
+1936;004;PRT-A0069183;A;Zderzak;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+1936;004;PRT-A0065692;0;Kątownik czujnika;-;PA13/3.3547;Skrawanie;-;Piaskować;-;-;-;-;1
+1936;004;PRT-A0065718;A;Podkładka;-;2H13/1.4021;Skrawanie;-;-;-;-;-;-;4
+-;-;3066016.step_3;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000064655_SWP_000_5-polig_1,57m.step.STEP_9;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000064655_SWP_000_5-polig_1,57m.step.STEP_10;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000053757_SWP_000.step.STEP_3;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000053776_SWP_000_Standard_3;0;;;Materiał <nieokreślony>;;;;;;;;6
+-;-;3076807.step_3;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;2080648_DN32_BL260 FL32.step;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3066017.step_3;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3066012.step_3;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3000826.step_3;0;;;Materiał <nieokreślony>;;;;;;;;4
+-;-;10000064655_SWP_000_5-polig_1,57m.step.STEP;0;;;Materiał <nieokreślony>;;;;;;;;2
+-;-;10000064655_SWP_000_5-polig_1,57m.step.STEP_1;0;;;Materiał <nieokreślony>;;;;;;;;2
+-;-;10000053757_SWP_000.step.STEP;0;;;Materiał <nieokreślony>;;;;;;;;2
+-;-;3064261.step;0;;;Materiał <nieokreślony>;;;;;;;;12
+-;-;3077160.step;0;;;Materiał <nieokreślony>;;;;;;;;2
+-;-;3081425.step;0;;;Materiał <nieokreślony>;;;;;;;;2
+-;-;3000826.step;0;;;Materiał <nieokreślony>;;;;;;;;8
+;;3081848.step;A;;;Materiał <nieokreślony>;;;;;;;;2
+-;-;3078918_DN40_BL300.step;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000053757_SWP_000.step.STEP_2;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000064655_SWP_000_5-polig_1,57m.step.STEP_7;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000064655_SWP_000_5-polig_1,57m.step.STEP_6;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3066017.step_2;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3000826.step_2;0;;;Materiał <nieokreślony>;;;;;;;;4
+-;-;10000053776_SWP_000_Standard_2;0;;;Materiał <nieokreślony>;;;;;;;;6
+-;-;3080649_DN25_BL260 FL25.step;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3076807.step_2;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3066016.step_2;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3066012.step_2;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000053757_SWP_000.step.STEP_1;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000064655_SWP_000_5-polig_1,57m.step.STEP_3;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000064655_SWP_000_5-polig_1,57m.step.STEP_4;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;10000053776_SWP_000_Standard_1;0;;;Materiał <nieokreślony>;;;;;;;;6
+-;-;3066016.step_1;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3066012.step_1;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3076807.step_1;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3084664_DN32_BL190 FL32 oval.step;0;;;Materiał <nieokreślony>;;;;;;;;1
+;;3066017.step_1;A;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3000826.step_1;0;;;Materiał <nieokreślony>;;;;;;;;4
+;;3084692_DN40_BL232 FL40 oval.step;A;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;3066017.step;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;HYDRUS2_Sealing Label;0;;;Materiał <nieokreślony>;;;;;;;;1
+-;-;SKT-CG30;0;Wkrętarka;SKT-CG30;KILEWS;H. Mech.;-;-;H;-;-;Wkrętarka z przetwornikiem momentu - KL-TCG;4
+;;000.MAG.50 - M8 x 50;F;Śruba separująca;000.MAG.50 - M8 x 50;PROMATIK;Promatik;40 HRC±2HRC;Czernić;O;Z;-;-;2
+;;YSR-5-5-C;A;Amortyzator hydrauliczny M8x1;158981;FESTO;H. Mech.;-;-;H;-;-;;2
+1936;004;PRT-A0068389;A;Blaszka;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+1936;004;PRT-A0065697;A;Wał prowdzący główny;;REXROTH;Promatik;;Czernić;-;-;-;;2
+1936;004;PRT-A0065723;A;Zastrzał płyt wkrętarek;;PA13/3.3547;Skrawanie;;Anodować;-;-;-;;1
+1936;003;PRT-A0065703;A;Zderzak;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;2
+1936;004;PRT-A0065694;B;Korpus wkrętarki;;PA13/3.3547;Skrawanie;;Anodować;-;-;-;;4
+1936;004;PRT-A0065702;A;Wałek;;REXROTH;Skrawanie;;Czernić;-;-;-;;1
+1936;004;PRT-A0065728;A;Mocowanie zespołu;;C45/1.0503;Skrawanie;;Czernić;-;-;-;;1
+;;HGR15R L=460mm 8 otw. sym.;K;Szyna;HGR15R;HIWIN;H. Mech.;-;-;H;-;-;-;2
+1936;004;PRT-A0065693;A;Mocowanie siłownika wkrętarek;;C45/1.0503;Skrawanie;32 HRC±2HRC;Czernić;-;-;-;;1
+1936;004;PRT-A0065706;A;Mocowanie wałów głównych;;PA13/3.3547;Skrawanie;;Anodować;-;-;-;;1
+1936;;CHT1-1#8 CPM2;0;-;-;Materiał <nieokreślony>;-;-;-;-;-;-;-;2
+;-;CD85N25-600C-B-X2018_BODY;0;-;-;Materiał <nieokreślony>;-;-;-;H;-;-;-;1
+;-;C8525-600C_ROD;0;-;-;Materiał <nieokreślony>;-;-;-;H;-;-;-;1
+1936;004;PRT-A0073013-Lustro;0;-;-;PA13/3.3547;-;-;-;-;-;-;-;2
+1936;004;PRT-A0065648;A;Korpus główny;;PA38/3.2315;Skrawanie;;Anodować;-;-;-;;1
+1936;004;PRT-A0065727;A;Mocowanie odboju;;PA13/3.3547;Skrawanie;;Anodować;-;-;-;;2
+;-;K0571.02501555;0;Amortyzator gumowy;K0571_02501555;;H. Mech.;;;H;;;;2
+;-;A181SM-1618-15;0;Tuleja ślizgowa;A181SM-1618-15;IGUS;H. Mech.;-;-;H;-;-;-;2
+1936;004;PRT-A0069832;A;Zacisk przewodu;-;S235JR/1.0037;-;-;Malować RAL 7035 (jasny szary);-;-;-;-;4
+1936;004;PRT-A0065684;A;Mocowanie czujników;;PA13/3.3547;Skrawanie;;Anodować;-;-;-;;1
+1936;004;PRT-A0065715;A;Podpora osłony;-;PA13/3.3547;CNC;-;Nie Anodować!!!;-;-;-;-;1
+;-;LP0115CCKW01A;0;Przełącznik przyciskany;LP0115CCKW01A;Materiał <nieokreślony>;H. Elek.;-;-;H;-;-;-;2
+;;sześciokątna M8;E;Nakrętka zwykła;DIN 934;FABORY;H. Mech.;-;-;H;-;-;;4
+;;XVLA333;A;Lampka sygnalizacyjna Ø12 zielony;XVLA333;SCHNEIDER;H. Elek.;-;-;H;-;-;-;1
+1936;004;PRT-A0065667;A;Mocowanie gniazda;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+;-;BES038Y;0;Czujnik indukcyjny;BES G06EI-PSC30B-S49G;BALLUFF;H. Elek.;-;-;H;-;-;-;1
+;;bez łba, koniec płaski M5x16;D;Śruba;DIN 913;FABORY;H. Mech.;-;-;H;-;-;kl. 8.8;4
+;-;K0291.720X030;0;Podstawka wahliwa;K0291.720x030;KIPP;H. Mech.;-;-;H;-;-;-;4
+1936;004;PRT-A0065678;A;Gniazdo obudowy górnej;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+1936;004;PRT-A0065679;A;Dystans;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;1
+1936;004;PRT-A0065671;A;Gniazdo obudowy górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;Z;-;-;1
+1936;004;PRT-A0065680;A;Mocowanie Gniazda;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+;-;XVLA335;0;Lampka sygnalizacyjna Ø12 żółta;XVLA335;SCHNEIDER;H. Elek.;-;-;H;-;-;-;3
+1936;004;PRT-A0065654;A;Mocowanie skanera;-;S235JR/1.0037;Laser;-;Malować RAL 7035 (jasny szary);-;-;-;-;1
+-;-;OGL 051 G3-T3;0;Bramka świetlna;OGL 051 G3-T3;di-soric;H. Elek.;-;-;H;-;-;-;1
+1936;004;PRT-A0065682;A;Mocowanie RFID;-;PA6/3.1325;Skrawanie;-;Anodować;-;-;-;-;1
+1936;004;PRT-A0065669;A;Gniazdo obudowy górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;Z;-;-;1
+;;z łb. walc. gn. 6kąt. M4x20;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;2
+1936;004;PRT-A0065676;A;Gniazdo obudowy górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;-;-;-;1
+1936;004;PRT-A0065681;A;Mocowanie Gniazda;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+;-;XVLA334;0;Lampka sygnalizacyjna Ø12 czerwona;XVLA334;SCHNEIDER;H. Elek.;-;-;H;-;-;-;1
+1936;004;PRT-A0065653;A;Tabliczka;-;0H18N9/1.4301;Laser;-;-;-;-;-;-;1
+;;bez łba, koniec płaski M5x25;D;Śruba;DIN 913;FABORY;H. Mech.;-;-;H;-;-;kl. 8.8;4
+1936;004;PRT-A0065655;A;Mocowanie gniazda;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+1936;004;PRT-A0065659;A;Gniazdo obudowy górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;Z;-;-;1
+1936;004;PRT-A0065652;A;Gniazdo obudowy górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;Z;-;-;1
+1936;004;PRT-A0065677;A;Gniazdo obudowy górnej;-;PE 500;Skrawanie;-;Kolor: Biały;-;-;-;-;1
+1936;004;PRT-A0068972;B;Dystans skręcania;-;C45/1.0503;CNC;-;Czernić;-;-;-;-;1
+1936;004;PRT-A0065695;A;Uchwyt;;PE 1000;Skrawanie;;Kolor: Biały;-;-;-;;2
+1936;004;PRT-A0065719;B;Prowadzenie;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;2
+1936;003;PRT-A0065709;A;Mocowanie Amortyzatora;-;C45/1.0503;Skrawanie;-;Czernić;-;-;-;-;1
+1881;;PRT-A0030658;A;Sprężyna;-;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;-;2
+;-;VUVG-L14-P53E-T-G18-1P3;0;Zawór rozdzielający 5/3 odpowietrzony w środkowym położeniu;-;FESTO;H. Mech.;-;-;H;-;-;-;1
+;;K0569.03003055;A;Amortyzator gumowy;K0569.03003055;KIPP;H. Mech.;-;-;H;-;-;-;2
+;;YSR-12-12-C;A;Amortyzator hydrauliczny M16x1;34572;Materiał <nieokreślony>;H. Mech.;-;-;H;-;-;;4
+1936;004;PRT-A0068388;A;Kątownik czujnika;-;PA13/3.3547;Skrawanie;-;Anodować;-;-;-;-;1
+1936;004;PRT-A0065698;A;Oslona;-;PC /poliweglan;Osłona;-;ESD;-;-;-;-;1
+1936;004;PRT-A0065725;A;Trzpień gwintowany mocujący;;C45/1.0503;Skrawanie;;Czernić;-;-;-;;2
+;;BES003P;C;Czujnik indukcyjny M8 (2mm);BES M08MI-PSC20B-S49G;BALLUFF;H. Elek.;-;-;H;-;-;-;2
+1936;004;PRT-A0065685;A;Kątownik wzmacniający;;PA13/3.3547;Skrawanie;;Anodować;-;-;-;;2
+1936;004;PRT-A0065704;A;Sprawdzian 1936;;C45/1.0503;CNC;;Czernić;-;-;-;;1
+1936;004;PRT-A0065729;A;Kątownik wzmacniający;;PA13/3.3547;CNC;;Anodować;-;-;-;;2
+0;;HGW15CCZOH;F;Wózek;HGW15CCZ0H;HIWIN;H. Mech.;-;-;H;-;-;;4
+1936;004;PRT-A0065686;A;Płyta pionowa wkrętarek;;PA13/3.3547;CNC;;Anodować;-;-;-;;1
+1936;004;PRT-A0065708;A;Płyta Skręcania;;PA13/3.3547;CNC;;Anodować;-;-;-;;1
+1936;004;PRT-A0073013;A;Ustalenie ustników;-;PA13/3.3547;CNC;-;Anodować;-;-;-;-;2
+1936;004;PRT-A0065683;0;Uchwyt balancera;-;C45/1.0503;Skrawanie;-;Piaskować;-;-;-;-;1
+1936;004;PRT-A0065712;A;Kątownik prowadnika;-;PA38/3.2315;CNC;-;Anodować;-;-;-;-;1
+;;Z 60;A;Seger zewnętrzny;DIN 471;FABORY;H. Mech.;-;-;H;-;-;;4
+;;GRLA-1_8-QS-6-RS-D-197581;B;Zawór dławiąco-zwrotny;197581;FESTO;H. Mech.;-;-;H;-;-;-;2
+1936;001;PRT-A0065251;0;Mocowanie spadni;-;PA6/3.1325;Skrawanie;-;Szkiełkować;-;-;-;-;3
+;;z łb. walc. gn. 6kąt. M6x20;E;Śruba;DIN 912;FABORY;H. Mech.;-;-;H;-;-;kl 8.8;3

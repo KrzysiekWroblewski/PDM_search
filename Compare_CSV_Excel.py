@@ -7,28 +7,50 @@ from EXCEL_report_generator import Report
 import pprint
 
 
+def Return_file_name(open_file: str) -> str:
+    """Function check selected file, returns name of file without extension
+
+    Args:
+        open_file (str): filepath in str
+
+    Returns:
+        _type_: extension e.g. "my_file"
+    """
+    file_name = os.path.basename(open_file)
+    name_without_extension = file_name.split(".")
+    return name_without_extension[0]
+
+
 def write_list_to_dict(list, indexes):
+    row_list_len = len(list[0])
     dict1 = {}
     dict1_list = []
+    counter = 0
     for row in list:
+        counter += 1
+        # Skipp no PRT-Files
+        if "PRT-" not in row[indexes[0]]:
+            continue
+
+        # Sometimes CSV from PDM have wrong ammount of columns, we skipp them and give message about error
+        if len(row) < row_list_len:
+            GUI.Mbox(
+                "PDM_Search", f"Problem with line {counter }, wrong value of columns", 1)
+            continue
 
         # jeśli już jest id w słowniku to sumuj te wartości
         if row[indexes[0]] in dict1.keys():
-            # print("o panie: ", dict1[(item[indexes])][-1])a
-            # print("jaki  to prt: ", row[indexes[0]])
-            # print("nr kolumny id: ", indexes[0])
-            # print("dict1[(item[indexes])][-1]", dict1[row[indexes[0]]])
-
-            # sumuj ilsoci do zamowienia dla danego id
             dict1[row[indexes[0]]
                   ][-1] = int(dict1[row[indexes[0]]][-1]) + int(row[indexes[-1]])
+            print("powtarza się dict")
 
         # jeśli nie ma id w słowniku, utwórz nowy klucz i wartości
         else:
 
-            rekord = {row[indexes[0]]: [row[indexes[0]], row[indexes[1]],
-                                        row[indexes[2]], row[indexes[3]]]}
-            dict1.update(rekord)
+            record = {row[indexes[0]]: [row[indexes[0]],
+                                        row[indexes[1]], row[indexes[2]], row[indexes[3]]]}
+            print(record)
+            dict1.update(record)
 
     dict1_list.append(dict1)
 
@@ -139,6 +161,7 @@ def make_dictionary_from_excel():
 
 def make_dictionary_from_CSV(csv_delimiter):
     open_file = GUI.select_file()
+
     with open(open_file, encoding="utf-8", mode='r') as csvfile:
         csv_reader = csv.reader(csvfile, delimiter=str(csv_delimiter))
         list = []
@@ -147,26 +170,25 @@ def make_dictionary_from_CSV(csv_delimiter):
             if list[-1] == []:
                 list.pop(-1)
 
-    id_index = excel.Excel_Find_column_index_by_string_in_list(
-        list, "ID. Części")
-    Rewizja_index = excel.Excel_Find_column_index_by_string_in_list(
-        list, "Rewizja")
-    Opis_index = excel.Excel_Find_column_index_by_string_in_list(
-        list, "Opis")
-    do_Zamowienia_index = excel.Excel_Find_column_index_by_string_in_list(
-        list, "Liczba odniesień")
+        id_index = excel.Excel_Find_column_index_by_string_in_list(
+            list, "ID. Części")
+        Rewizja_index = excel.Excel_Find_column_index_by_string_in_list(
+            list, "Rewizja")
+        Opis_index = excel.Excel_Find_column_index_by_string_in_list(
+            list, "Opis")
+        do_Zamowienia_index = excel.Excel_Find_column_index_by_string_in_list(
+            list, "Liczba odniesień")
 
-    columns = [id_index, Rewizja_index, Opis_index, do_Zamowienia_index]
-    list.pop(0)
-    # print("\n")
-    # print('columns_indexes: ', columns)
+        columns = [id_index, Rewizja_index,
+                   Opis_index, do_Zamowienia_index]
+        list.pop(0)
 
-    dictionary_from_CSV = write_list_to_dict(list, columns)
+        dictionary_from_CSV = write_list_to_dict(list, columns)
 
     return dictionary_from_CSV
 
 
-def Report_to_excel(dictionary_from_excel):
+def Report_to_excel(dictionary_from_excel, file_name=""):
     # Create a new workbook
     workbook = Workbook()
 
@@ -194,21 +216,24 @@ def Report_to_excel(dictionary_from_excel):
     # Enable filtering starting from row 3, from column A to T?Xd
     sheet.auto_filter.ref = f'A3:T{sheet.max_row}'
     # Save the workbook
-    workbook.save(str("Braki z dictionary_report.xlsx"))
+    date_stamp = Report.date_stamp()
+    select_folder = GUI.select_folder()
+    workbook.save(str(select_folder + "/" + date_stamp + file_name +
+                  "Braki z dictionary_report.xlsx"))
 
 
-excel_dict = make_dictionary_from_excel()
-pprint.pprint(excel_dict)
+def Compare_CSV_to_Excel():
+    excel_dict = make_dictionary_from_excel()
+    pprint.pprint(excel_dict)
 
-print("\n")
+    print("\n")
 
-csv_dict = make_dictionary_from_CSV(csv_delimiter=";")
-pprint.pprint(csv_dict)
+    csv_dict = make_dictionary_from_CSV(csv_delimiter=";")
+    pprint.pprint(csv_dict)
 
-print("\n")
+    print("\n")
 
-compared_dict = Find_missing_items(excel_dict, csv_dict)
-pprint.pprint(compared_dict)
+    compared_dict = Find_missing_items(excel_dict, csv_dict)
+    pprint.pprint(compared_dict)
 
-
-Report_to_excel(compared_dict)
+    Report_to_excel(compared_dict)
