@@ -35,7 +35,7 @@ def Return_file_type(open_file: str) -> str:
     return name_without_extension[1]
 
 
-def List_of_excel_files_from_txt(open_file) -> list[str]:
+def List_of_excel_files_from_txt(open_file) -> list:
     # select txt file with file paths of many files each in new line
 
     encode_list = ["latin-1", "utf-16-le", "utf-8", "CP-1250"]
@@ -97,7 +97,7 @@ def EXCEL_missing_orders(open_file: str, sort_by: int):
     return sorted_list_of_items_with_missing_values
 
 
-def Write_excel_BOM_to_list(open_file: str, start_row: int) -> list[str]:
+def Write_excel_BOM_to_list(open_file: str, start_row: int) -> list:
     """Def open active sheet of work book and write rows to lists
 
     Args:
@@ -124,7 +124,7 @@ def Write_excel_BOM_to_list(open_file: str, start_row: int) -> list[str]:
     return list_of_records
 
 
-def Find_items_without_value_in_cell(list_of_items: list[str], searched_column: int):
+def Find_items_without_value_in_cell(list_of_items: list, searched_column: int):
     list_of_found_items = []
     for item in list_of_items:
 

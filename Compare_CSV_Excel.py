@@ -5,6 +5,7 @@ import csv
 from openpyxl import Workbook
 from EXCEL_report_generator import Report
 import pprint
+import os
 
 
 def Return_file_name(open_file: str) -> str:
@@ -48,7 +49,9 @@ def write_list_to_dict(list, indexes):
         else:
 
             record = {row[indexes[0]]: [row[indexes[0]],
-                                        row[indexes[1]], row[indexes[2]], row[indexes[3]]]}
+                                        row[indexes[1]], row[indexes[2]
+                                                             ], row[indexes[3]], row[indexes[4]],
+                                        row[indexes[5]], row[indexes[6]], row[indexes[7]]]}
             print(record)
             dict1.update(record)
 
@@ -79,8 +82,12 @@ def Find_missing_items(main_dictionary, search_in_dict):
 
         if item in search_in_list_keys:
             id_main = main_dictionary[0][item][0]
-            revision_main = main_dictionary[0][item][1]
-            description_main = main_dictionary[0][item][2]
+            konstruktor_main = main_dictionary[0][item][1]
+            revision_main = main_dictionary[0][item][2]
+            description_main = main_dictionary[0][item][3]
+            material_main = main_dictionary[0][item][4]
+            obrobka_main = main_dictionary[0][item][5]
+            uwagi_main = main_dictionary[0][item][6]
             value_main = int(main_dictionary[0][item][-1])
 
             value_secondary = int(search_in_dict[0][item][-1])
@@ -92,14 +99,14 @@ def Find_missing_items(main_dictionary, search_in_dict):
 
             # tutaj oblcziamy o ile za duzo elementow zamowionych jest w excel
             elif value_main > value_secondary:
-                a = [id_main, revision_main, description_main,
+                a = [id_main, konstruktor_main, revision_main, description_main, material_main, obrobka_main,  uwagi_main,
                      value_main - value_secondary]
                 miss_list.append(a)
                 # print("ilosc_main_dict > ilosc_secondary_dict")
 
             # tutaj oblcziamy o ile za za mało zostało wpisanych elementow do excela
             elif value_main < value_secondary:
-                b = [id_main, revision_main, description_main,
+                b = [id_main, konstruktor_main, revision_main, description_main, material_main, obrobka_main,  uwagi_main,
                      value_main - value_secondary]
                 miss_list.append(b)
                 # print("ilosc_main_dict < ilosc_secondary_dict")
@@ -109,22 +116,31 @@ def Find_missing_items(main_dictionary, search_in_dict):
 
         elif item not in search_in_list_keys:
             id_main = main_dictionary[0][item][0]
-            revision_main = main_dictionary[0][item][1]
-            description_main = main_dictionary[0][item][2]
+            konstruktor_main = main_dictionary[0][item][1]
+            revision_main = main_dictionary[0][item][2]
+            description_main = main_dictionary[0][item][3]
+            material_main = main_dictionary[0][item][4]
+            obrobka_main = main_dictionary[0][item][5]
+            uwagi_main = main_dictionary[0][item][6]
             value_main = int(main_dictionary[0][item][-1])
 
-            b = [id_main, revision_main, description_main, value_main]
+            b = [id_main, konstruktor_main, revision_main, description_main,
+                 material_main, obrobka_main,  uwagi_main, value_main]
             miss_list.append(b)
 
     for item in search_in_list_keys:
         if item not in main_list_keys:
-            name_secondary = search_in_dict[0][item][0]
-            revision_secondary = search_in_dict[0][item][1]
-            description_secondary = search_in_dict[0][item][2]
+            id_secondary = search_in_dict[0][item][0]
+            konstruktor_secondary = search_in_dict[0][item][1]
+            revision_secondary = search_in_dict[0][item][2]
+            description_secondary = search_in_dict[0][item][3]
+            material_secondary = search_in_dict[0][item][4]
+            obrobka_secondary = search_in_dict[0][item][5]
+            uwagi_secondary = search_in_dict[0][item][6]
             value_secondary = int(search_in_dict[0][item][-1])
 
-            b = [name_secondary, revision_secondary,
-                 description_secondary, - value_secondary]
+            b = [id_secondary, konstruktor_secondary, revision_secondary,
+                 description_secondary, material_secondary, obrobka_secondary, uwagi_secondary,  - value_secondary]
             miss_list.append(b)
 
     print("\n")
@@ -140,18 +156,24 @@ def make_dictionary_from_excel():
 
     id_index = excel.Excel_Find_column_index_by_string_in_list(
         excel_list, "ID. Części")
-    Lp_index = excel.Excel_Find_column_index_by_string_in_list(
-        excel_list, "Lp")
     Konstruktor_index = excel.Excel_Find_column_index_by_string_in_list(
         excel_list, "Konstruktor")
     Rewizja_index = excel.Excel_Find_column_index_by_string_in_list(
         excel_list, "Rewizja")
     Opis_index = excel.Excel_Find_column_index_by_string_in_list(
         excel_list, "Opis")
-    do_Zamowienia_index = excel.Excel_Find_column_index_by_string_in_list(
-        excel_list, "Do Zamówienia")
+    Material_index = excel.Excel_Find_column_index_by_string_in_list(
+        excel_list, "Materiał")
+    Obrobka_index = excel.Excel_Find_column_index_by_string_in_list(
+        excel_list, "Obróbka")
+    Uwagi_index = excel.Excel_Find_column_index_by_string_in_list(
+        excel_list, "Uwagi:")
+    suma_ilosc_index = excel.Excel_Find_column_index_by_string_in_list(
+        excel_list, "ilość sztuk SUMA")
 
-    columns = [id_index, Rewizja_index, Opis_index, do_Zamowienia_index]
+    columns = [id_index, Konstruktor_index, Rewizja_index,
+               Opis_index, Material_index, Obrobka_index, Uwagi_index, suma_ilosc_index]
+
     excel_list.pop(0)
 
     dictionary_from_excel = write_list_to_dict(excel_list, columns)
@@ -172,18 +194,27 @@ def make_dictionary_from_CSV(csv_delimiter):
 
         id_index = excel.Excel_Find_column_index_by_string_in_list(
             list, "ID. Części")
+        id_index2 = excel.Excel_Find_column_index_by_string_in_list(
+            list, "ID. Części")
         Rewizja_index = excel.Excel_Find_column_index_by_string_in_list(
             list, "Rewizja")
         Opis_index = excel.Excel_Find_column_index_by_string_in_list(
             list, "Opis")
-        do_Zamowienia_index = excel.Excel_Find_column_index_by_string_in_list(
+        Material_index = excel.Excel_Find_column_index_by_string_in_list(
+            list, "Materiał")
+        Obrobka_index = excel.Excel_Find_column_index_by_string_in_list(
+            list, "Typ")
+        Uwagi_index = excel.Excel_Find_column_index_by_string_in_list(
+            list, "Uwagi:")
+        suma_ilosc_index = excel.Excel_Find_column_index_by_string_in_list(
             list, "Liczba odniesień")
 
-        columns = [id_index, Rewizja_index,
-                   Opis_index, do_Zamowienia_index]
+        columns = [id_index, id_index2, Rewizja_index,
+                   Opis_index, Material_index, Obrobka_index, Uwagi_index, suma_ilosc_index]
         list.pop(0)
 
         dictionary_from_CSV = write_list_to_dict(list, columns)
+        print('dictionary_from_CSV: ', dictionary_from_CSV)
 
     return dictionary_from_CSV
 
@@ -205,7 +236,7 @@ def Report_to_excel(dictionary_from_excel, file_name=""):
     for item in dictionary_from_excel:
 
         j = 1
-        for index in [0, 1, 2, 3]:
+        for index in [0, 1, 2, 3, 4, 5, 6, 7]:
             sheet.cell(row=i, column=j).value = item[index]
             j += 1
 

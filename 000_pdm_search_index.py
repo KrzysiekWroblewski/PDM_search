@@ -3,11 +3,12 @@ from CSV_reader import CSV
 from EXCEL_missing_drawings import missing_drawings_from_excel
 from EXCEL_missing_orders import mega_def
 from Compare_CSV_Excel import Compare_CSV_to_Excel
-from license import log_in
+from sql_license import log_in
+from Prepare_drawings_to_order import order_items_by_order_number
 
 
 log_in()
-print("Uzyskano dostep")
+# print("Uzyskano dostep")
 # Choose separator for search
 csv_sep = " | "
 
@@ -20,7 +21,7 @@ result = GUI.ask_multiple_choice_question(
         "Braki rysunków w Excel",
         "Braki zamówień obróbki w Excel",
         "Waliduj listę zamówieniową",
-        "Przygotój zamówienie obróbki"],
+        "Przygotuj zamówienie obróbki"],
     [";",
      ","],
     [3, 2, 1, 4, 5]
@@ -46,6 +47,9 @@ elif result[0] == "Braki zamówień handlówki w Excel":
 
 elif result[0] == "Waliduj listę zamówieniową":
     Compare_CSV_to_Excel()
+
+elif result[0] == "Przygotuj zamówienie obróbki":
+    order_items_by_order_number()
 
 # CSV_reader
 elif result[0] == "Solid Works Files - from CSV" or result[0] == "Files with revision: PDF, DXF, STP - from CSV":

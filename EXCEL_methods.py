@@ -4,7 +4,7 @@ import openpyxl
 class excel():
 
     @staticmethod
-    def Write_excel_BOM_to_list(open_file: str, start_row: int) -> list[str]:
+    def Write_excel_BOM_to_list(open_file: str, start_row: int) -> list:
         """Def open active sheet of work book and write rows to lists
 
         Args:
@@ -31,7 +31,7 @@ class excel():
         return list_of_records
 
     @staticmethod
-    def Excel_Find_items_without_value_in_cell(list_of_items: list[str], searched_column: int):
+    def Excel_Find_items_without_value_in_cell(list_of_items: list, searched_column: int):
         list_of_found_items = []
         for item in list_of_items:
 

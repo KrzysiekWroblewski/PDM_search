@@ -1,8 +1,0 @@
-2023-June-30 18_32	F:/VisualStudioCode/PDM_search/EXCEL_files/sample4.xlsm
-
-1. 95	R. Swaciak	PRT-A0069911	None	Płyta pod narzędziem	
-2. 119	M. Ziętal	sample2-PRT-A0068805	A	Listwa lewa 1	
-3. 373	K. Wróblewski	000.MAG.69.18	0	Kołek pozycjonujący fi8	
-4. 383	M.Gołuch	ASM-A0011301	A	Skrzynka spawana Fluke	
-
-Ścieżka wyszukiwania:

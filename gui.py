@@ -1,6 +1,9 @@
+from tkinter import Tk, simpledialog
+from re import A
 import tkinter as tk
 import ctypes
 from tkinter import Tk, Label, Button, Radiobutton, IntVar, filedialog
+import tkinter.font as tkFont
 import sys
 
 
@@ -50,6 +53,10 @@ class GUI:
 
         Button(text="Akceptuj", command=root.destroy).pack()
 
+        T = tk.Text(root, height=2, width=80, font=("Helvetica", 8))
+        T.insert(tk.END, "by Krzysztof Wróblewski")
+        T.pack()
+
         root.mainloop()
 
         return options[v.get()], separators[v2.get()], part_column_positions[v3.get()]
@@ -75,3 +82,14 @@ class GUI:
         root.withdraw()
         open_directory = filedialog.askdirectory()
         return open_directory
+
+    @staticmethod
+    def get_input_string():
+        root = Tk()
+        root.geometry("400x400")  # Set the dimensions of the dialog box
+        root.withdraw()  # Hide the main tkinter window
+
+        # Create a simple dialog to get the input string
+        user_input = simpledialog.askstring("Input", "Enter Order Number:")
+
+        return user_input
