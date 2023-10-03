@@ -4,6 +4,9 @@ from gui import GUI
 import sys
 import os
 
+# Program version is checked with database
+program_version = '1.003'
+
 login = os.getlogin()
 hostname = socket.gethostname()
 
@@ -33,11 +36,19 @@ def log_in():
         license_check = bool(license_check[0][0])
         print('license_check: ', license_check)
 
-        if license_check == True:
+        program_version_check = SQL.read_db(
+            f"SELECT program_version FROM Licenses WHERE license_id = '{license_id}';")
+        program_version_check = program_version_check[0][0]
+        print('program_version_check : ', program_version_check)
+
+        if ((license_check == True) and (program_version_check == program_version)):
             insert_LoginLogs = (f"INSERT INTO LoginLogs (log_id, user_id, login_time, login_success, computer_name)" +
                                 f"VALUES (default, {user_id}, CURRENT_TIMESTAMP, TRUE , '{hostname}');")
             LoginLogs = SQL.input_db(insert_LoginLogs)
-
+        else:
+            GUI.Mbox(
+                "Pdm_search", "Error, Brak dostępu do bazy danych. Skontaktuj się ze wsparciem technicznym", 1)
+            sys.exit()
     except:
         user_id = os.getlogin()
         insert_LoginLogs = (f"INSERT INTO LoginLogs (log_id, user_id, login_time, login_success, computer_name)" +

@@ -7,7 +7,6 @@ from sql_license import log_in
 from Prepare_drawings_to_order import order_items_by_order_number
 
 
-log_in()
 # print("Uzyskano dostep")
 # Choose separator for search
 csv_sep = " | "

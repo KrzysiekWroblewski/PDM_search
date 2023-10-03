@@ -76,6 +76,7 @@ licenses = ("CREATE TABLE Licenses ( " +
             "license_id INT AUTO_INCREMENT PRIMARY KEY," +
             "company_id INT," +
             "license_number VARCHAR(50)," +
+            "program_version VARCHAR(50)," +
             "issue_date DATE," +
             "expiration_date DATE," +
             "FOREIGN KEY (company_id) REFERENCES Company(company_id)" +

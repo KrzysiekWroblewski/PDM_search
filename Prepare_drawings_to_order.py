@@ -24,7 +24,7 @@ print(ctypes.CDLL('libvlc.dll'))
 """
 
 
-def Generate_QR_to_png(text, QR_png_path, size=40, border_size=2):
+def Generate_QR_to_png(text, QR_png_path, size=50, border_size=1):
     import qrcode
     qr = qrcode.QRCode(
         version=1,
@@ -45,11 +45,11 @@ def Convert_QR_PNG_to_PDF(QR_png_path, QR_pdf_path, position_y=100, position_x=1
     from reportlab.pdfgen import canvas
 
     # Set the position and size of the image
-    x = int(position_x) - 352.4  # X-coordinate of the image
-    y = 32
+    x = int(position_x) - 139.5  # 352.4 - 1091  # X-coordinate of the image
+    y = 31
 
-    position_x = 40  # Width of the image
-    position_y = 40  # Height of the image
+    position_x = 56  # Width of the image
+    position_y = 56  # Height of the image
 
     new_pdf = canvas.Canvas(QR_pdf_path)
     new_pdf.drawImage(QR_png_path, x, y, position_x, position_y)
@@ -66,7 +66,7 @@ def copy_file(source_directory, destination_directory):
 
 def date_stamp() -> str:
     date_stamp = datetime.datetime.now()
-    date_stamp = date_stamp.strftime("%Y-%B-%d %H_%M")
+    date_stamp = date_stamp.strftime("%Y-%m-%d %H-%M")
     return date_stamp
 
 
@@ -105,7 +105,7 @@ def Copy_pdf_to_new_dir(oryginal_path, new_file_path):
     return (page_width, page_height)
 
 
-def create_pdf_with_text_box(text_box_pdf_path, height_pdf, width_pdf, line0="", line1="", line2="", line3=""):
+def create_pdf_with_text_box(text_box_pdf_path, height_pdf, width_pdf, line0="", line1="", line2="", line3="", line4=""):
     from reportlab.pdfgen import canvas
     from reportlab.lib.pagesizes import letter
     # Create a canvas object
@@ -114,25 +114,25 @@ def create_pdf_with_text_box(text_box_pdf_path, height_pdf, width_pdf, line0="",
     # Set the coordinates and size of the text box
 
     # Size of  the text box
-    x = 156
-    y = 39.5
+    x = 172
+    y = 53.8
     position_x = width_pdf - 311
-    position_y = 32
+    position_y = 32.4
 
     c.rect(position_x, position_y, x, y)
 
     # Add text inside the text box
-    c.setFont("Helvetica", 10)
+    c.setFont("Helvetica", 9)
     c.drawString(position_x + 5, y + position_y -
                  10, f"1.ID:  {line0}")  # line1
     c.drawString(position_x + 5, y + position_y -
-                 18, f"2.Ilosc: {line1}")  # line2
-
-    c.setFont("Helvetica", 6)
-    c.drawString(position_x + 5, y + position_y - 26,
-                 f"3.{line2}")  # line3
+                 20, f"2.Ilosc: {line1}")  # line2
+    c.drawString(position_x + 5, y + position_y - 30,
+                 f"3.Nr zamowienia: {line2}")  # line3
     c.drawString(position_x + 5, y + position_y -
-                 34, f"4.Data: {line3}")  # line3
+                 40, f"4.Data zamowienia: {line3}")  # line3
+    c.drawString(position_x + 5, y + position_y -
+                 50, f"5.Zamawiajacy: {line4}")  # line3
     # Save the canvas and close it
     c.save()
     return
@@ -293,20 +293,22 @@ def make_dictionary_from_list(list, indexes):
     counter = 0
     for row in list:
         # print('row: ', row)
+        id_with_revision = row[indexes[2]] + '-' + row[indexes[3]]
+        print('id_with_revision: ', id_with_revision)
 
         # jeśli już jest id w słowniku to sumuj te wartości
-        if row[indexes[2]] in dict1.keys():
-            dict1[row[indexes[2]]
-                  ][-1] = int(dict1[row[indexes[2]]][-1]) + int(row[indexes[-1]])
+        if id_with_revision in dict1.keys():
+            dict1[id_with_revision][-1] = int(dict1[row[indexes[2]]]
+                                              [-1]) + int(row[indexes[-1]])
             print("powtarza się dict")
 
         # jeśli nie ma id w słowniku, utwórz nowy klucz i wartości
         else:
 
-            record = {row[indexes[2]]: [row[indexes[0]],
-                                        row[indexes[1]], row[indexes[2]
-                                                             ], row[indexes[3]], row[indexes[4]],
-                                        row[indexes[5]], row[indexes[6]], row[indexes[7]], row[indexes[8]], row[indexes[9]]]}
+            record = {id_with_revision: [row[indexes[0]],
+                                         row[indexes[1]], row[indexes[2]
+                                                              ], row[indexes[3]], row[indexes[4]],
+                                         row[indexes[5]], row[indexes[6]], row[indexes[7]], row[indexes[8]], row[indexes[9]]]}
             # print(record)
             dict1.update(record)
         counter += 1
@@ -356,6 +358,11 @@ def Report_to_excel(dictionary_from_excel, order_name, save_in_folder, file_name
 def order_items_by_order_number():
     from gui_progress_bar import GUI_make_order
     from gui_progress_bar import Order
+    from sql_license import log_in
+
+    # Check License on DataBase
+    log_in()
+    login = os.getlogin()
 
     Order1 = Order()
     GUI_make_order(Order1)
@@ -392,10 +399,12 @@ def order_items_by_order_number():
     missing_pdf_counter = 0
     pdf_list_to_merge = []
     for item in orders_dict[0]:
+        print('item: ', item)
         # print(orders_dict[0][item])
-        id = orders_dict[0][item][2]
-        revision = orders_dict[0][item][3]
+        id = item  # orders_dict[0][item][2]
+        # revision = orders_dict[0][item][3]
         drawing_number = orders_dict[0][item][5]
+
         ammount = orders_dict[0][item][-1]
 
         existing_pdf_dir = drawigs_folder + "/" + drawing_number + ".pdf"
@@ -414,8 +423,8 @@ def order_items_by_order_number():
             # Add text box on PDF
             text_box_path = save_in_folder + "/" + id
             create_pdf_with_text_box(
-                text_box_path, pdf_height, pdf_width, id, ammount, order_name, order_date)
-            Insert_text_box_on_pdf(new_pdf_file_dir, text_box_path+".pdf",
+                text_box_path, pdf_height, pdf_width, id, ammount, order_name, order_date, login)
+            Insert_text_box_on_pdf(new_pdf_file_dir, text_box_path + ".pdf",
                                    new_pdf_file_dir, page_indices="ALL")
             pdf_list_to_merge.append(new_pdf_file_dir)
 
@@ -438,7 +447,7 @@ def order_items_by_order_number():
         except:
             missing_pdf_list.append(drawing_number)
             missing_pdf_counter += 1
-            GUI.Mbox("pdm_search", f"Brak rysunku pliku: {id}", 1)
+            # GUI.Mbox("pdm_search", f"Brak rysunku pliku: {id}", 1)
 
         # Copy dxf, step to directory
         extensions = [".dxf", ".step", ".stp", ".x_t"]
@@ -451,6 +460,7 @@ def order_items_by_order_number():
                 print('new_file_dir: ', new_pdf_file_dir)
                 copy_file(existing_pdf_dir, new_pdf_file_dir)
             except:
+                print(f'nie kopiuje {extensions}')
                 pass
 
     # Create one PDF with all drawings
