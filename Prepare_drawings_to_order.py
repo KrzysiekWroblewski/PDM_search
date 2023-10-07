@@ -13,6 +13,7 @@ from EXCEL_report_generator import Report
 import datetime
 from sql import SQL
 import sys
+import items
 
 """import ctypes
 import os
@@ -286,40 +287,59 @@ def EXCEL_orders(open_file: str, order_name):
     return List_of_records, headers_indexes
 
 
-def make_dictionary_from_list(list, indexes):
-
-    dict1 = {}
-    dict1_list = []
-    counter = 0
+def make_list_of_items_instances(list, indexes):
+    items_list = []
     for row in list:
-        # print('row: ', row)
-        id_with_revision = row[indexes[2]] + '-' + row[indexes[3]]
-        print('id_with_revision: ', id_with_revision)
+        original_id = row[indexes[2]].lower().strip()
 
-        # jeśli już jest id w słowniku to sumuj te wartości
-        if id_with_revision in dict1.keys():
-            dict1[id_with_revision][-1] = int(dict1[row[indexes[2]]]
-                                              [-1]) + int(row[indexes[-1]])
-            print("powtarza się dict")
+        id = row[indexes[2]].lower().strip().replace("-lustro", "")
+        revision = row[indexes[3]]
 
-        # jeśli nie ma id w słowniku, utwórz nowy klucz i wartości
+        id_with_revision = (id + '-' + revision).upper()
+        Flag = False
+
+        for instance in items_list:
+            if instance.id == id_with_revision:
+
+                if ('lustro' or 'Lustro') in original_id:
+                    instance.mirror_quantity = int(
+                        instance.mirror_quantity) + int(row[indexes[9]])
+                    Flag = True
+                    break
+
+                else:
+                    instance.quantity = int(
+                        instance.quantity) + int(row[indexes[9]])
+                    Flag = True
+                    break
+
+        if Flag == True:
+            continue
+
         else:
+            id_with_revision_instance = items.Item(id_with_revision)
 
-            record = {id_with_revision: [row[indexes[0]],
-                                         row[indexes[1]], row[indexes[2]
-                                                              ], row[indexes[3]], row[indexes[4]],
-                                         row[indexes[5]], row[indexes[6]], row[indexes[7]], row[indexes[8]], row[indexes[9]]]}
-            # print(record)
-            dict1.update(record)
-        counter += 1
-    dict1_list.append(dict1)
+            id_with_revision_instance.revision = row[indexes[3]]
+            id_with_revision_instance.description = row[indexes[4]]
+            id_with_revision_instance.drawing_Number = row[indexes[5]]
+            id_with_revision_instance.material = row[indexes[6]]
 
-    # print('dict1_list: ', dict1_list)
-    # print("\n")s
-    return dict1_list
+            if ('lustro' or 'Lustro') in original_id:
+                id_with_revision_instance.mirror_quantity = int(
+                    row[indexes[9]])
+            else:
+                id_with_revision_instance.quantity = int(row[indexes[9]])
+
+            items_list.append(id_with_revision_instance)
+
+    for item in items_list:
+        item.print_item_values()
+
+    print('items_list: ', items_list)
+    return items_list
 
 
-def Report_to_excel(dictionary_from_excel, order_name, save_in_folder, file_name=""):
+def Report_to_excel(items_instances_list, order_name, save_in_folder, file_name=""):
     # Create a new workbook
     workbook = Workbook()
 
@@ -334,13 +354,19 @@ def Report_to_excel(dictionary_from_excel, order_name, save_in_folder, file_name
     j = 1  # column
 
     k = 0
+    lp = 0
     # pprint.pprint(dictionary_from_excel)
-    for item in dictionary_from_excel[0]:
+
+    for item in items_instances_list:
 
         j = 1
-        for index in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+        lp += 1
+        sheet.cell(
+            row=i, column=j).value = lp
+        j = 2
+        for item_value in item.print_item_values():
             sheet.cell(
-                row=i, column=j).value = dictionary_from_excel[0][item][index]
+                row=i, column=j).value = item_value
             j += 1
 
         j += 1
@@ -371,7 +397,7 @@ def order_items_by_order_number():
     open_file = Order1.excel_path
 
     # choose folder with drawings
-    drawigs_folder = Order1.drawings_path
+    drawings_folder = Order1.drawings_path
 
     # convert excel to list
     order_name = Order1.order_num
@@ -387,10 +413,11 @@ def order_items_by_order_number():
     headers_indexes = Make_list_of_orders[1]
 
     # convert list of orders into dictionary (consolidate lists by id)
-    orders_dict = make_dictionary_from_list(orders_list, headers_indexes)
+    list_of_items_to_order = make_list_of_items_instances(
+        orders_list, headers_indexes)
 
     # Make report from parts ordered
-    Report_to_excel(orders_dict, order_name, save_in_folder)
+    Report_to_excel(list_of_items_to_order, order_name, save_in_folder)
 
     # open pdf and add info
     # save pdf in folder
@@ -398,16 +425,21 @@ def order_items_by_order_number():
     missing_pdf_list = []
     missing_pdf_counter = 0
     pdf_list_to_merge = []
-    for item in orders_dict[0]:
+
+    for item in list_of_items_to_order:
         print('item: ', item)
-        # print(orders_dict[0][item])
-        id = item  # orders_dict[0][item][2]
-        # revision = orders_dict[0][item][3]
-        drawing_number = orders_dict[0][item][5]
+        id = item.id
+        drawing_number = item.drawing_Number
+        print('drawing_number: ', drawing_number)
 
-        ammount = orders_dict[0][item][-1]
+        amount = item.quantity
+        mirror_amount = item.mirror_quantity
+        if int(mirror_amount) > 0:
+            amount = f'{amount} + {mirror_amount} Lustro '
+        else:
+            pass
 
-        existing_pdf_dir = drawigs_folder + "/" + drawing_number + ".pdf"
+        existing_pdf_dir = drawings_folder + "/" + drawing_number + ".pdf"
         print('existing_pdf_dir: ', existing_pdf_dir)
         new_pdf_file_dir = save_in_folder + "/" + drawing_number + \
             "-" + order_name + "-" + order_date + ".pdf"
@@ -423,7 +455,7 @@ def order_items_by_order_number():
             # Add text box on PDF
             text_box_path = save_in_folder + "/" + id
             create_pdf_with_text_box(
-                text_box_path, pdf_height, pdf_width, id, ammount, order_name, order_date, login)
+                text_box_path, pdf_height, pdf_width, id, amount, order_name, order_date, login)
             Insert_text_box_on_pdf(new_pdf_file_dir, text_box_path + ".pdf",
                                    new_pdf_file_dir, page_indices="ALL")
             pdf_list_to_merge.append(new_pdf_file_dir)
@@ -453,7 +485,7 @@ def order_items_by_order_number():
         extensions = [".dxf", ".step", ".stp", ".x_t"]
         for extension in extensions:
             try:
-                existing_pdf_dir = drawigs_folder + "/" + drawing_number + extension
+                existing_pdf_dir = drawings_folder + "/" + drawing_number + extension
                 print('existing_pdf_dir: ', existing_pdf_dir)
                 new_pdf_file_dir = save_in_folder + "/" + drawing_number + \
                     "-" + order_name + "-" + order_date + extension
@@ -476,7 +508,24 @@ def order_items_by_order_number():
     report_file_name = save_in_folder + "/" + "000_Missing_Drawings" + \
         "-" + order_name + "-" + order_date + ".txt"
     with open(report_file_name, 'w', encoding="utf-8") as report:
-        report.write('\n'.join(missing_pdf_list))
+        if len(missing_pdf_list) != 0:
+            report.write("Lista brakujących rysunków z zamówienia.\n")
+            report.write('\n'.join(missing_pdf_list))
+
+        elif len(missing_pdf_list) == 0:
+            report.write(
+                f'{order_date}, Wszystkie rysunki zostały wygenerowane. Nie odnotowano braków.\n\n')
+
+            i = 0
+            for item in list_of_items_to_order:
+                i += 1
+                values = []
+                for value in item.print_item_values():
+                    values.append(str(value))
+
+                report.write(f'{i}.\t')
+                report.write(", ".join(values))
+                report.write("\n")
 
     # SQL check login and license
 
