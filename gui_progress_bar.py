@@ -12,6 +12,9 @@ class Order():
         self.drawings_path = ""
         self.order_num = ""
         self.export_path = ""
+        self.user = ""
+        self.project_number = ""
+        self.date = ""
 
 
 def GUI_make_order(name):

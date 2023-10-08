@@ -15,15 +15,6 @@ from sql import SQL
 import sys
 import items
 
-"""import ctypes
-import os
-
-ctypes.windll.kernel32.SetDllDirectoryW(None)
-
-os.chdir('C:\\Program Files\\VideoLan\\VLC\\')
-print(ctypes.CDLL('libvlc.dll'))
-"""
-
 
 def Generate_QR_to_png(text, QR_png_path, size=50, border_size=1):
     import qrcode
@@ -67,8 +58,8 @@ def copy_file(source_directory, destination_directory):
 
 def date_stamp() -> str:
     date_stamp = datetime.datetime.now()
-    date_stamp = date_stamp.strftime("%Y-%m-%d %H-%M")
-    return date_stamp
+    date_stamp_formated = date_stamp.strftime("%Y-%m-%d %H-%M")
+    return date_stamp_formated
 
 
 def files_from_dir():
@@ -333,13 +324,14 @@ def make_list_of_items_instances(list, indexes):
             items_list.append(id_with_revision_instance)
 
     for item in items_list:
-        item.print_item_values()
+        print(item.print_item_values())
 
     print('items_list: ', items_list)
     return items_list
 
 
 def Report_to_excel(items_instances_list, order_name, save_in_folder, file_name=""):
+    from openpyxl.styles import Font
     # Create a new workbook
     workbook = Workbook()
 
@@ -347,15 +339,38 @@ def Report_to_excel(items_instances_list, order_name, save_in_folder, file_name=
     sheet = workbook.active
 
     # Order number
-    sheet.cell(row=1, column=1).value = order_name
+    sheet.cell(row=1, column=2).value = "Nr zamówienia"
+    sheet.cell(row=1, column=4).value = order_name
+
+    sheet.cell(row=2, column=2).value = "Zamawiający"
+    sheet.cell(row=2, column=4).value = os.getlogin()
     # Specify row and column indices
 
-    i = 4  # row
+    i = 5  # row
     j = 1  # column
 
     k = 0
     lp = 0
     # pprint.pprint(dictionary_from_excel)
+    header_row = 4
+    sheet.cell(
+        row=header_row, column=1).value = "L.p."
+    sheet.cell(
+        row=header_row, column=2).value = "ID"
+    sheet.cell(
+        row=header_row, column=3).value = "Rewizja"
+    sheet.cell(
+        row=header_row, column=4).value = "Opis"
+    sheet.cell(
+        row=header_row, column=5).value = "Nr Rysunku"
+    sheet.cell(
+        row=header_row, column=6).value = "Materiał"
+    sheet.cell(
+        row=header_row, column=7).value = "Liczba"
+    sheet.cell(
+        row=header_row, column=8).value = "Liczba luster"
+    sheet.cell(
+        row=header_row, column=9).value = "Stworzono PDF"
 
     for item in items_instances_list:
 
@@ -367,6 +382,12 @@ def Report_to_excel(items_instances_list, order_name, save_in_folder, file_name=
         for item_value in item.print_item_values():
             sheet.cell(
                 row=i, column=j).value = item_value
+
+            # Change color for False Cells
+            if sheet.cell(row=i, column=j).value == "False":
+                for cell in sheet[i]:
+                    cell.font = Font(color="FF0000")
+
             j += 1
 
         j += 1
@@ -374,11 +395,22 @@ def Report_to_excel(items_instances_list, order_name, save_in_folder, file_name=
         k += 1
 
     # Enable filtering starting from row 3, from column A to T?Xd
-    sheet.auto_filter.ref = f'A3:T{sheet.max_row}'
+    sheet.auto_filter.ref = f'A4:H{sheet.max_row}'
+
+    # Ustaw szerokość kolumny (np. szerokość kolumny A na 20)
+    # Numer kolumny (1 to kolumna A, 2 to kolumna B itd.)
+    column_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # Pożądana szerokość kolumny (w znakach)
+    desired_widths = [5, 15, 10, 40, 60, 20, 10, 15, 15]
+
+    # Ustaw szerokość kolumny
+    for column_number, desired_width in zip(column_numbers, desired_widths):
+        sheet.column_dimensions[openpyxl.utils.get_column_letter(
+            column_number)].width = desired_width
+
     # Save the workbook
-    date_stamp = Report.date_stamp()
     workbook.save(str(save_in_folder + "/" +
-                  order_name + "-" + date_stamp + ".xlsx"))
+                  order_name + "-" + date_stamp() + ".xlsx"))
 
 
 def order_items_by_order_number():
@@ -388,24 +420,27 @@ def order_items_by_order_number():
 
     # Check License on DataBase
     log_in()
-    login = os.getlogin()
 
-    Order1 = Order()
-    GUI_make_order(Order1)
+    # Make Class Order
+    current_order = Order()
+    current_order.user = os.getlogin()
+    current_order.date = date_stamp()
+
+    GUI_make_order(current_order)
 
     # choose xlsm file to prepare order
-    open_file = Order1.excel_path
+    open_file = current_order.excel_path
 
     # choose folder with drawings
-    drawings_folder = Order1.drawings_path
+    drawings_folder = current_order.drawings_path
 
     # convert excel to list
-    order_name = Order1.order_num
+    order_name = current_order.order_num
 
     # choose folder to save files
-    order_date = date_stamp()
-    save_in_folder = Order1.export_path
-    save_in_folder = save_in_folder + "/" + order_name + order_date
+    current_order.date = date_stamp()
+    save_in_folder = current_order.export_path
+    save_in_folder = save_in_folder + "/" + order_name + current_order.date
     os.mkdir(save_in_folder)
 
     Make_list_of_orders = (EXCEL_orders(open_file, order_name))
@@ -415,9 +450,6 @@ def order_items_by_order_number():
     # convert list of orders into dictionary (consolidate lists by id)
     list_of_items_to_order = make_list_of_items_instances(
         orders_list, headers_indexes)
-
-    # Make report from parts ordered
-    Report_to_excel(list_of_items_to_order, order_name, save_in_folder)
 
     # open pdf and add info
     # save pdf in folder
@@ -429,20 +461,27 @@ def order_items_by_order_number():
     for item in list_of_items_to_order:
         print('item: ', item)
         id = item.id
-        drawing_number = item.drawing_Number
+        drawing_number = item.drawing_Number.replace(
+            "-lustro", "").replace("-Lustro", "")
         print('drawing_number: ', drawing_number)
 
         amount = item.quantity
         mirror_amount = item.mirror_quantity
-        if int(mirror_amount) > 0:
+        if (int(amount) > 0) and (int(mirror_amount) > 0):
             amount = f'{amount} + {mirror_amount} Lustro '
+        elif (int(amount) > 0) and (int(mirror_amount) == 0):
+            amount = f'{amount}'
+        elif (int(amount) == 0) and (int(mirror_amount) > 0):
+            amount = f'{mirror_amount} Lustro'
+
         else:
+            # Rise Error co tu się odjebało!
             pass
 
         existing_pdf_dir = drawings_folder + "/" + drawing_number + ".pdf"
         print('existing_pdf_dir: ', existing_pdf_dir)
         new_pdf_file_dir = save_in_folder + "/" + drawing_number + \
-            "-" + order_name + "-" + order_date + ".pdf"
+            "-" + order_name + "-" + current_order.date + ".pdf"
         print('new_file_dir: ', new_pdf_file_dir)
         try:
             # Create new pdf file with new name and read dimensions of page
@@ -455,7 +494,7 @@ def order_items_by_order_number():
             # Add text box on PDF
             text_box_path = save_in_folder + "/" + id
             create_pdf_with_text_box(
-                text_box_path, pdf_height, pdf_width, id, amount, order_name, order_date, login)
+                text_box_path, pdf_height, pdf_width, id, amount, order_name, current_order.date, current_order.user)
             Insert_text_box_on_pdf(new_pdf_file_dir, text_box_path + ".pdf",
                                    new_pdf_file_dir, page_indices="ALL")
             pdf_list_to_merge.append(new_pdf_file_dir)
@@ -469,6 +508,9 @@ def order_items_by_order_number():
                 QR_png_path, QR_pdf_path, pdf_height, pdf_width)
             Make_QR_stamp_on_pdf(
                 new_pdf_file_dir, QR_pdf_path, new_pdf_file_dir)
+
+            # If evrything is okey change PDF Flag True
+            item.PDF = True
 
             try:
                 os.remove(QR_png_path)
@@ -488,7 +530,7 @@ def order_items_by_order_number():
                 existing_pdf_dir = drawings_folder + "/" + drawing_number + extension
                 print('existing_pdf_dir: ', existing_pdf_dir)
                 new_pdf_file_dir = save_in_folder + "/" + drawing_number + \
-                    "-" + order_name + "-" + order_date + extension
+                    "-" + order_name + "-" + current_order.date + extension
                 print('new_file_dir: ', new_pdf_file_dir)
                 copy_file(existing_pdf_dir, new_pdf_file_dir)
             except:
@@ -496,7 +538,8 @@ def order_items_by_order_number():
                 pass
 
     # Create one PDF with all drawings
-    merge_pdf_path = save_in_folder + "/" + order_name + "-" + order_date + ".pdf"
+    merge_pdf_path = save_in_folder + "/" + \
+        order_name + "-" + current_order.date + ".pdf"
     merge_pdfs(pdf_list_to_merge, merge_pdf_path)
 
     # Missing drawings information popup
@@ -504,9 +547,9 @@ def order_items_by_order_number():
         f"Liczba brakujących pdfów: {missing_pdf_counter}"
     GUI.Mbox("pdm_search", missing_text, 1)
 
-    # Missing drawings txt report
+    """# Missing drawings txt report
     report_file_name = save_in_folder + "/" + "000_Missing_Drawings" + \
-        "-" + order_name + "-" + order_date + ".txt"
+        "-" + order_name + "-" + current_order.date + ".txt"
     with open(report_file_name, 'w', encoding="utf-8") as report:
         if len(missing_pdf_list) != 0:
             report.write("Lista brakujących rysunków z zamówienia.\n")
@@ -514,7 +557,7 @@ def order_items_by_order_number():
 
         elif len(missing_pdf_list) == 0:
             report.write(
-                f'{order_date}, Wszystkie rysunki zostały wygenerowane. Nie odnotowano braków.\n\n')
+                f'{current_order.date}, Wszystkie rysunki zostały wygenerowane. Nie odnotowano braków.\n\n')
 
             i = 0
             for item in list_of_items_to_order:
@@ -525,37 +568,39 @@ def order_items_by_order_number():
 
                 report.write(f'{i}.\t')
                 report.write(", ".join(values))
-                report.write("\n")
+                report.write("\n")"""
+
+    # Make report from parts ordered
+    Report_to_excel(list_of_items_to_order, order_name, save_in_folder)
 
     # SQL check login and license
 
-        login = os.getlogin()
-        user_id = SQL.read_db(
-            f"SELECT user_id FROM Users WHERE login = '{login}';")
-        user_id = int(user_id[0][0])
-        print('user_id: ', user_id)
+    user_id = SQL.read_db(
+        f"SELECT user_id FROM Users WHERE login = '{current_order.user}';")
+    user_id = int(user_id[0][0])
+    print('user_id: ', user_id)
 
-        company_id = SQL.read_db(
-            f"SELECT company_id FROM Users WHERE login = '{login}';")
-        company_id = company_id[0][0]
-        print('company_id: ', company_id)
+    company_id = SQL.read_db(
+        f"SELECT company_id FROM Users WHERE login = '{current_order.user}';")
+    company_id = company_id[0][0]
+    print('company_id: ', company_id)
 
-        license_id = SQL.read_db(
-            f"SELECT license_id FROM Licenses WHERE company_id = '{company_id}';")
-        license_id = license_id[0][0]
-        print('license_id: ', license_id)
+    license_id = SQL.read_db(
+        f"SELECT license_id FROM Licenses WHERE company_id = '{company_id}';")
+    license_id = license_id[0][0]
+    print('license_id: ', license_id)
 
-        license_check = SQL.read_db(
-            f"SELECT license_number FROM Licenses WHERE license_id = '{license_id}';")
-        license_check = bool(license_check[0][0])
+    license_check = SQL.read_db(
+        f"SELECT license_number FROM Licenses WHERE license_id = '{license_id}';")
+    license_check = bool(license_check[0][0])
 
-        if license_check == True:
+    if license_check == True:
 
-            insert_sql_order = ("INSERT INTO Orders (order_id, order_number, user_id, order_project)" +
-                                f"VALUES (default,'{order_name}', '{user_id}', '0000');")
-            SQL.input_db(insert_sql_order)
-        else:
-            sys.exit()
+        insert_sql_order = ("INSERT INTO Orders (order_id, order_number, user_id, order_project)" +
+                            f"VALUES (default,'{order_name}', '{user_id}', '0000');")
+        SQL.input_db(insert_sql_order)
+    else:
+        sys.exit()
 
 
 # TESTS

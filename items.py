@@ -7,11 +7,12 @@
         self.material = material
         self.quantity = quantity
         self.mirror_quantity = mirror_quantity
+        self.PDF = False
 
     def __str__(self):
         return str(self.id)
 
     def print_item_values(self):
         values = (self.id, self.revision, self.description, self.drawing_Number,
-                  self.material, self.quantity, self.mirror_quantity)
+                  self.material, self.quantity, self.mirror_quantity, str(self.PDF))
         return values

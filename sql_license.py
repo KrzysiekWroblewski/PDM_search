@@ -5,7 +5,7 @@ import sys
 import os
 
 # Program version is checked with database
-program_version = '1.003'
+program_version = '1.004'
 
 login = os.getlogin()
 hostname = socket.gethostname()
